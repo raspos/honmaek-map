@@ -80,7 +80,7 @@ export function App() {
                 1번 핵심 기능 · 재벌가 혼맥 지도
               </span>
               <h2 className="text-lg font-black text-slate-900 mt-1">
-                대한민국 주요 기업 가문 전체 연결망 (3단계 레벨 인터랙티브 탐색)
+                대한민국 주요 기업 가문 전체 혼맥 연결망 지도
               </h2>
             </div>
             <NetworkView

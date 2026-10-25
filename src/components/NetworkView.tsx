@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import cytoscape, { Core, EventObject } from "cytoscape";
-import { ZoomIn, ZoomOut, Maximize2, RotateCcw, Download, Filter, Info, ExternalLink, ShieldCheck } from "lucide-react";
+import { ZoomIn, ZoomOut, Maximize2, RotateCcw, Download, Filter, Info, ExternalLink, ShieldCheck, Heart } from "lucide-react";
 import { Family, Person, CorporateGroup, Relation, Source } from "../types";
 
 interface NetworkViewProps {
@@ -15,8 +15,6 @@ interface NetworkViewProps {
 
 export const NetworkView: React.FC<NetworkViewProps> = ({
   families,
-  persons,
-  corporateGroups,
   relations,
   sources,
   selectedItem,
@@ -25,20 +23,15 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
   const containerRef = useRef<HTMLDivElement>(null);
   const cyRef = useRef<Core | null>(null);
 
-  // 3 Exploration Levels
-  const [level, setLevel] = useState<1 | 2 | 3>(1);
-
   // Filters
-  const [showBlood, setShowBlood] = useState(true);
   const [showMarriage, setShowMarriage] = useState(true);
-  const [showSpinoff, setShowSpinoff] = useState(true);
-  // Hide isolated/unconnected nodes by default (user request)
+  // Hide isolated/unconnected families by default (shows connected marriage core)
   const [hideIsolated, setHideIsolated] = useState(true);
   const [renderedStats, setRenderedStats] = useState({ nodes: 0, edges: 0 });
 
   // Selected Detail Panel
   const [activeDetail, setActiveDetail] = useState<{
-    type: "family" | "person" | "group" | "edge";
+    type: "family" | "edge";
     id: string;
     data?: any;
   } | null>(null);
@@ -48,192 +41,78 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
     if (!cyRef.current) return;
     const png64 = cyRef.current.png({ full: true, scale: 2, bg: "#ffffff" });
     const link = document.createElement("a");
-    link.download = `혼맥의지도_네트워크_레벨${level}.png`;
+    link.download = `혼맥의지도_재벌가문_혼맥망.png`;
     link.href = png64;
     link.click();
   };
 
-  // Re-build graph when level or filters change
+  // Re-build graph when filters change
   useEffect(() => {
     if (!containerRef.current) return;
 
     const elements: any[] = [];
+    const activeEdges: any[] = [];
 
-    if (level === 1) {
-      // LEVEL 1: FAMILIES & INTER-CHAEBOL MARRIAGE
-      const activeEdges: any[] = [];
-      if (showMarriage) {
-        relations.forEach((r) => {
-          if (r.type === "MARRIAGE" && r.is_inter_family && r.fam_from && r.fam_to) {
-            activeEdges.push({
-              data: {
-                id: r.id,
-                source: r.fam_from,
-                target: r.fam_to,
-                label: r.label,
-                edgeType: "MARRIAGE",
-                color: "#e11d48", // rose red
-                width: 3.5,
-                style: r.end_year ? "dashed" : "solid",
-                rawRelation: r,
-              },
-            });
-          }
-        });
-      }
-
-      // Collect IDs of families that have at least one connection edge
-      const connectedFamIds = new Set(
-        activeEdges.flatMap((e) => [e.data.source, e.data.target])
-      );
-
-      families.forEach((f) => {
-        // If hideIsolated is true, exclude families with zero connections
-        if (hideIsolated && !connectedFamIds.has(f.id)) {
-          return;
-        }
-
-        const isPoliticalHub =
-          f.id.startsWith("FAM_LHO") ||
-          f.id.startsWith("FAM_KIM_DONG") ||
-          f.id.startsWith("FAM_SONG_IN") ||
-          f.id.startsWith("FAM_PRESIDENT");
-
-        elements.push({
-          data: {
-            id: f.id,
-            label: f.name,
-            sub: `창업: ${f.founder}`,
-            type: "family",
-            status: f.verification_status,
-            color: isPoliticalHub
-              ? "#7c3aed" // Vibrant Purple for Political Hubs
-              : f.verification_status === "VERIFIED"
-              ? "#1e293b"
-              : "#64748b",
-            size: isPoliticalHub ? 66 : f.related_groups.length > 2 ? 62 : 48,
-          },
-        });
-      });
-
-      const nodeIds1 = new Set(elements.map((e) => e.data.id));
-      const safeEdges1 = activeEdges.filter(
-        (e) => nodeIds1.has(e.data.source) && nodeIds1.has(e.data.target)
-      );
-      elements.push(...safeEdges1);
-    } else if (level === 2) {
-      // LEVEL 2: PERSONS, BLOOD & MARRIAGES
-      const activeEdges: any[] = [];
+    if (showMarriage) {
       relations.forEach((r) => {
-        if (r.type === "BLOOD" && showBlood) {
+        if (r.type === "MARRIAGE" && r.is_inter_family && r.fam_from && r.fam_to) {
           activeEdges.push({
             data: {
               id: r.id,
-              source: r.from_id,
-              target: r.to_id,
-              label: r.label,
-              edgeType: "BLOOD",
-              color: "#3b82f6", // blue
-              width: 2,
-              style: "solid",
-              rawRelation: r,
-            },
-          });
-        } else if (r.type === "MARRIAGE" && showMarriage) {
-          activeEdges.push({
-            data: {
-              id: r.id,
-              source: r.from_id,
-              target: r.to_id,
+              source: r.fam_from,
+              target: r.fam_to,
               label: r.label,
               edgeType: "MARRIAGE",
-              color: "#e11d48", // rose
-              width: 3,
+              color: "#e11d48", // rose red
+              width: 3.5,
               style: r.end_year ? "dashed" : "solid",
               rawRelation: r,
             },
           });
         }
       });
-
-      const connectedPersonIds = new Set(
-        activeEdges.flatMap((e) => [e.data.source, e.data.target])
-      );
-
-      persons.forEach((p) => {
-        // Exclude isolated persons without any blood or marriage link if hideIsolated is true
-        if (hideIsolated && !connectedPersonIds.has(p.id)) {
-          return;
-        }
-
-        const fam = families.find((f) => f.id === p.family_id);
-        elements.push({
-          data: {
-            id: p.id,
-            label: `${p.name}\n(${p.gen}세대)`,
-            sub: p.role,
-            type: "person",
-            famName: fam ? fam.name : "",
-            color: p.gen === 1 ? "#0f172a" : p.gen === 2 ? "#0369a1" : "#0d9488",
-            size: p.role.includes("창업주") || p.role.includes("회장") ? 55 : 42,
-          },
-        });
-      });
-
-      const nodeIds2 = new Set(elements.map((e) => e.data.id));
-      const safeEdges2 = activeEdges.filter(
-        (e) => nodeIds2.has(e.data.source) && nodeIds2.has(e.data.target)
-      );
-      elements.push(...safeEdges2);
-    } else if (level === 3) {
-      // LEVEL 3: CORPORATE GROUPS & SPINOFF TIES
-      const activeEdges: any[] = [];
-      relations.forEach((r) => {
-        if (r.type === "SPINOFF" && showSpinoff) {
-          activeEdges.push({
-            data: {
-              id: r.id,
-              source: r.from_id,
-              target: r.to_id,
-              label: r.label,
-              edgeType: "SPINOFF",
-              color: "#f59e0b", // amber
-              width: 3,
-              style: "dashed",
-              rawRelation: r,
-            },
-          });
-        }
-      });
-
-      const connectedGroupIds = new Set(
-        activeEdges.flatMap((e) => [e.data.source, e.data.target])
-      );
-
-      corporateGroups.forEach((g) => {
-        // Exclude isolated corporate groups with no spinoff or business links
-        if (hideIsolated && !connectedGroupIds.has(g.id)) {
-          return;
-        }
-
-        elements.push({
-          data: {
-            id: g.id,
-            label: g.name,
-            sub: g.assets_trillion ? `${g.assets_trillion}조원` : "",
-            type: "group",
-            color: "#4f46e5", // indigo
-            size: Math.min(80, Math.max(45, (g.assets_trillion || 10) * 0.15 + 40)),
-          },
-        });
-      });
-
-      const nodeIds3 = new Set(elements.map((e) => e.data.id));
-      const safeEdges3 = activeEdges.filter(
-        (e) => nodeIds3.has(e.data.source) && nodeIds3.has(e.data.target)
-      );
-      elements.push(...safeEdges3);
     }
+
+    // Collect IDs of families that have at least one connection edge
+    const connectedFamIds = new Set(
+      activeEdges.flatMap((e) => [e.data.source, e.data.target])
+    );
+
+    families.forEach((f) => {
+      // If hideIsolated is true, exclude families with zero connections
+      if (hideIsolated && !connectedFamIds.has(f.id)) {
+        return;
+      }
+
+      const isPoliticalHub =
+        f.id.startsWith("FAM_LHO") ||
+        f.id.startsWith("FAM_KIM_DONG") ||
+        f.id.startsWith("FAM_SONG_IN") ||
+        f.id.startsWith("FAM_PRESIDENT");
+
+      elements.push({
+        data: {
+          id: f.id,
+          label: f.name,
+          sub: `창업: ${f.founder}`,
+          type: "family",
+          status: f.verification_status,
+          color: isPoliticalHub
+            ? "#7c3aed" // Vibrant Purple for Political Hubs
+            : f.verification_status === "VERIFIED"
+            ? "#1e293b"
+            : "#64748b",
+          size: isPoliticalHub ? 66 : f.related_groups.length > 2 ? 62 : 48,
+        },
+      });
+    });
+
+    // Safety guard: ensure both source and target exist before adding edges
+    const existingNodeIds = new Set(elements.map((e) => e.data.id));
+    const safeEdges = activeEdges.filter(
+      (e) => existingNodeIds.has(e.data.source) && existingNodeIds.has(e.data.target)
+    );
+    elements.push(...safeEdges);
 
     // Update rendered count state for UI banner
     const nNodes = elements.filter((e) => !e.data.source).length;
@@ -288,15 +167,14 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
             label: "data(label)",
             "font-size": "9px",
             "text-rotation": "autorotate",
-            "text-background-opacity": 0.85,
+            "text-background-opacity": 0.88,
             "text-background-color": "#ffffff",
             "text-background-padding": "2px",
             "text-border-opacity": 0.3,
             "text-border-width": 0.5,
             "text-border-color": "#94a3b8",
             color: "#334155",
-            "target-arrow-shape": level === 3 ? "triangle" : "none",
-            "target-arrow-color": "data(color)",
+            "target-arrow-shape": "none",
           },
         },
         {
@@ -307,34 +185,24 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
           },
         },
       ],
-      layout:
-        level === 3
-          ? ({
-              name: "breadthfirst",
-              directed: true,
-              spacingFactor: 1.35,
-              fit: true,
-              padding: 40,
-              avoidOverlap: true,
-            } as any)
-          : ({
-              name: "cose",
-              idealEdgeLength: level === 1 ? 160 : 100,
-              nodeOverlap: 25,
-              refresh: 20,
-              fit: true,
-              padding: 40,
-              randomize: false,
-              componentSpacing: 90,
-              nodeRepulsion: level === 1 ? 400000 : 250000,
-              edgeElasticity: 100,
-              nestingFactor: 5,
-              gravity: 80,
-              numIter: 1000,
-              initialTemp: 200,
-              coolingFactor: 0.95,
-              minTemp: 1.0,
-            } as any),
+      layout: {
+        name: "cose",
+        idealEdgeLength: 160,
+        nodeOverlap: 25,
+        refresh: 20,
+        fit: true,
+        padding: 40,
+        randomize: false,
+        componentSpacing: 100,
+        nodeRepulsion: 400000,
+        edgeElasticity: 100,
+        nestingFactor: 5,
+        gravity: 80,
+        numIter: 1000,
+        initialTemp: 200,
+        coolingFactor: 0.95,
+        minTemp: 1.0,
+      } as any,
     });
 
     cy.on("tap", "node", (evt: EventObject) => {
@@ -344,14 +212,6 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
         const fam = families.find((f) => f.id === nodeData.id);
         setActiveDetail({ type: "family", id: nodeData.id, data: fam });
         onSelectItem("family", nodeData.id);
-      } else if (nodeData.type === "person") {
-        const per = persons.find((p) => p.id === nodeData.id);
-        setActiveDetail({ type: "person", id: nodeData.id, data: per });
-        onSelectItem("person", nodeData.id);
-      } else if (nodeData.type === "group") {
-        const grp = corporateGroups.find((g) => g.id === nodeData.id);
-        setActiveDetail({ type: "group", id: nodeData.id, data: grp });
-        onSelectItem("group", nodeData.id);
       }
     });
 
@@ -370,9 +230,9 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
     return () => {
       cy.destroy();
     };
-  }, [level, showBlood, showMarriage, showSpinoff, hideIsolated, families, persons, corporateGroups, relations]);
+  }, [showMarriage, hideIsolated, families, relations]);
 
-  // Center on node if selected from outside (e.g. search)
+  // Center on node if selected from outside
   useEffect(() => {
     if (selectedItem && cyRef.current) {
       const node = cyRef.current.$id(selectedItem.id);
@@ -387,78 +247,48 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
     }
   }, [selectedItem]);
 
+  // Find marriages involving active family
+  const activeFamilyMarriages = React.useMemo(() => {
+    if (!activeDetail || activeDetail.type !== "family") return [];
+    return relations.filter(
+      (r) =>
+        r.type === "MARRIAGE" &&
+        r.is_inter_family &&
+        (r.fam_from === activeDetail.id || r.fam_to === activeDetail.id)
+    );
+  }, [activeDetail, relations]);
+
   return (
     <div className="relative bg-white rounded-xl shadow border border-slate-200 overflow-hidden flex flex-col h-[750px]">
       {/* Top Controller Bar */}
       <div className="bg-slate-50 border-b border-slate-200 px-4 py-2.5 flex flex-wrap items-center justify-between gap-3">
-        {/* Level Switcher (3-Stage Explore) */}
-        <div className="flex items-center gap-1 bg-slate-200 p-0.5 rounded-lg text-xs font-medium">
-          <button
-            onClick={() => setLevel(1)}
-            className={`px-3 py-1 rounded-md transition ${
-              level === 1 ? "bg-white text-slate-900 font-bold shadow-sm" : "text-slate-600 hover:text-slate-900"
-            }`}
-          >
-            1단계. 기업 가문 네트워크
-          </button>
-          <button
-            onClick={() => setLevel(2)}
-            className={`px-3 py-1 rounded-md transition ${
-              level === 2 ? "bg-white text-slate-900 font-bold shadow-sm" : "text-slate-600 hover:text-slate-900"
-            }`}
-          >
-            2단계. 인물 혼맥 네트워크
-          </button>
-          <button
-            onClick={() => setLevel(3)}
-            className={`px-3 py-1 rounded-md transition ${
-              level === 3 ? "bg-white text-slate-900 font-bold shadow-sm" : "text-slate-600 hover:text-slate-900"
-            }`}
-          >
-            3단계. 모태기업 계열분리 계통도
-          </button>
+        {/* Title badge */}
+        <div className="flex items-center gap-2">
+          <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-indigo-50 border border-indigo-200 text-indigo-800 rounded-lg text-xs font-bold">
+            <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />
+            재벌가 혼맥 연결망 지도
+          </span>
+          <span className="text-[11px] text-slate-500 hidden sm:inline">
+            (노드를 클릭하면 우측 상세 패널에서 통혼 가문과 내력을 확인하실 수 있습니다)
+          </span>
         </div>
 
-        {/* Relation Type Filters */}
+        {/* Relation Type Filters & Stats */}
         <div className="flex items-center gap-2 text-xs flex-wrap">
           <span className="text-slate-500 font-semibold flex items-center gap-1">
             <Filter className="w-3 h-3" /> 필터:
           </span>
-          {level === 2 && (
-            <label className="flex items-center gap-1 cursor-pointer bg-blue-50 px-2 py-0.5 rounded border border-blue-200 text-blue-800">
-              <input
-                type="checkbox"
-                checked={showBlood}
-                onChange={(e) => setShowBlood(e.target.checked)}
-                className="w-3 h-3 text-blue-600 rounded"
-              />
-              혈연 (TYPE A)
-            </label>
-          )}
-          {(level === 1 || level === 2) && (
-            <label className="flex items-center gap-1 cursor-pointer bg-rose-50 px-2 py-0.5 rounded border border-rose-200 text-rose-800">
-              <input
-                type="checkbox"
-                checked={showMarriage}
-                onChange={(e) => setShowMarriage(e.target.checked)}
-                className="w-3 h-3 text-rose-600 rounded"
-              />
-              혼인 (TYPE B)
-            </label>
-          )}
-          {level === 3 && (
-            <label className="flex items-center gap-1 cursor-pointer bg-amber-50 px-2 py-0.5 rounded border border-amber-200 text-amber-800">
-              <input
-                type="checkbox"
-                checked={showSpinoff}
-                onChange={(e) => setShowSpinoff(e.target.checked)}
-                className="w-3 h-3 text-amber-600 rounded"
-              />
-              계열분리·스핀오프 (TYPE C)
-            </label>
-          )}
 
-          {/* User Request: Hide isolated nodes without links */}
+          <label className="flex items-center gap-1 cursor-pointer bg-rose-50 px-2 py-0.5 rounded border border-rose-200 text-rose-800 font-medium">
+            <input
+              type="checkbox"
+              checked={showMarriage}
+              onChange={(e) => setShowMarriage(e.target.checked)}
+              className="w-3 h-3 text-rose-600 rounded"
+            />
+            재벌간 혼맥선 표시
+          </label>
+
           <label className="flex items-center gap-1.5 cursor-pointer bg-slate-100 hover:bg-slate-200 px-2.5 py-0.5 rounded border border-slate-300 text-slate-800 font-semibold transition select-none">
             <input
               type="checkbox"
@@ -466,11 +296,11 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
               onChange={(e) => setHideIsolated(e.target.checked)}
               className="w-3.5 h-3.5 text-indigo-600 rounded cursor-pointer accent-indigo-600"
             />
-            연결된 노드만 표시 (고립 기업 제외)
+            혼맥 연결 가문만 표시 (고립 가문 제외)
           </label>
 
           <span className="text-[11px] text-slate-500 font-medium hidden lg:inline-block bg-white px-2 py-0.5 rounded border border-slate-200">
-            화면: <strong className="text-slate-800">{renderedStats.nodes}</strong>개 노드 · <strong className="text-slate-800">{renderedStats.edges}</strong>개 연결
+            화면: <strong className="text-slate-800">{renderedStats.nodes}</strong>개 가문 · <strong className="text-rose-600 font-bold">{renderedStats.edges}</strong>개 혼맥
           </span>
         </div>
 
@@ -500,7 +330,7 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
           <button
             onClick={() => cyRef.current?.reset()}
             className="p-1.5 hover:bg-slate-200 rounded text-slate-700 transition"
-            title="배치 초기화"
+            title="위치 초기화"
           >
             <RotateCcw className="w-4 h-4" />
           </button>
@@ -521,22 +351,22 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
 
         {/* Legend Overlay */}
         <div className="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm p-2.5 rounded-lg border border-slate-200 shadow-md text-xs space-y-1">
-          <div className="font-bold text-slate-700 text-[11px] mb-1">범례 (선 종류)</div>
+          <div className="font-bold text-slate-700 text-[11px] mb-1">범례 (혼맥 지도)</div>
           <div className="flex items-center gap-2">
             <span className="w-4 h-0.5 bg-rose-600 inline-block"></span>
-            <span className="text-slate-600">실선: 현재 혼인 / 출자</span>
+            <span className="text-slate-600">실선: 재벌가 간 혼맥 (통혼)</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="w-4 h-0.5 border-b-2 border-dashed border-rose-500 inline-block"></span>
-            <span className="text-slate-600">점선: 과거 혼인(이혼·사별) / 계열분리</span>
+            <span className="text-slate-600">점선: 이혼·파혼 통혼</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="w-4 h-0.5 bg-blue-500 inline-block"></span>
-            <span className="text-slate-600">파란선: 직계 혈연(부모자녀·형제)</span>
+            <span className="w-2.5 h-2.5 rounded-full bg-purple-600 inline-block"></span>
+            <span className="text-slate-600">보라색 노드: 정관계 통혼 허브 가문</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="w-4 h-0.5 bg-emerald-500 inline-block"></span>
-            <span className="text-slate-600">초록선: 실증 사업계약 / 합작투자</span>
+            <span className="w-2.5 h-2.5 rounded-full bg-slate-800 inline-block"></span>
+            <span className="text-slate-600">남색 노드: 주요 대기업 재벌 가문</span>
           </div>
         </div>
 
@@ -544,14 +374,8 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
         {activeDetail && (
           <div className="absolute top-0 right-0 w-84 sm:w-96 h-full bg-white border-l border-slate-200 shadow-2xl p-5 overflow-y-auto z-20 text-xs">
             <div className="flex items-center justify-between pb-3 border-b border-slate-200">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-amber-600 bg-amber-50 px-2 py-0.5 rounded">
-                {activeDetail.type === "family"
-                  ? "기업 가문 정보"
-                  : activeDetail.type === "person"
-                  ? "인물 상세 프로필"
-                  : activeDetail.type === "group"
-                  ? "기업집단 정보"
-                  : "연결 관계 세부 팩트"}
+              <span className="text-[10px] font-bold uppercase tracking-wider text-rose-600 bg-rose-50 px-2 py-0.5 rounded">
+                {activeDetail.type === "family" ? "가문 상세 프로필" : "혼맥 상세 정보"}
               </span>
               <button
                 onClick={() => setActiveDetail(null)}
@@ -572,6 +396,41 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
                 <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
                   <div className="font-semibold text-slate-700 mb-1">가문 및 그룹 역사</div>
                   <p className="text-slate-600 leading-relaxed">{activeDetail.data.history_summary}</p>
+                </div>
+
+                {/* Connected Inter-Marriage Partners */}
+                <div>
+                  <div className="font-semibold text-slate-700 mb-1.5 flex items-center justify-between">
+                    <span>연결된 타 재벌 혼맥 ({activeFamilyMarriages.length}건)</span>
+                  </div>
+                  {activeFamilyMarriages.length > 0 ? (
+                    <div className="space-y-1.5">
+                      {activeFamilyMarriages.map((m) => {
+                        const otherFamId = m.fam_from === activeDetail.id ? m.fam_to : m.fam_from;
+                        const otherFam = families.find((f) => f.id === otherFamId);
+                        return (
+                          <div
+                            key={m.id}
+                            className="p-2 bg-rose-50/70 border border-rose-100 rounded-lg text-slate-800 hover:bg-rose-100/70 transition"
+                          >
+                            <div className="font-bold text-rose-950 flex items-center justify-between">
+                              <span>↔ {otherFam?.name || "타 가문"}</span>
+                              {m.start_year && (
+                                <span className="text-[10px] text-slate-500 font-normal">
+                                  {m.start_year}년{m.end_year ? ` ~ ${m.end_year}년` : ""}
+                                </span>
+                              )}
+                            </div>
+                            <div className="text-[11px] text-slate-600 mt-1 leading-snug">
+                              {m.desc ? m.desc.replace(/\[[^\]]*\]/g, "").replace(/#/g, "").trim() : m.label}
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    <div className="text-slate-400 italic">등록된 직계 타 재벌 혼맥이 없습니다.</div>
+                  )}
                 </div>
 
                 {activeDetail.data.related_groups.length > 0 && (
@@ -597,133 +456,39 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
                     </ul>
                   </div>
                 )}
-
-                {activeDetail.data.key_figures.length > 0 && (
-                  <div>
-                    <div className="font-semibold text-slate-700 mb-1">주요 경영 인물</div>
-                    <div className="flex flex-wrap gap-1">
-                      {activeDetail.data.key_figures.map((kf: string, i: number) => (
-                        <span key={i} className="bg-slate-100 text-slate-700 px-2 py-0.5 rounded">
-                          {kf}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                )}
               </div>
             )}
 
-            {/* PERSON DETAIL */}
-            {activeDetail.type === "person" && activeDetail.data && (
-              <div className="mt-4 space-y-4">
-                <div>
-                  <h3 className="text-lg font-black text-slate-900">{activeDetail.data.name}</h3>
-                  <div className="text-slate-500 mt-0.5">
-                    {activeDetail.data.role} · {activeDetail.data.gen}세대
-                  </div>
-                </div>
-
-                <div className="bg-slate-50 p-3 rounded-lg border border-slate-200 space-y-1.5">
-                  <div className="flex justify-between">
-                    <span className="text-slate-500">생년월일:</span>
-                    <span className="font-medium text-slate-800">
-                      {activeDetail.data.birth}년 ~ {activeDetail.data.death ? `${activeDetail.data.death}년` : "현재"}
-                    </span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-500">소속 기업:</span>
-                    <span className="font-medium text-slate-800">{activeDetail.data.company}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-500">경영 참여 여부:</span>
-                    <span className={`font-semibold ${activeDetail.data.active ? "text-emerald-600" : "text-slate-400"}`}>
-                      {activeDetail.data.active ? "현역 경영 참여" : "비참여 / 사별"}
-                    </span>
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {/* GROUP DETAIL */}
-            {activeDetail.type === "group" && activeDetail.data && (
-              <div className="mt-4 space-y-4">
-                <div>
-                  <h3 className="text-lg font-black text-slate-900">{activeDetail.data.name}</h3>
-                  <div className="text-slate-500 mt-0.5">설립연도: {activeDetail.data.founding_year}년</div>
-                </div>
-
-                <div className="bg-slate-50 p-3 rounded-lg border border-slate-200 space-y-2">
-                  {activeDetail.data.assets_trillion && (
-                    <div className="flex justify-between">
-                      <span className="text-slate-500">공정위 자산총액:</span>
-                      <span className="font-black text-indigo-700">{activeDetail.data.assets_trillion}조원</span>
-                    </div>
-                  )}
-                  {activeDetail.data.ftc_rank && (
-                    <div className="flex justify-between">
-                      <span className="text-slate-500">대기업집단 순위:</span>
-                      <span className="font-semibold text-slate-800">재계 {activeDetail.data.ftc_rank}위</span>
-                    </div>
-                  )}
-                </div>
-
-                <div>
-                  <div className="font-semibold text-slate-700 mb-1">대표 계열사</div>
-                  <div className="flex flex-wrap gap-1.5">
-                    {activeDetail.data.key_companies.map((kc: string, i: number) => (
-                      <span key={i} className="bg-slate-100 text-slate-700 font-medium px-2 py-0.5 rounded">
-                        {kc}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {/* EDGE RELATION DETAIL */}
+            {/* EDGE (MARRIAGE) DETAIL */}
             {activeDetail.type === "edge" && activeDetail.data && (
               <div className="mt-4 space-y-4">
                 <div>
-                  <span className="text-[10px] font-bold text-rose-600 bg-rose-50 px-2 py-0.5 rounded">
-                    {activeDetail.data.type}
-                  </span>
-                  <h3 className="text-base font-black text-slate-900 mt-1">{activeDetail.data.label}</h3>
+                  <h3 className="text-base font-black text-rose-950">{activeDetail.data.label}</h3>
                   <div className="text-slate-500 mt-0.5">
-                    체결/발생: {activeDetail.data.start_year || "-"}년 {activeDetail.data.end_year ? `~ ${activeDetail.data.end_year}년 (종료)` : ""}
+                    혼인연도: {activeDetail.data.start_year ? `${activeDetail.data.start_year}년` : "연도 미상"}
+                    {activeDetail.data.end_year ? ` ~ ${activeDetail.data.end_year}년 (이혼)` : ""}
                   </div>
                 </div>
 
-                <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
-                  <div className="font-semibold text-slate-700 mb-1">상세 팩트 및 근거</div>
-                  <p className="text-slate-600 leading-relaxed">{activeDetail.data.desc || "해당 관계에 대한 검증 보고서가 보관되어 있습니다."}</p>
+                <div className="bg-rose-50 p-3 rounded-lg border border-rose-100">
+                  <div className="font-semibold text-rose-900 mb-1">혼맥 상세 내역</div>
+                  <p className="text-slate-700 leading-relaxed">
+                    {activeDetail.data.desc
+                      ? activeDetail.data.desc.replace(/\[[^\]]*\]/g, "").replace(/#/g, "").trim()
+                      : activeDetail.data.label}
+                  </p>
                 </div>
 
-                {/* Primary Sources Links */}
-                <div>
-                  <div className="font-semibold text-slate-700 mb-2 flex items-center gap-1">
-                    <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                    <span>독립 출처 검증 내역</span>
+                <div className="space-y-1 bg-slate-50 p-2.5 rounded border border-slate-200">
+                  <div className="flex justify-between">
+                    <span className="text-slate-500">관계 유형:</span>
+                    <span className="font-bold text-slate-800">재벌가 간 통혼 (INTER-CHAEBOL)</span>
                   </div>
-                  <div className="space-y-2">
-                    {activeDetail.data.source_ids?.map((sid: string) => {
-                      const src = sources.find((s) => s.id === sid);
-                      if (!src) return null;
-                      return (
-                        <a
-                          key={src.id}
-                          href={src.url}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="block p-2 bg-slate-100 hover:bg-slate-200 rounded border border-slate-300 text-[11px] transition"
-                        >
-                          <div className="flex items-center justify-between text-slate-500 font-medium text-[10px]">
-                            <span>{src.publisher} ({src.date})</span>
-                            <ExternalLink className="w-3 h-3" />
-                          </div>
-                          <div className="font-semibold text-slate-800 mt-0.5">{src.title}</div>
-                        </a>
-                      );
-                    })}
+                  <div className="flex justify-between">
+                    <span className="text-slate-500">검증 상태:</span>
+                    <span className="font-semibold text-emerald-600 flex items-center gap-0.5">
+                      <ShieldCheck className="w-3.5 h-3.5" /> 공시 및 언론 검증
+                    </span>
                   </div>
                 </div>
               </div>
