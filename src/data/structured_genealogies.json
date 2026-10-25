@@ -338,168 +338,113 @@
     }
   },
   "FAM_HANWHA": {
-    "familyName": "범한화가",
+    "familyName": "범한화·빙그레가",
     "root": {
       "id": "HW_ROOT",
-      "name": "김재민",
-      "birthDeath": "1881 ~ 1968",
-      "role": "순천 김씨 익찬공파 문중",
+      "name": "김종희",
+      "birthDeath": "1922 ~ 1981",
+      "role": "한화그룹(한국화약) 창업주 회장 (현암)",
+      "company": "한화그룹",
       "generation": 1,
-      "orderLabel": "선대",
+      "orderLabel": "창업주",
       "spouses": [
         {
-          "name": "오명철",
-          "birthDeath": "1896 ~ 1995"
+          "name": "강순옥",
+          "birthDeath": "1927 ~ 2016"
         }
       ],
       "children": [
         {
-          "id": "HW_JONG_CHUL",
-          "name": "김종철",
-          "birthDeath": "1920 ~ 1986",
-          "role": "6선 국회의원 / 제12대 대선 국민당 총재",
+          "id": "HW_YOUNG_HYE",
+          "name": "김영혜",
+          "birthDeath": "1948 ~ ",
+          "role": "전 제일화재 이사회 의장 (김종희 장녀)",
           "generation": 2,
-          "orderLabel": "1남 (장남)",
+          "orderLabel": "1녀 (장녀)",
+          "interMarriage": {
+            "partnerName": "이동훈",
+            "partnerFamily": "이후락가문 (전 중앙정보부장 차남 / 전 제일화재 회장)",
+            "desc": "이후락 전 중앙정보부장 차남 이동훈과 혼인 (한화-이후락 통혼)"
+          }
+        },
+        {
+          "id": "HW_SEUNG_YOUN",
+          "name": "김승연",
+          "birthDeath": "1952 ~ ",
+          "role": "한화그룹 회장 (한화 총수)",
+          "company": "한화그룹",
+          "generation": 2,
+          "orderLabel": "1남 (장남 / 회장)",
+          "spouses": [
+            {
+              "name": "서영민",
+              "birthDeath": "1961 ~ 2022",
+              "familyOrigin": "서정화 전 내무부장관 딸"
+            }
+          ],
+          "interMarriage": {
+            "partnerName": "서영민",
+            "partnerFamily": "서정화가문 (전 내무부 장관 딸)",
+            "desc": "서정화 전 내무부장관 딸 서영민과 혼인 (한화-정계 명문가 통혼)"
+          },
           "children": [
             {
-              "id": "HW_SHIN_YEON",
-              "name": "김신연",
-              "birthDeath": "1952 ~ ",
-              "role": "한화 커뮤니케이션위원회 사장",
+              "id": "HW_DONG_KWAN",
+              "name": "김동관",
+              "birthDeath": "1983 ~ ",
+              "role": "한화그룹 부회장 (방산·항공우주·신재생에너지 총괄 / 그룹 후계)",
+              "company": "한화에어로스페이스",
+              "generation": 3,
+              "orderLabel": "1남 (장남)"
+            },
+            {
+              "id": "HW_DONG_WON",
+              "name": "김동원",
+              "birthDeath": "1985 ~ ",
+              "role": "한화생명 사장 / 최고글로벌책임자(CGO)",
+              "company": "한화생명",
               "generation": 3,
               "orderLabel": "2남"
             },
             {
-              "id": "HW_GYU_YEON",
-              "name": "김규연",
-              "birthDeath": "1960 ~ ",
-              "role": "천경해운 사장",
+              "id": "HW_DONG_SEON",
+              "name": "김동선",
+              "birthDeath": "1989 ~ ",
+              "role": "한화갤러리아·호텔앤드리조트 부사장 (아워홈 8,695억 인수 주도)",
+              "company": "한화호텔앤드리조트",
               "generation": 3,
-              "orderLabel": "5남"
+              "orderLabel": "3남"
             }
           ]
         },
         {
-          "id": "HW_JONG_HEE",
-          "name": "김종희",
-          "birthDeath": "1922 ~ 1981",
-          "role": "한화그룹 창업주 / 초대 회장 (한국화약 창업)",
-          "company": "한화그룹",
+          "id": "HW_HO_YEON",
+          "name": "김호연",
+          "birthDeath": "1955 ~ ",
+          "role": "빙그레 회장 / 전 국회의원",
+          "company": "빙그레",
           "generation": 2,
-          "orderLabel": "2남 (창업주)",
+          "orderLabel": "2남 (차남)",
           "spouses": [
             {
-              "name": "강태영",
-              "birthDeath": "1927 ~ 2016"
+              "name": "김미",
+              "birthDeath": "1957 ~ ",
+              "familyOrigin": "백범 김구 손녀 / 김신 전 공군참모총장 딸"
             }
           ],
+          "interMarriage": {
+            "partnerName": "김미",
+            "partnerFamily": "백범김구가문 (대한민국 임시정부 주석 손녀)",
+            "desc": "백범 김구 주석의 손녀이자 김신 전 공군참모총장의 딸 김미와 혼인"
+          },
           "children": [
             {
-              "id": "HW_YOUNG_HYE",
-              "name": "김영혜",
-              "birthDeath": "1948 ~ ",
-              "role": "전 제일화재 이사회 의장",
+              "id": "HW_DONG_HWAN",
+              "name": "김동환",
+              "birthDeath": "1983 ~ ",
+              "role": "빙그레 경영기획 전무",
               "generation": 3,
-              "orderLabel": "1녀 (장녀)",
-              "interMarriage": {
-                "partnerName": "이동훈",
-                "partnerFamily": "이후락가 (전 중앙정보부장)",
-                "desc": "이후락 전 중정부장 차남 이동훈 전 제일화재 회장과 혼인 (한화-이후락 통혼)"
-              },
-              "children": [
-                {
-                  "id": "HW_LEE_JAE_HWAN",
-                  "name": "이재환",
-                  "birthDeath": "1972 ~ ",
-                  "role": "손경식 CJ 회장 사위",
-                  "generation": 4,
-                  "orderLabel": "1남",
-                  "interMarriage": {
-                    "partnerName": "손희영",
-                    "partnerFamily": "범삼성가 (CJ 손경식 회장 장녀)",
-                    "desc": "손경식 CJ 회장 장녀 손희영 동덕여대 교수와 혼인 (한화-이후락-CJ 연결)"
-                  }
-                },
-                {
-                  "id": "HW_LEE_SEOK_HWAN",
-                  "name": "이석환",
-                  "birthDeath": "1973 ~ ",
-                  "role": "한익스프레스 대표이사",
-                  "generation": 4,
-                  "orderLabel": "2남"
-                }
-              ]
-            },
-            {
-              "id": "HW_SEUNG_YOUN",
-              "name": "김승연",
-              "birthDeath": "1952 ~ ",
-              "role": "한화그룹 회장",
-              "company": "한화그룹",
-              "generation": 3,
-              "orderLabel": "1남 (장남)",
-              "spouses": [
-                {
-                  "name": "서영민",
-                  "birthDeath": "1961 ~ 2022",
-                  "familyOrigin": "서정화 전 내무부장관 딸"
-                }
-              ],
-              "children": [
-                {
-                  "id": "HW_DONG_KWAN",
-                  "name": "김동관",
-                  "birthDeath": "1983 ~ ",
-                  "role": "한화그룹 부회장 (전략부문·방산 총괄 / 그룹 후계)",
-                  "company": "한화에어로스페이스·한화솔루션",
-                  "generation": 4,
-                  "orderLabel": "1남 (장남)"
-                },
-                {
-                  "id": "HW_DONG_WON",
-                  "name": "김동원",
-                  "birthDeath": "1985 ~ ",
-                  "role": "한화생명 사장 / 최고글로벌책임자(CGO)",
-                  "company": "한화생명",
-                  "generation": 4,
-                  "orderLabel": "2남 (차남)"
-                },
-                {
-                  "id": "HW_DONG_SEON",
-                  "name": "김동선",
-                  "birthDeath": "1989 ~ ",
-                  "role": "한화갤러리아·한화호텔앤드리조트 부사장 (아워홈 8,695억 인수 주도)",
-                  "company": "한화갤러리아 / 우리집에프앤비",
-                  "generation": 4,
-                  "orderLabel": "3남 (삼남)"
-                }
-              ]
-            },
-            {
-              "id": "HW_HO_YEON",
-              "name": "김호연",
-              "birthDeath": "1955 ~ ",
-              "role": "빙그레 회장 / 전 국회의원",
-              "company": "빙그레",
-              "generation": 3,
-              "orderLabel": "2남 (차남)",
-              "spouses": [
-                {
-                  "name": "김미",
-                  "birthDeath": "1957 ~ ",
-                  "familyOrigin": "백범 김구 선생 친손녀"
-                }
-              ],
-              "children": [
-                {
-                  "id": "HW_DONG_HWAN_BG",
-                  "name": "김동환",
-                  "birthDeath": "1983 ~ ",
-                  "role": "빙그레 경영기획 전무",
-                  "generation": 4,
-                  "orderLabel": "1남"
-                }
-              ]
+              "orderLabel": "1남"
             }
           ]
         }
@@ -512,7 +457,7 @@
       "id": "HD_ROOT",
       "name": "정봉식",
       "birthDeath": "1884 ~ 1946",
-      "role": "하동 정씨 문중",
+      "role": "선대 (강원도 통천 대지주)",
       "generation": 1,
       "orderLabel": "선대",
       "spouses": [
@@ -529,7 +474,7 @@
           "role": "현대그룹 명예회장 / 창업주 (아산)",
           "company": "현대그룹",
           "generation": 2,
-          "orderLabel": "1남 (장남)",
+          "orderLabel": "1남 (장남 / 창업주)",
           "spouses": [
             {
               "name": "변중석",
@@ -565,17 +510,24 @@
                   "name": "정성이",
                   "birthDeath": "1962 ~ ",
                   "role": "이노션 고문",
+                  "company": "이노션",
                   "generation": 4,
                   "orderLabel": "1녀 (장녀)",
                   "spouses": [
                     {
                       "name": "선두훈",
-                      "familyOrigin": "영훈의료재단 이사장"
+                      "birthDeath": "1957 ~ ",
+                      "familyOrigin": "영훈의료재단선병원 이사장"
                     }
                   ],
+                  "interMarriage": {
+                    "partnerName": "선두훈",
+                    "partnerFamily": "의료계 명문가 (선병원 이사장)",
+                    "desc": "영훈의료재단선병원 이사장 선두훈과 혼인"
+                  },
                   "children": [
                     {
-                      "id": "HD_SEON_DONG_WOOK",
+                      "id": "HD_DONG_WOOK",
                       "name": "선동욱",
                       "birthDeath": "1988 ~ ",
                       "role": "정몽구 외손자",
@@ -583,20 +535,65 @@
                       "orderLabel": "1남",
                       "interMarriage": {
                         "partnerName": "채수연",
-                        "partnerFamily": "애경그룹 (채형석 총괄부회장 차녀)",
+                        "partnerFamily": "애경가 (채형석 애경 총괄부회장 차녀)",
                         "desc": "애경그룹 채형석 부회장 차녀 채수연과 혼인 (현대-애경 통혼)"
                       }
                     }
                   ]
                 },
                 {
+                  "id": "HD_MYUNG_YI",
+                  "name": "정명이",
+                  "birthDeath": "1964 ~ ",
+                  "role": "현대커머셜 사장 / 전 현대카드 브랜드총괄",
+                  "company": "현대커머셜",
+                  "generation": 4,
+                  "orderLabel": "2녀",
+                  "spouses": [
+                    {
+                      "name": "정태영",
+                      "birthDeath": "1960 ~ ",
+                      "familyOrigin": "현대카드 부회장 (정경진 종로학원 창업주 장남)"
+                    }
+                  ],
+                  "interMarriage": {
+                    "partnerName": "정태영",
+                    "partnerFamily": "종로학원 창업가문 / 현대카드 부회장",
+                    "desc": "정경진 종로학원 창업주 아들 정태영 현대카드 부회장과 혼인"
+                  },
+                  "children": [
+                    {
+                      "id": "HD_CHUNG_JOON",
+                      "name": "정준",
+                      "birthDeath": "1995 ~ ",
+                      "role": "현대카드 일가",
+                      "generation": 5,
+                      "orderLabel": "1남",
+                      "interMarriage": {
+                        "partnerName": "리디아 고",
+                        "partnerFamily": "세계 1위 프로골퍼 (올림픽 금메달리스트)",
+                        "desc": "LPGA 세계 랭킹 1위 리디아 고(Lydia Ko)와 2022년 혼인"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "HD_YOON_YI",
+                  "name": "정윤이",
+                  "birthDeath": "1968 ~ ",
+                  "role": "해비치호텔앤드리조트 전무",
+                  "company": "해비치",
+                  "generation": 4,
+                  "orderLabel": "3녀"
+                },
+                {
                   "id": "HD_EUI_SUN",
                   "name": "정의선",
                   "birthDeath": "1970 ~ ",
-                  "role": "현대자동차그룹 회장",
+                  "role": "현대자동차그룹 회장 (현대 총수)",
                   "company": "현대자동차그룹",
                   "generation": 4,
-                  "orderLabel": "1남 (장남 / 총수)",
+                  "orderLabel": "1남 (장남)",
                   "spouses": [
                     {
                       "name": "정지선",
@@ -606,21 +603,21 @@
                   ],
                   "interMarriage": {
                     "partnerName": "정지선",
-                    "partnerFamily": "삼표그룹",
-                    "desc": "삼표그룹 정도원 회장 장녀 정지선과 혼인 (현대차-삼표 직결 통혼)"
+                    "partnerFamily": "삼표가 (정도원 회장 장녀)",
+                    "desc": "삼표그룹 정도원 회장 장녀 정지선과 1995년 혼인 (현대-삼표 핵심 통혼)"
                   },
                   "children": [
                     {
                       "id": "HD_JIN_HEE",
                       "name": "정진희",
                       "birthDeath": "1996 ~ ",
-                      "role": "정의선 장녀",
+                      "role": "정의선 회장 장녀",
                       "generation": 5,
                       "orderLabel": "1녀",
                       "interMarriage": {
                         "partnerName": "김지호",
-                        "partnerFamily": "대우그룹 (김우중 조카손자)",
-                        "desc": "대우 김우중 형 김덕중 전 장관의 손자 김지호와 혼인 (현대차-대우 통혼)"
+                        "partnerFamily": "범대우가 (김우중 창업주 조카손자)",
+                        "desc": "김우중 대우 창업주 형 김덕중 전 부총리 손자 김지호와 혼인"
                       }
                     }
                   ]
@@ -637,18 +634,20 @@
               "orderLabel": "3남",
               "children": [
                 {
-                  "id": "HD_JI_SUN_DEPT",
+                  "id": "HD_DEPT_JI_SUN",
                   "name": "정지선",
                   "birthDeath": "1972 ~ ",
                   "role": "현대백화점그룹 회장",
+                  "company": "현대백화점",
                   "generation": 4,
-                  "orderLabel": "1남"
+                  "orderLabel": "1남 (장남)"
                 },
                 {
-                  "id": "HD_GYO_SUN",
+                  "id": "HD_DEPT_KYO_SUN",
                   "name": "정교선",
                   "birthDeath": "1974 ~ ",
                   "role": "현대백화점그룹 부회장",
+                  "company": "현대홈쇼핑",
                   "generation": 4,
                   "orderLabel": "2남"
                 }
@@ -667,12 +666,42 @@
                   "name": "정일선",
                   "birthDeath": "1970 ~ ",
                   "role": "현대비앤지스틸 사장",
+                  "company": "현대비앤지스틸",
                   "generation": 4,
                   "orderLabel": "1남",
                   "interMarriage": {
                     "partnerName": "김선희",
-                    "partnerFamily": "동아일보가 (인촌 김성수 손녀)",
-                    "desc": "인촌 김성수 손녀 김선희와 혼인 (현대-동아일보 통혼)"
+                    "partnerFamily": "동아일보가 (인촌 김성수 손녀 / 김상만 회장 딸)",
+                    "desc": "동아일보 인촌 김성수 증손녀이자 김병관 회장 조카 김선희와 혼인 (현대-동아일보 통혼)"
+                  }
+                },
+                {
+                  "id": "HD_MOON_SUN",
+                  "name": "정문선",
+                  "birthDeath": "1974 ~ ",
+                  "role": "현대비앤지스틸 부사장",
+                  "generation": 4,
+                  "orderLabel": "2남"
+                },
+                {
+                  "id": "HD_DAE_SUN",
+                  "name": "정대선",
+                  "birthDeath": "1977 ~ ",
+                  "role": "HN그룹 사장 (전 현대BS&C)",
+                  "company": "HN그룹",
+                  "generation": 4,
+                  "orderLabel": "3남",
+                  "spouses": [
+                    {
+                      "name": "노현정",
+                      "birthDeath": "1979 ~ ",
+                      "familyOrigin": "전 KBS 아나운서"
+                    }
+                  ],
+                  "interMarriage": {
+                    "partnerName": "노현정",
+                    "partnerFamily": "언론·방송계 (전 KBS 아나운서)",
+                    "desc": "전 KBS 간판 아나운서 노현정과 2006년 혼인 (현대-방송계 대표 통혼)"
                   }
                 }
               ]
@@ -681,7 +710,7 @@
               "id": "HD_MONG_HUN",
               "name": "정몽헌",
               "birthDeath": "1948 ~ 2003",
-              "role": "현대그룹 전 회장",
+              "role": "현대그룹 전 회장 (대북경협 주도)",
               "company": "현대그룹",
               "generation": 3,
               "orderLabel": "5남",
@@ -689,39 +718,73 @@
                 {
                   "name": "현정은",
                   "birthDeath": "1955 ~ ",
-                  "familyOrigin": "전방 현영원 회장 딸"
+                  "familyOrigin": "현대그룹 회장 (현영원 전 현대상선 회장 차녀)"
                 }
               ],
               "interMarriage": {
                 "partnerName": "현정은",
-                "partnerFamily": "전방가 (김무성 외조카)",
-                "desc": "전방 현영원 회장 딸 현정은 현 현대그룹 회장과 혼인"
-              }
+                "partnerFamily": "전방·용문학원가 (현대그룹 회장)",
+                "desc": "현영원 전 현대상선 회장과 김문희 용문학원 이사장 차녀 현정은과 혼인 (현대그룹 승계)"
+              },
+              "children": [
+                {
+                  "id": "HD_JI_YI",
+                  "name": "정지이",
+                  "birthDeath": "1977 ~ ",
+                  "role": "현대무벡스 전무",
+                  "generation": 4,
+                  "orderLabel": "1녀"
+                }
+              ]
             },
             {
               "id": "HD_MONG_JOON",
               "name": "정몽준",
               "birthDeath": "1951 ~ ",
-              "role": "아산재단 이사장 / HD현대 대주주",
+              "role": "아산재단 이사장 / HD현대 최대주주 (전 국회의원)",
               "company": "HD현대",
               "generation": 3,
               "orderLabel": "6남",
               "spouses": [
                 {
                   "name": "김영명",
-                  "familyOrigin": "김동조 전 외무부장관 딸"
+                  "birthDeath": "1956 ~ ",
+                  "familyOrigin": "김동조 전 외무부장관 4녀"
                 }
               ],
+              "interMarriage": {
+                "partnerName": "김영명",
+                "partnerFamily": "김동조가문 (전 외무부장관 막내딸)",
+                "desc": "김동조 전 외무부장관 딸 김영명과 혼인 (현대-정관계 핵심 통혼)"
+              },
               "children": [
                 {
-                  "id": "HD_GI_SEON",
+                  "id": "HD_KI_SUN",
                   "name": "정기선",
                   "birthDeath": "1982 ~ ",
-                  "role": "HD현대 수석부회장 (그룹 후계)",
+                  "role": "HD현대 수석부회장 (그룹 총괄)",
+                  "company": "HD현대",
                   "generation": 4,
-                  "orderLabel": "1남"
+                  "orderLabel": "1남 (장남)"
                 }
               ]
+            },
+            {
+              "id": "HD_MONG_YOON",
+              "name": "정몽윤",
+              "birthDeath": "1955 ~ ",
+              "role": "현대해상화재보험 회장",
+              "company": "현대해상",
+              "generation": 3,
+              "orderLabel": "7남"
+            },
+            {
+              "id": "HD_MONG_IL",
+              "name": "정몽일",
+              "birthDeath": "1959 ~ ",
+              "role": "엠캐피탈 회장 (전 현대기업금융 회장)",
+              "generation": 3,
+              "orderLabel": "8남"
             }
           ]
         },
@@ -739,6 +802,7 @@
               "name": "정몽원",
               "birthDeath": "1955 ~ ",
               "role": "HL그룹 회장 (HL만도)",
+              "company": "HL만도",
               "generation": 3,
               "orderLabel": "2남"
             }
@@ -749,7 +813,7 @@
           "name": "정세영",
           "birthDeath": "1928 ~ 2005",
           "role": "HDC현대산업개발 명예회장 (포니 정)",
-          "company": "HDC그룹",
+          "company": "HDC",
           "generation": 2,
           "orderLabel": "4남 (넷째동생)",
           "children": [
@@ -758,6 +822,7 @@
               "name": "정몽규",
               "birthDeath": "1962 ~ ",
               "role": "HDC그룹 회장 / 대한축구협회장",
+              "company": "HDC현대산업개발",
               "generation": 3,
               "orderLabel": "1남"
             }
@@ -768,7 +833,7 @@
           "name": "정상영",
           "birthDeath": "1936 ~ 2021",
           "role": "KCC그룹 명예회장 / 창업주",
-          "company": "KCC그룹",
+          "company": "KCC",
           "generation": 2,
           "orderLabel": "6남 (막내동생)",
           "children": [
@@ -777,6 +842,7 @@
               "name": "정몽진",
               "birthDeath": "1960 ~ ",
               "role": "KCC 회장",
+              "company": "KCC",
               "generation": 3,
               "orderLabel": "1남"
             },
@@ -785,6 +851,7 @@
               "name": "정몽익",
               "birthDeath": "1962 ~ ",
               "role": "KCC글라스 회장",
+              "company": "KCC글라스",
               "generation": 3,
               "orderLabel": "2남"
             },
@@ -793,6 +860,7 @@
               "name": "정몽열",
               "birthDeath": "1964 ~ ",
               "role": "KCC건설 회장",
+              "company": "KCC건설",
               "generation": 3,
               "orderLabel": "3남"
             }
@@ -1685,7 +1753,7 @@
       "id": "SK_ROOT",
       "name": "최학배",
       "birthDeath": "1900 ~ 1962",
-      "role": "수성 최씨 문중",
+      "role": "선대 (수원 유지)",
       "generation": 1,
       "orderLabel": "선대",
       "children": [
@@ -1693,16 +1761,25 @@
           "id": "SK_JONG_GUN",
           "name": "최종건",
           "birthDeath": "1926 ~ 1973",
-          "role": "SK그룹 창업주 (선경직물 창업)",
-          "company": "SK그룹 모태",
+          "role": "SK그룹(선경직물) 창업주 회장",
+          "company": "SK그룹",
           "generation": 2,
-          "orderLabel": "1남 (형)",
+          "orderLabel": "1남 (장남 / 창업주)",
           "children": [
+            {
+              "id": "SK_YOON_WON",
+              "name": "최윤원",
+              "birthDeath": "1950 ~ 2000",
+              "role": "전 SK케미칼 회장",
+              "generation": 3,
+              "orderLabel": "1남"
+            },
             {
               "id": "SK_SHIN_WON",
               "name": "최신원",
               "birthDeath": "1952 ~ ",
               "role": "전 SK네트웍스 회장",
+              "company": "SK네트웍스",
               "generation": 3,
               "orderLabel": "2남"
             },
@@ -1711,20 +1788,21 @@
               "name": "최창원",
               "birthDeath": "1964 ~ ",
               "role": "SK수펙스추구협의회 의장 / SK디스커버리 부회장",
+              "company": "SK디스커버리",
               "generation": 3,
               "orderLabel": "3남"
             },
             {
-              "id": "SK_JI_WON",
-              "name": "최지원",
-              "birthDeath": "1954 ~ ",
-              "role": "이후락 5남 이동욱 부인",
+              "id": "SK_YE_JUNG",
+              "name": "최예정",
+              "birthDeath": "1956 ~ ",
+              "role": "최종건 4녀",
               "generation": 3,
               "orderLabel": "4녀",
               "interMarriage": {
                 "partnerName": "이동욱",
-                "partnerFamily": "이후락가 (전 중정부장 5남)",
-                "desc": "이후락 전 중정부장 5남 이동욱과 혼인 (SK-이후락 통혼)"
+                "partnerFamily": "이후락가문 (전 중앙정보부장 5남)",
+                "desc": "이후락 전 중앙정보부장 5남 이동욱과 혼인 (SK-이후락 정관계 통혼)"
               }
             }
           ]
@@ -1733,14 +1811,15 @@
           "id": "SK_JONG_HYUN",
           "name": "최종현",
           "birthDeath": "1929 ~ 1998",
-          "role": "SK그룹 선대회장 (유공·이동통신 인수)",
+          "role": "SK그룹 선대회장 (에너지·정보통신 도약 주도)",
           "company": "SK그룹",
           "generation": 2,
-          "orderLabel": "2남 (동생 / 선대회장)",
+          "orderLabel": "2남 (차남 / 선대회장)",
           "spouses": [
             {
               "name": "박계희",
-              "birthDeath": "1935 ~ 1997"
+              "birthDeath": "1935 ~ 1997",
+              "familyOrigin": "전 워커힐미술관장"
             }
           ],
           "children": [
@@ -1748,17 +1827,22 @@
               "id": "SK_TAE_WON",
               "name": "최태원",
               "birthDeath": "1960 ~ ",
-              "role": "SK그룹 회장 / 대한상공회의소 회장",
-              "company": "SK그룹",
+              "role": "SK그룹 회장 / 대한상공회의소 회장 (SK 총수)",
+              "company": "SK",
               "generation": 3,
-              "orderLabel": "1남 (장남 / 현 총수)",
+              "orderLabel": "1남 (장남)",
               "spouses": [
                 {
                   "name": "노소영",
                   "birthDeath": "1961 ~ ",
-                  "familyOrigin": "노태우 전 대통령 딸 (아트센터 나비 관장)"
+                  "familyOrigin": "노태우 제13대 대통령 장녀 (아트센터 나비 관장)"
                 }
               ],
+              "interMarriage": {
+                "partnerName": "노소영",
+                "partnerFamily": "노태우대통령가문 (제13대 대통령 딸)",
+                "desc": "1988년 청와대에서 노태우 대통령 장녀 노소영과 혼인 (SK의 이동통신 진출 배경)"
+              },
               "children": [
                 {
                   "id": "SK_YOON_JUNG",
@@ -1772,7 +1856,7 @@
                   "id": "SK_MIN_JUNG",
                   "name": "최민정",
                   "birthDeath": "1991 ~ ",
-                  "role": "전 해군 중위 / 스타트업 대표",
+                  "role": "인티그럴헬스 창업자 (해군 장교 복무)",
                   "generation": 4,
                   "orderLabel": "2녀"
                 },
@@ -1780,7 +1864,7 @@
                   "id": "SK_IN_GEUN",
                   "name": "최인근",
                   "birthDeath": "1995 ~ ",
-                  "role": "SK E&S 매니저",
+                  "role": "패스키(Passkey) 매니저",
                   "generation": 4,
                   "orderLabel": "1남"
                 }
@@ -1790,8 +1874,8 @@
               "id": "SK_JAE_WON",
               "name": "최재원",
               "birthDeath": "1963 ~ ",
-              "role": "SK이노베이션 수석부회장",
-              "company": "SK이노베이션",
+              "role": "SK 수석부회장 / SK온 대표이사",
+              "company": "SK온",
               "generation": 3,
               "orderLabel": "2남"
             },
@@ -2264,7 +2348,7 @@
                   "id": "FAM_HANJIN_17",
                   "name": "조승연",
                   "birthDeath": "1974 ~",
-                  "role": "前 칼호텔네트워크 사장/ 前夫 박종주 (1974 ~ ) 성형외과 의사관련기사",
+                  "role": "前 칼호텔네트워크 사장/ 前夫 박종주 (1974 ~ ) 성형외과 의사",
                   "generation": 4,
                   "orderLabel": "1녀",
                   "spouses": [],
@@ -2273,7 +2357,7 @@
                       "id": "FAM_HANJIN_18",
                       "name": "박성준",
                       "birthDeath": "2013 ~",
-                      "role": "[A]",
+                      "role": "",
                       "generation": 5,
                       "orderLabel": "1남",
                       "spouses": []
@@ -2282,7 +2366,7 @@
                       "id": "FAM_HANJIN_19",
                       "name": "박성민",
                       "birthDeath": "2013 ~",
-                      "role": "[A]",
+                      "role": "",
                       "generation": 5,
                       "orderLabel": "2남",
                       "spouses": []
@@ -2693,7 +2777,7 @@
               "id": "FAM_HANJIN_52",
               "name": "조장호",
               "birthDeath": "1970 ~",
-              "role": "#",
+              "role": "",
               "generation": 3,
               "orderLabel": "4남",
               "spouses": []
