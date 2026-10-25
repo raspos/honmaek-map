@@ -116,7 +116,11 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
         });
       });
 
-      elements.push(...activeEdges);
+      const nodeIds1 = new Set(elements.map((e) => e.data.id));
+      const safeEdges1 = activeEdges.filter(
+        (e) => nodeIds1.has(e.data.source) && nodeIds1.has(e.data.target)
+      );
+      elements.push(...safeEdges1);
     } else if (level === 2) {
       // LEVEL 2: PERSONS, BLOOD & MARRIAGES
       const activeEdges: any[] = [];
@@ -176,7 +180,11 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
         });
       });
 
-      elements.push(...activeEdges);
+      const nodeIds2 = new Set(elements.map((e) => e.data.id));
+      const safeEdges2 = activeEdges.filter(
+        (e) => nodeIds2.has(e.data.source) && nodeIds2.has(e.data.target)
+      );
+      elements.push(...safeEdges2);
     } else if (level === 3) {
       // LEVEL 3: CORPORATE GROUPS & SPINOFF TIES
       const activeEdges: any[] = [];
@@ -220,7 +228,11 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
         });
       });
 
-      elements.push(...activeEdges);
+      const nodeIds3 = new Set(elements.map((e) => e.data.id));
+      const safeEdges3 = activeEdges.filter(
+        (e) => nodeIds3.has(e.data.source) && nodeIds3.has(e.data.target)
+      );
+      elements.push(...safeEdges3);
     }
 
     // Update rendered count state for UI banner
@@ -295,24 +307,34 @@ export const NetworkView: React.FC<NetworkViewProps> = ({
           },
         },
       ],
-      layout: {
-        name: "cose",
-        idealEdgeLength: level === 1 ? 160 : 120,
-        nodeOverlap: 30,
-        refresh: 20,
-        fit: true,
-        padding: 40,
-        randomize: false,
-        componentSpacing: 100,
-        nodeRepulsion: 400000,
-        edgeElasticity: 100,
-        nestingFactor: 5,
-        gravity: 80,
-        numIter: 1000,
-        initialTemp: 200,
-        coolingFactor: 0.95,
-        minTemp: 1.0,
-      } as any,
+      layout:
+        level === 3
+          ? ({
+              name: "breadthfirst",
+              directed: true,
+              spacingFactor: 1.35,
+              fit: true,
+              padding: 40,
+              avoidOverlap: true,
+            } as any)
+          : ({
+              name: "cose",
+              idealEdgeLength: level === 1 ? 160 : 100,
+              nodeOverlap: 25,
+              refresh: 20,
+              fit: true,
+              padding: 40,
+              randomize: false,
+              componentSpacing: 90,
+              nodeRepulsion: level === 1 ? 400000 : 250000,
+              edgeElasticity: 100,
+              nestingFactor: 5,
+              gravity: 80,
+              numIter: 1000,
+              initialTemp: 200,
+              coolingFactor: 0.95,
+              minTemp: 1.0,
+            } as any),
     });
 
     cy.on("tap", "node", (evt: EventObject) => {

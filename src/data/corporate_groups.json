@@ -693,5 +693,48 @@
       "한국투자금융지주",
       "한국투자증권"
     ]
+  },
+  {
+    "id": "GRP_HYUNDAI",
+    "name": "현대그룹(모태)",
+    "family_id": "FAM_HYUNDAI",
+    "founding_year": 1947,
+    "ftc_rank": 35,
+    "assets_trillion": 5.0,
+    "leader": "현정은",
+    "industry": "해운, 물류, 엘리베이터, 건설",
+    "key_companies": [
+      "현대엘리베이터",
+      "현대아산",
+      "현대무벡스"
+    ]
+  },
+  {
+    "id": "GRP_KUMHO_ASIANA",
+    "name": "금호아시아나",
+    "family_id": "FAM_KUMHO",
+    "founding_year": 1946,
+    "ftc_rank": 40,
+    "assets_trillion": 4.5,
+    "leader": "박삼구",
+    "industry": "고속버스, 건설",
+    "key_companies": [
+      "금호고속",
+      "금호건설"
+    ]
+  },
+  {
+    "id": "GRP_KISCO",
+    "name": "KISCO홀딩스(한국철강)",
+    "family_id": "FAM_DONGKUK",
+    "founding_year": 2001,
+    "ftc_rank": 70,
+    "assets_trillion": 2.2,
+    "leader": "장세홍",
+    "industry": "철강, 건설용 봉강",
+    "key_companies": [
+      "한국철강",
+      "환영철강공업"
+    ]
   }
 ]

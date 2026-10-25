@@ -477,7 +477,7 @@
   },
   {
     "id": "M_GS_CHOSUN",
-    "from_id": "P_BANG_JUN_OH",
+    "from_id": "PER_FAM_CHOSUN_ILBO_2592",
     "to_id": "P_HUH_YOO_JUNG",
     "type": "MARRIAGE",
     "label": "혼인 (조선일보 방상훈 장남 방준오 - GS 허광수 장녀 허유정)",
@@ -496,7 +496,7 @@
   {
     "id": "M_GS_HONG",
     "from_id": "P_HUH_SEO_HONG",
-    "to_id": "P_HONG_JUNG_HYUN",
+    "to_id": "PER_FAM_JOONGANG_HONG_2688",
     "type": "MARRIAGE",
     "label": "혼인 (GS 허광수 장남 허서홍 - 중앙일보 홍석현 장녀 홍정현)",
     "start_year": 2006,
@@ -591,7 +591,7 @@
   {
     "id": "M_TK_DK",
     "from_id": "P_LEE_YOUNG_JIN_TK",
-    "to_id": "P_CHANG_OK_BIN",
+    "to_id": "PER_FAM_DONGKUK_1682",
     "type": "MARRIAGE",
     "label": "혼인 (태광 이임용 차남 이영진 - 동국제강 장상준 딸 장옥빈)",
     "start_year": 1976,
@@ -699,7 +699,7 @@
   },
   {
     "id": "M_KH_DK",
-    "from_id": "P_CHANG_SE_HONG",
+    "from_id": "PER_FAM_DONGKUK_1738",
     "to_id": "P_PARK_EUN_KYUNG",
     "type": "MARRIAGE",
     "label": "혼인 (한국철강 장세홍 사장 - 금호 박정구 차녀 박은경)",
@@ -1223,7 +1223,7 @@
   },
   {
     "id": "REL_SP_010",
-    "from_id": "GRP_KUMHO",
+    "from_id": "GRP_KUMHO_ASIANA",
     "to_id": "GRP_KUMHO",
     "type": "SPINOFF",
     "label": "금호석유화학 계열분리 (독립경영)",
@@ -1242,7 +1242,7 @@
   {
     "id": "REL_SP_011",
     "from_id": "GRP_DONGKUK_STEEL",
-    "to_id": "GRP_DONGKUK_STEEL",
+    "to_id": "GRP_KISCO",
     "type": "SPINOFF",
     "label": "한국철강 계열분리",
     "start_year": 2001,
@@ -1295,7 +1295,7 @@
   },
   {
     "id": "M_HYOSUNG_PRESIDENT_LEE",
-    "from_id": "PER_CHO_HYUN_BUM",
+    "from_id": "P_CHO_HYUN_BUM",
     "to_id": "PER_LEE_SOO_YEON",
     "type": "MARRIAGE",
     "label": "혼인 (한국타이어 조현범 회장 - 이명박 대통령 3녀 이수연)",
@@ -1312,7 +1312,7 @@
   },
   {
     "id": "M_HYOSUNG_SONG",
-    "from_id": "HS_SEOK_RAE",
+    "from_id": "P_CHO_SUCK_RAE",
     "to_id": "P_SONG_KWANG_JA",
     "type": "MARRIAGE",
     "label": "혼인 (효성 조석래 명예회장 - 송인상 재무장관 딸 송광자)",
