@@ -10270,5 +10270,1076 @@
         }
       ]
     }
+  },
+  "FAM_SSANGYONG": {
+    "familyName": "범쌍용가",
+    "root": {
+      "id": "FAM_SSANGYONG_1",
+      "name": "김광도",
+      "birthDeath": "",
+      "role": " (선대/창업주)",
+      "generation": 1,
+      "orderLabel": "",
+      "spouses": [
+        {
+          "name": "김봉옥",
+          "birthDeath": ""
+        }
+      ],
+      "children": [
+        {
+          "id": "FAM_SSANGYONG_2",
+          "name": "김성곤초대쌍용그룹회장",
+          "birthDeath": "1913 ~ 1975",
+          "role": "4남 (2세대)",
+          "generation": 2,
+          "orderLabel": "4남",
+          "spouses": [
+            {
+              "name": "김미희",
+              "birthDeath": "1920 ~ 1981"
+            }
+          ],
+          "children": [
+            {
+              "id": "FAM_SSANGYONG_3",
+              "name": "김인숙",
+              "birthDeath": "1939 ~",
+              "role": "1녀 (3세대)",
+              "generation": 3,
+              "orderLabel": "1녀",
+              "spouses": [
+                {
+                  "name": "조해형",
+                  "birthDeath": "1934 ~ 2017"
+                }
+              ],
+              "children": [
+                {
+                  "id": "FAM_SSANGYONG_4",
+                  "name": "조현진",
+                  "birthDeath": "1966 ~",
+                  "role": "1남 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "1남",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_5",
+                  "name": "조현찬",
+                  "birthDeath": "1968 ~",
+                  "role": "2남 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "2남",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_6",
+                  "name": "조은영",
+                  "birthDeath": "1970 ~",
+                  "role": "1녀 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "1녀",
+                  "spouses": []
+                }
+              ]
+            },
+            {
+              "id": "FAM_SSANGYONG_7",
+              "name": "김의정",
+              "birthDeath": "1941 ~",
+              "role": "2녀 (3세대)",
+              "generation": 3,
+              "orderLabel": "2녀",
+              "spouses": [
+                {
+                  "name": "이승원",
+                  "birthDeath": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "FAM_SSANGYONG_8",
+                  "name": "이용훈",
+                  "birthDeath": "",
+                  "role": "1남 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "1남",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_9",
+                  "name": "이진휴",
+                  "birthDeath": "",
+                  "role": "2남 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "2남",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_10",
+                  "name": "이성훈",
+                  "birthDeath": "",
+                  "role": "3남 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "3남",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_11",
+                  "name": "이원희",
+                  "birthDeath": "",
+                  "role": "1녀 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "1녀",
+                  "spouses": []
+                }
+              ]
+            },
+            {
+              "id": "FAM_SSANGYONG_12",
+              "name": "김석원",
+              "birthDeath": "1945 ~ 2023",
+              "role": "제15대 대구 달성군 국회의원 / 이래현",
+              "generation": 3,
+              "orderLabel": "1남",
+              "spouses": [],
+              "children": [
+                {
+                  "id": "FAM_SSANGYONG_13",
+                  "name": "김지용",
+                  "birthDeath": "1973 ~",
+                  "role": "제22·23대 학교법인 국민학원 이사장 / 정유희 (1973 ~ )",
+                  "generation": 4,
+                  "orderLabel": "1남",
+                  "spouses": [],
+                  "children": [
+                    {
+                      "id": "FAM_SSANGYONG_14",
+                      "name": "김진석",
+                      "birthDeath": "2000 ~",
+                      "role": "1남 (5세대)",
+                      "generation": 5,
+                      "orderLabel": "1남",
+                      "spouses": []
+                    },
+                    {
+                      "id": "FAM_SSANGYONG_15",
+                      "name": "김진하",
+                      "birthDeath": "2003 ~",
+                      "role": "2남 (5세대)",
+                      "generation": 5,
+                      "orderLabel": "2남",
+                      "spouses": []
+                    }
+                  ]
+                },
+                {
+                  "id": "FAM_SSANGYONG_16",
+                  "name": "김지강",
+                  "birthDeath": "1977 ~ 2011",
+                  "role": "2남 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "2남",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_17",
+                  "name": "김지명",
+                  "birthDeath": "",
+                  "role": "3남 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "3남",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_18",
+                  "name": "김지태",
+                  "birthDeath": "",
+                  "role": "4남 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "4남",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_19",
+                  "name": "김설리",
+                  "birthDeath": "",
+                  "role": "1녀 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "1녀",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_20",
+                  "name": "김문영",
+                  "birthDeath": "",
+                  "role": "2녀 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "2녀",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_21",
+                  "name": "김지수",
+                  "birthDeath": "",
+                  "role": "3녀 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "3녀",
+                  "spouses": []
+                }
+              ]
+            },
+            {
+              "id": "FAM_SSANGYONG_22",
+              "name": "김의령",
+              "birthDeath": "",
+              "role": "3녀 (3세대)",
+              "generation": 3,
+              "orderLabel": "3녀",
+              "spouses": []
+            },
+            {
+              "id": "FAM_SSANGYONG_23",
+              "name": "김석준",
+              "birthDeath": "1953 ~",
+              "role": "쌍용건설 회장",
+              "generation": 3,
+              "orderLabel": "2남",
+              "spouses": [],
+              "children": [
+                {
+                  "id": "FAM_SSANGYONG_24",
+                  "name": "김지성",
+                  "birthDeath": "",
+                  "role": "1남 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "1남",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_25",
+                  "name": "김지운",
+                  "birthDeath": "1986 ~",
+                  "role": "셰프",
+                  "generation": 4,
+                  "orderLabel": "2남",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_26",
+                  "name": "김지연",
+                  "birthDeath": "",
+                  "role": "1녀 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "1녀",
+                  "spouses": []
+                }
+              ]
+            },
+            {
+              "id": "FAM_SSANGYONG_27",
+              "name": "김석동",
+              "birthDeath": "1960 ~",
+              "role": "3남 (3세대)",
+              "generation": 3,
+              "orderLabel": "3남",
+              "spouses": [
+                {
+                  "name": "한준희",
+                  "birthDeath": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "FAM_SSANGYONG_28",
+                  "name": "김지호",
+                  "birthDeath": "",
+                  "role": "1남 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "1남",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_29",
+                  "name": "김지원",
+                  "birthDeath": "",
+                  "role": "1녀 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "1녀",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_SSANGYONG_30",
+                  "name": "김지영",
+                  "birthDeath": "",
+                  "role": "2녀 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "2녀",
+                  "spouses": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "FAM_DONGWON": {
+    "familyName": "범동원가",
+    "root": {
+      "id": "FAM_DONGWON_1",
+      "name": "김경묵",
+      "birthDeath": "1914 ~ 1991",
+      "role": "내동마을 이장",
+      "generation": 1,
+      "orderLabel": "",
+      "spouses": [
+        {
+          "name": "김순금",
+          "birthDeath": "1912 ~ 2014"
+        }
+      ],
+      "children": [
+        {
+          "id": "FAM_DONGWON_2",
+          "name": "김재철",
+          "birthDeath": "1935 ~",
+          "role": "동원그룹 명예회장",
+          "generation": 2,
+          "orderLabel": "1남",
+          "spouses": [
+            {
+              "name": "조덕희",
+              "birthDeath": "1938 ~ 2012"
+            },
+            {
+              "name": "김헬렌량",
+              "birthDeath": "1952 ~"
+            },
+            {
+              "name": "고소희",
+              "birthDeath": "1968 ~"
+            },
+            {
+              "name": "정택화변호사1남정연욱",
+              "birthDeath": "1993 ~"
+            },
+            {
+              "name": "김중성",
+              "birthDeath": "1962 ~"
+            },
+            {
+              "name": "신수아",
+              "birthDeath": "1972 ~"
+            }
+          ]
+        },
+        {
+          "id": "FAM_DONGWON_3",
+          "name": "김재운",
+          "birthDeath": "1938 ~",
+          "role": "동영콜드프라자 회장",
+          "generation": 2,
+          "orderLabel": "2남",
+          "spouses": []
+        },
+        {
+          "id": "FAM_DONGWON_4",
+          "name": "김재국",
+          "birthDeath": "1941 ~",
+          "role": "동해하이테크 회장",
+          "generation": 2,
+          "orderLabel": "3남",
+          "spouses": []
+        },
+        {
+          "id": "FAM_DONGWON_5",
+          "name": "김재순",
+          "birthDeath": "1944 ~",
+          "role": "1녀 (2세대)",
+          "generation": 2,
+          "orderLabel": "1녀",
+          "spouses": []
+        },
+        {
+          "id": "FAM_DONGWON_6",
+          "name": "김재웅",
+          "birthDeath": "1946 ~",
+          "role": "5남 (2세대)",
+          "generation": 2,
+          "orderLabel": "5남",
+          "spouses": []
+        },
+        {
+          "id": "FAM_DONGWON_7",
+          "name": "김평순",
+          "birthDeath": "1948 ~",
+          "role": "2녀 (2세대)",
+          "generation": 2,
+          "orderLabel": "2녀",
+          "spouses": []
+        },
+        {
+          "id": "FAM_DONGWON_8",
+          "name": "김재종",
+          "birthDeath": "1952 ~",
+          "role": "7남 (2세대)",
+          "generation": 2,
+          "orderLabel": "7남",
+          "spouses": []
+        },
+        {
+          "id": "FAM_DONGWON_9",
+          "name": "김숙희",
+          "birthDeath": "1954 ~",
+          "role": "3녀 (2세대)",
+          "generation": 2,
+          "orderLabel": "3녀",
+          "spouses": [
+            {
+              "name": "박인구",
+              "birthDeath": "1946 ~"
+            }
+          ]
+        },
+        {
+          "id": "FAM_DONGWON_10",
+          "name": "김춘희",
+          "birthDeath": "1956 ~ 2010",
+          "role": "4녀 (2세대)",
+          "generation": 2,
+          "orderLabel": "4녀",
+          "spouses": []
+        }
+      ]
+    }
+  },
+  "FAM_KIA": {
+    "familyName": "범기아가(과거)",
+    "root": {
+      "id": "FAM_KIA_1",
+      "name": "김성달",
+      "birthDeath": "1844 ~ 1918",
+      "role": " (선대/창업주)",
+      "generation": 1,
+      "orderLabel": "",
+      "spouses": [
+        {
+          "name": "경주이씨",
+          "birthDeath": "? ~ 1893"
+        }
+      ],
+      "children": [
+        {
+          "id": "FAM_KIA_2",
+          "name": "김태용",
+          "birthDeath": "1880 ~ 1924",
+          "role": "1남 (2세대)",
+          "generation": 2,
+          "orderLabel": "1남",
+          "spouses": [
+            {
+              "name": "파평윤씨",
+              "birthDeath": "1885 ~ 1935"
+            }
+          ],
+          "children": [
+            {
+              "id": "FAM_KIA_3",
+              "name": "김철호기아그룹창업주",
+              "birthDeath": "1905 ~ 1973",
+              "role": "1남 (3세대)",
+              "generation": 3,
+              "orderLabel": "1남",
+              "spouses": [
+                {
+                  "name": "경주",
+                  "birthDeath": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "FAM_KIA_4",
+                  "name": "김경애",
+                  "birthDeath": "1926 ~ ?",
+                  "role": "1녀 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "1녀",
+                  "spouses": [
+                    {
+                      "name": "이종국",
+                      "birthDeath": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "FAM_KIA_5",
+                  "name": "김상문",
+                  "birthDeath": "1927 ~",
+                  "role": "前 기아그룹 명예회장",
+                  "generation": 4,
+                  "orderLabel": "1남",
+                  "spouses": [],
+                  "children": [
+                    {
+                      "id": "FAM_KIA_6",
+                      "name": "김석환",
+                      "birthDeath": "1957 ~",
+                      "role": "삼천리자전거 회장",
+                      "generation": 5,
+                      "orderLabel": "1남",
+                      "spouses": []
+                    },
+                    {
+                      "id": "FAM_KIA_7",
+                      "name": "김영환",
+                      "birthDeath": "",
+                      "role": "前 지앨엔코 (구.참좋은레져) 부사장",
+                      "generation": 5,
+                      "orderLabel": "2남",
+                      "spouses": []
+                    }
+                  ]
+                },
+                {
+                  "id": "FAM_KIA_8",
+                  "name": "김무생",
+                  "birthDeath": "1929 ~ ?",
+                  "role": "2녀 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "2녀",
+                  "spouses": [
+                    {
+                      "name": "배창수",
+                      "birthDeath": ""
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "FAM_KIA_9",
+                      "name": "배석두세코그룹회장",
+                      "birthDeath": "1954 ~",
+                      "role": "1남 (5세대)",
+                      "generation": 5,
+                      "orderLabel": "1남",
+                      "spouses": [
+                        {
+                          "name": "박혜성",
+                          "birthDeath": ""
+                        }
+                      ],
+                      "children": [
+                        {
+                          "id": "FAM_KIA_10",
+                          "name": "배기욱",
+                          "birthDeath": "",
+                          "role": "서진캠 대표이사",
+                          "generation": 6,
+                          "orderLabel": "1남",
+                          "spouses": []
+                        },
+                        {
+                          "id": "FAM_KIA_11",
+                          "name": "배여리",
+                          "birthDeath": "",
+                          "role": "패션 디자이너",
+                          "generation": 6,
+                          "orderLabel": "1녀",
+                          "spouses": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "FAM_KIA_12",
+                      "name": "배혜순",
+                      "birthDeath": "",
+                      "role": "1녀 (5세대)",
+                      "generation": 5,
+                      "orderLabel": "1녀",
+                      "spouses": [
+                        {
+                          "name": "박인철리한회장",
+                          "birthDeath": "1948 ~"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "id": "FAM_KIA_13",
+                          "name": "박지훈리한부회장",
+                          "birthDeath": "1974 ~",
+                          "role": "1남 (6세대)",
+                          "generation": 6,
+                          "orderLabel": "1남",
+                          "spouses": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "FAM_KIA_14",
+                  "name": "김상배",
+                  "birthDeath": "1930",
+                  "role": "2남 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "2남",
+                  "spouses": []
+                },
+                {
+                  "id": "FAM_KIA_15",
+                  "name": "김경숙",
+                  "birthDeath": "1933 ~ ?",
+                  "role": "3녀 (4세대)",
+                  "generation": 4,
+                  "orderLabel": "3녀",
+                  "spouses": [
+                    {
+                      "name": "최경호",
+                      "birthDeath": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "FAM_KIA_16",
+                  "name": "김상철",
+                  "birthDeath": "1936 ~ ?",
+                  "role": "前 신원산업 사장",
+                  "generation": 4,
+                  "orderLabel": "3남",
+                  "spouses": []
+                }
+              ]
+            },
+            {
+              "id": "FAM_KIA_17",
+              "name": "김순이",
+              "birthDeath": "1907 ~ ?",
+              "role": "1녀 (3세대)",
+              "generation": 3,
+              "orderLabel": "1녀",
+              "spouses": []
+            },
+            {
+              "id": "FAM_KIA_18",
+              "name": "김명호진아산업사장",
+              "birthDeath": "1912 ~ 1974",
+              "role": "2남 (3세대)",
+              "generation": 3,
+              "orderLabel": "2남",
+              "spouses": []
+            },
+            {
+              "id": "FAM_KIA_19",
+              "name": "김소순",
+              "birthDeath": "1915 ~ ?",
+              "role": "2녀 (3세대)",
+              "generation": 3,
+              "orderLabel": "2녀",
+              "spouses": []
+            },
+            {
+              "id": "FAM_KIA_20",
+              "name": "김연호",
+              "birthDeath": "1921 ~ ?",
+              "role": "前 기아산업 이사",
+              "generation": 3,
+              "orderLabel": "3남",
+              "spouses": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "FAM_SAMPYO": {
+    "familyName": "삼표가",
+    "root": {
+      "id": "SP_ROOT",
+      "name": "정인욱",
+      "birthDeath": "1912 ~ 1999",
+      "role": "삼표그룹(구 강원산업) 창업주",
+      "generation": 1,
+      "orderLabel": "창업주",
+      "children": [
+        {
+          "id": "SP_DO_WON",
+          "name": "정도원",
+          "birthDeath": "1947 ~ ",
+          "role": "삼표그룹 회장",
+          "generation": 2,
+          "orderLabel": "차남",
+          "children": [
+            {
+              "id": "SP_JI_SUN",
+              "name": "정지선",
+              "birthDeath": "1973 ~ ",
+              "role": "삼표 장녀 (현대차 정의선 부인)",
+              "generation": 3,
+              "orderLabel": "1녀",
+              "interMarriage": {
+                "partnerName": "정의선",
+                "partnerFamily": "범현대가 (현대차그룹 회장)",
+                "desc": "현대차 정의선 회장과 혼인 (현대-삼표 핵심 통혼)"
+              }
+            },
+            {
+              "id": "SP_DAE_HYUN",
+              "name": "정대현",
+              "birthDeath": "1977 ~ ",
+              "role": "삼표그룹 부회장",
+              "generation": 3,
+              "orderLabel": "1남",
+              "interMarriage": {
+                "partnerName": "구연승",
+                "partnerFamily": "범LS가 (구자명 전 LS MnM 회장 장녀)",
+                "desc": "구자명 전 회장 장녀 구연승과 혼인 (삼표-LS 통혼)"
+              }
+            },
+            {
+              "id": "SP_JI_YOON",
+              "name": "정지윤",
+              "birthDeath": "1978 ~ ",
+              "role": "삼표 차녀",
+              "generation": 3,
+              "orderLabel": "2녀",
+              "interMarriage": {
+                "partnerName": "박성빈",
+                "partnerFamily": "포스코가 (박태준 명예회장 장남)",
+                "desc": "박태준 포스코 명예회장 아들 박성빈과 혼인"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "FAM_DAESANG": {
+    "familyName": "대상가",
+    "root": {
+      "id": "DS_ROOT",
+      "name": "임대홍",
+      "birthDeath": "1920 ~ 2016",
+      "role": "대상그룹(구 미원) 창업주 회장",
+      "generation": 1,
+      "orderLabel": "창업주",
+      "children": [
+        {
+          "id": "DS_CHANG_WOOK",
+          "name": "임창욱",
+          "birthDeath": "1949 ~ ",
+          "role": "대상그룹 명예회장",
+          "generation": 2,
+          "orderLabel": "장남",
+          "spouses": [
+            {
+              "name": "박현주",
+              "birthDeath": "1953 ~ ",
+              "familyOrigin": "금호그룹 박인천 창업주 3녀 (대상홀딩스 부회장)"
+            }
+          ],
+          "interMarriage": {
+            "partnerName": "박현주",
+            "partnerFamily": "범금호가 (박인천 창업주 3녀)",
+            "desc": "금호 창업주 3녀 박현주와 혼인 (대상-금호 혼맥)"
+          },
+          "children": [
+            {
+              "id": "DS_SE_RYUNG",
+              "name": "임세령",
+              "birthDeath": "1977 ~ ",
+              "role": "대상홀딩스·대상 부회장",
+              "generation": 3,
+              "orderLabel": "1녀 (장녀)",
+              "interMarriage": {
+                "partnerName": "이재용",
+                "partnerFamily": "범삼성가 (삼성전자 회장)",
+                "desc": "1998년 이재용 삼성전자 회장과 혼인 후 2009년 합의이혼"
+              }
+            },
+            {
+              "id": "DS_SANG_MIN",
+              "name": "임상민",
+              "birthDeath": "1980 ~ ",
+              "role": "대상 전무 (전략담당)",
+              "generation": 3,
+              "orderLabel": "2녀"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "FAM_POONGSAN": {
+    "familyName": "풍산가",
+    "root": {
+      "id": "PS_ROOT",
+      "name": "류찬우",
+      "birthDeath": "1923 ~ 1999",
+      "role": "풍산그룹 창업주 회장",
+      "generation": 1,
+      "orderLabel": "창업주",
+      "children": [
+        {
+          "id": "PS_JIN",
+          "name": "류진",
+          "birthDeath": "1958 ~ ",
+          "role": "풍산그룹 회장 / 한국경제인협회(한경협) 회장",
+          "generation": 2,
+          "orderLabel": "차남",
+          "spouses": [
+            {
+              "name": "노혜경",
+              "birthDeath": "1960 ~ ",
+              "familyOrigin": "노신영 전 국무총리 장녀"
+            }
+          ],
+          "interMarriage": {
+            "partnerName": "노혜경",
+            "partnerFamily": "노신영가문 (전 국무총리 장녀)",
+            "desc": "노신영 전 국무총리 장녀 노혜경과 혼인"
+          }
+        }
+      ]
+    }
+  },
+  "FAM_YOUNGPOONG": {
+    "familyName": "영풍·고려아연가",
+    "root": {
+      "id": "YP_ROOT",
+      "name": "장병희·최기호",
+      "birthDeath": "공동창업",
+      "role": "영풍그룹 공동창업주 (황해도 동향)",
+      "generation": 1,
+      "orderLabel": "공동창업주",
+      "children": [
+        {
+          "id": "YP_JANG_HYUNG_JIN",
+          "name": "장형진",
+          "birthDeath": "1946 ~ ",
+          "role": "영풍 고문 (장병희 차남)",
+          "generation": 2,
+          "orderLabel": "장씨 일가 (영풍 계열)",
+          "children": [
+            {
+              "id": "YP_JANG_SE_JUN",
+              "name": "장세준",
+              "birthDeath": "1974 ~ ",
+              "role": "코리아써키트 대표이사 부회장",
+              "generation": 3,
+              "orderLabel": "장남"
+            }
+          ]
+        },
+        {
+          "id": "YP_CHOI_CHANG_GUL",
+          "name": "최창걸",
+          "birthDeath": "1941 ~ ",
+          "role": "고려아연 명예회장 (최기호 장남)",
+          "generation": 2,
+          "orderLabel": "최씨 일가 (고려아연 계열)",
+          "children": [
+            {
+              "id": "YP_CHOI_YUN_BEOM",
+              "name": "최윤범",
+              "birthDeath": "1975 ~ ",
+              "role": "고려아연 회장",
+              "generation": 3,
+              "orderLabel": "장남"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "FAM_TAEKWANG": {
+    "familyName": "태광가",
+    "root": {
+      "id": "TK_ROOT",
+      "name": "이임용",
+      "birthDeath": "1921 ~ 1996",
+      "role": "태광그룹 창업주 회장",
+      "generation": 1,
+      "orderLabel": "창업주",
+      "spouses": [
+        {
+          "name": "이선애",
+          "birthDeath": "1927 ~ 2015"
+        }
+      ],
+      "children": [
+        {
+          "id": "TK_SIK_HYUNG",
+          "name": "이식형",
+          "birthDeath": "1949 ~ ",
+          "role": "태광 장녀",
+          "generation": 2,
+          "orderLabel": "1녀",
+          "interMarriage": {
+            "partnerName": "허승조",
+            "partnerFamily": "범GS가 (허만정 8남 / 전 GS리테일 부회장)",
+            "desc": "허승조 전 GS리테일 부회장과 혼인 (태광-GS 통혼)"
+          }
+        },
+        {
+          "id": "TK_YOUNG_JIN",
+          "name": "이영진",
+          "birthDeath": "1950 ~ 1994",
+          "role": "이임용 창업주 차남",
+          "generation": 2,
+          "orderLabel": "2남",
+          "interMarriage": {
+            "partnerName": "장옥빈",
+            "partnerFamily": "동국제강가 (장상준 전 동국제강 회장 딸)",
+            "desc": "장상준 전 동국제강 회장 딸 장옥빈과 혼인 (태광-동국제강 통혼)"
+          }
+        },
+        {
+          "id": "TK_HO_JIN",
+          "name": "이호진",
+          "birthDeath": "1962 ~ ",
+          "role": "태광그룹 전 회장",
+          "generation": 2,
+          "orderLabel": "3남",
+          "interMarriage": {
+            "partnerName": "신유나",
+            "partnerFamily": "범롯데가 (신선호 산사스 창업주 장녀)",
+            "desc": "신선호 일본 산사스 회장 장녀 신유나와 혼인"
+          }
+        }
+      ]
+    }
+  },
+  "FAM_SEAH": {
+    "familyName": "세아가",
+    "root": {
+      "id": "SEAH_ROOT",
+      "name": "이종덕",
+      "birthDeath": "1914 ~ 2000",
+      "role": "세아그룹(부산파이프) 창업주 회장 (해암)",
+      "generation": 1,
+      "orderLabel": "창업주",
+      "children": [
+        {
+          "id": "SEAH_WOON_HYUNG",
+          "name": "이운형",
+          "birthDeath": "1946 ~ 2013",
+          "role": "세아그룹 선대회장",
+          "generation": 2,
+          "orderLabel": "장남",
+          "children": [
+            {
+              "id": "SEAH_TAE_SUNG",
+              "name": "이태성",
+              "birthDeath": "1978 ~ ",
+              "role": "세아홀딩스·세아베스틸지주 사장",
+              "generation": 3,
+              "orderLabel": "장남",
+              "interMarriage": {
+                "partnerName": "채문선",
+                "partnerFamily": "애경가 (채형석 애경 총괄부회장 장녀)",
+                "desc": "채형석 애경 부회장 장녀 채문선 탈리다쿰 대표와 혼인 (세아-애경 통혼)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "SEAH_SOON_HYUNG",
+          "name": "이순형",
+          "birthDeath": "1949 ~ ",
+          "role": "세아그룹 회장",
+          "generation": 2,
+          "orderLabel": "차남",
+          "children": [
+            {
+              "id": "SEAH_JOO_SUNG",
+              "name": "이주성",
+              "birthDeath": "1978 ~ ",
+              "role": "세아제강지주 사장",
+              "generation": 3,
+              "orderLabel": "장남"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "FAM_NONGSHIM": {
+    "familyName": "농심가",
+    "root": {
+      "id": "NS_ROOT",
+      "name": "신춘호",
+      "birthDeath": "1930 ~ 2021",
+      "role": "농심 창업주 회장 (신격호 롯데 창업주 셋째 동생)",
+      "generation": 1,
+      "orderLabel": "창업주",
+      "children": [
+        {
+          "id": "NS_DONG_WON",
+          "name": "신동원",
+          "birthDeath": "1958 ~ ",
+          "role": "농심그룹 회장",
+          "generation": 2,
+          "orderLabel": "장남"
+        },
+        {
+          "id": "NS_DONG_YOON",
+          "name": "신동윤",
+          "birthDeath": "1958 ~ ",
+          "role": "율촌화학 회장",
+          "generation": 2,
+          "orderLabel": "차남"
+        }
+      ]
+    }
+  },
+  "FAM_AEKYUNG": {
+    "familyName": "애경가",
+    "root": {
+      "id": "AK_ROOT",
+      "name": "채몽인·장영신",
+      "birthDeath": "1917 ~ 1970 (채몽인) / 1936 ~ (장영신)",
+      "role": "애경그룹 창업주 부부 / 장영신 애경 회장",
+      "generation": 1,
+      "orderLabel": "창업주",
+      "children": [
+        {
+          "id": "AK_HYUNG_SUK",
+          "name": "채형석",
+          "birthDeath": "1960 ~ ",
+          "role": "애경그룹 총괄부회장",
+          "generation": 2,
+          "orderLabel": "장남",
+          "children": [
+            {
+              "id": "AK_MOON_SUN",
+              "name": "채문선",
+              "birthDeath": "1986 ~ ",
+              "role": "탈리다쿰 대표",
+              "generation": 3,
+              "orderLabel": "1녀",
+              "interMarriage": {
+                "partnerName": "이태성",
+                "partnerFamily": "세아가 (이운형 세아그룹 선대회장 장남)",
+                "desc": "이태성 세아홀딩스 사장과 혼인 (애경-세아 통혼)"
+              }
+            },
+            {
+              "id": "AK_SOO_YEON",
+              "name": "채수연",
+              "birthDeath": "1990 ~ ",
+              "role": "애경 차녀",
+              "generation": 3,
+              "orderLabel": "2녀",
+              "interMarriage": {
+                "partnerName": "선동욱",
+                "partnerFamily": "범현대가 (정몽구 현대차 명예회장 외손자)",
+                "desc": "정몽구 외손자 선동욱과 혼인 (애경-현대차 통혼)"
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 }

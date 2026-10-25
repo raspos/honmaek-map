@@ -281,12 +281,11 @@ export const GenealogyTree: React.FC<GenealogyTreeProps> = ({
     }
     if (familyPersons.length === 0) return null;
 
-    const g1List = familyPersons.filter((p) => p.gen === 1);
-    const g2List = familyPersons.filter((p) => p.gen === 2);
-    const g3List = familyPersons.filter((p) => p.gen === 3);
-    const g4List = familyPersons.filter((p) => p.gen === 4);
-
-    const rootPerson = g1List.find((p) => p.is_founder) || g1List[0] || familyPersons[0];
+    // Determine root person
+    const founder = familyPersons.find((p) => p.is_founder);
+    const minGen = Math.min(...familyPersons.map((p) => p.gen || 2));
+    const earliestPersons = familyPersons.filter((p) => (p.gen || 2) === minGen);
+    const rootPerson = founder || earliestPersons[0] || familyPersons[0];
 
     const buildNode = (p: Person, gen: number, order?: string): TreeNode => {
       const im = relations.find(
@@ -310,6 +309,11 @@ export const GenealogyTree: React.FC<GenealogyTreeProps> = ({
           )
         : null;
 
+      // Clean footnote from desc
+      const cleanDesc = im?.desc
+        ? im.desc.replace(/\[[^\]]*\]/g, "").replace(/#/g, "").trim()
+        : `${currentFamily.name} - ${otherFam?.name || "타 대기업"} 간 정재계 혼맥`;
+
       return {
         id: p.id,
         name: p.name,
@@ -323,31 +327,79 @@ export const GenealogyTree: React.FC<GenealogyTreeProps> = ({
             ? {
                 partnerName: otherPerson?.name || "배우자",
                 partnerFamily: otherFam.name,
-                desc: im.desc || `${currentFamily.name} - ${otherFam.name} 간 정재계 혼맥`,
+                desc: cleanDesc,
               }
             : undefined,
         children: [],
       };
     };
 
-    const root = buildNode(rootPerson, 1, "선대/창업주");
-    // Other G1 persons if any
-    const otherG1 = g1List.filter((p) => p.id !== rootPerson.id);
+    const root = buildNode(rootPerson, rootPerson.gen || 1, "선대/창업주");
 
-    root.children = [
-      ...otherG1.map((p, idx) => buildNode(p, 1, `동업/형제 ${idx + 1}`)),
-      ...g2List.map((p, idx) => {
-        const g2Node = buildNode(p, 2, `${idx + 1}남/녀`);
-        g2Node.children = g3List.map((g3p, g3idx) => {
-          const g3Node = buildNode(g3p, 3, `${g3idx + 1}남/녀`);
-          g3Node.children = g4List.map((g4p, g4idx) =>
-            buildNode(g4p, 4, `${g4idx + 1}남/녀`)
+    // Remaining persons excluding rootPerson
+    const remaining = familyPersons.filter(
+      (p) => p.id !== rootPerson.id && p.name !== rootPerson.name
+    );
+
+    // Check parent-child relations from relations.json
+    const bloodRelations = relations.filter((r) => r.type === "BLOOD");
+    const parentToChildrenMap = new Map<string, Person[]>();
+    remaining.forEach((p) => {
+      const parentRel = bloodRelations.find((r) => r.to_id === p.id);
+      if (parentRel) {
+        const list = parentToChildrenMap.get(parentRel.from_id) || [];
+        list.push(p);
+        parentToChildrenMap.set(parentRel.from_id, list);
+      }
+    });
+
+    // Recursive tree constructor preventing duplicate nodes
+    const visitedIds = new Set<string>([rootPerson.id]);
+
+    const attachChildrenRecursively = (parentNode: TreeNode, parentPersonId: string) => {
+      const directChildren = parentToChildrenMap.get(parentPersonId) || [];
+      directChildren.forEach((childPerson, idx) => {
+        if (!visitedIds.has(childPerson.id) && childPerson.name !== parentNode.name) {
+          visitedIds.add(childPerson.id);
+          const childNode = buildNode(
+            childPerson,
+            childPerson.gen || parentNode.generation + 1,
+            `${idx + 1}남/녀`
           );
-          return g3Node;
-        });
-        return g2Node;
-      }),
-    ];
+          attachChildrenRecursively(childNode, childPerson.id);
+          parentNode.children = parentNode.children || [];
+          parentNode.children.push(childNode);
+        }
+      });
+    };
+
+    attachChildrenRecursively(root, rootPerson.id);
+
+    // Any remaining persons not attached via explicit blood relation
+    const unattached = remaining.filter((p) => !visitedIds.has(p.id));
+    if (unattached.length > 0) {
+      const g2s = unattached.filter(
+        (p) => p.gen === 2 || p.gen <= (rootPerson.gen || 1) + 1
+      );
+      const higherGens = unattached.filter(
+        (p) => !g2s.some((g) => g.id === p.id)
+      );
+
+      root.children = root.children || [];
+      g2s.forEach((p, idx) => {
+        visitedIds.add(p.id);
+        const node = buildNode(p, p.gen || 2, `${idx + 1}남/녀`);
+        root.children!.push(node);
+      });
+
+      higherGens.forEach((p, idx) => {
+        if (!visitedIds.has(p.id)) {
+          visitedIds.add(p.id);
+          const node = buildNode(p, p.gen || 3, `${p.gen || 3}세대 직계 ${idx + 1}`);
+          root.children!.push(node);
+        }
+      });
+    }
 
     return root;
   }, [

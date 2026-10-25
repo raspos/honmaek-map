@@ -1948,28 +1948,6 @@
     ]
   },
   {
-    "id": "FAM_DONGKUK_STEEL",
-    "name": "동국제강·한국철강가",
-    "founder": "장경호",
-    "origin_region": "부산광역시",
-    "founding_year": 1954,
-    "verification_status": "VERIFIED",
-    "history_summary": "장경호 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(동국제강, 한국철강, KISCO홀딩스)을 형성함.",
-    "related_groups": [
-      "동국제강",
-      "한국철강",
-      "KISCO홀딩스"
-    ],
-    "major_spinoffs": [],
-    "key_figures": [
-      "장경호"
-    ],
-    "source_ids": [
-      "SRC_NAMU_MASTER",
-      "SRC_DART"
-    ]
-  },
-  {
     "id": "FAM_CHABIO",
     "name": "차병원그룹가",
     "founder": "차광렬",
