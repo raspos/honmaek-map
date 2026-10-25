@@ -2105,5 +2105,31 @@
     "source_ids": [
       "SRC_NAMU_001"
     ]
+  },
+  {
+    "id": "FAM_PRESIDENT_LEE",
+    "name": "이명박대통령가문",
+    "founder": "이명박",
+    "origin_region": "경북 포항시 / 서울특별시",
+    "founding_year": 2008,
+    "verification_status": "VERIFIED",
+    "history_summary": "제17대 대통령 이명박 가문으로 3녀 이수연이 조양래 한국앤컴퍼니 명예회장 차남 조현범 회장과 2001년 혼인하여 한국타이어와 직접 통혼을 형성함.",
+    "related_groups": [
+      "한국앤컴퍼니",
+      "한국타이어",
+      "다스"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이명박",
+      "이상은",
+      "이상득",
+      "이시형",
+      "이수연"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
   }
 ]

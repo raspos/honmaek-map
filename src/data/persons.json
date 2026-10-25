@@ -32484,5 +32484,44 @@
     "active": true,
     "is_founder": false,
     "main_title": "3남"
+  },
+  {
+    "id": "PER_LEE_MYUNG_BAK",
+    "name": "이명박",
+    "family_id": "FAM_PRESIDENT_LEE",
+    "birth": 1941,
+    "death": null,
+    "gen": 1,
+    "role": "제17대 대통령",
+    "company": "대한민국 정부",
+    "active": true,
+    "is_founder": true,
+    "main_title": "제17대 대한민국 대통령"
+  },
+  {
+    "id": "PER_KIM_YOON_OK",
+    "name": "김윤옥",
+    "family_id": "FAM_PRESIDENT_LEE",
+    "birth": 1947,
+    "death": null,
+    "gen": 1,
+    "role": "대통령 영부인",
+    "company": "",
+    "active": true,
+    "is_founder": false,
+    "main_title": "이명박 대통령 부인"
+  },
+  {
+    "id": "PER_LEE_SOO_YEON",
+    "name": "이수연",
+    "family_id": "FAM_PRESIDENT_LEE",
+    "birth": 1975,
+    "death": null,
+    "gen": 2,
+    "role": "이명박 3녀 (조현범 부인)",
+    "company": "한국앤컴퍼니 일가",
+    "active": true,
+    "is_founder": false,
+    "main_title": "이명박 대통령 3녀 · 조현범 한국앤컴퍼니 회장 부인"
   }
 ]

@@ -1840,6 +1840,11 @@
               "familyOrigin": "송인상 전 재무장관 딸"
             }
           ],
+          "interMarriage": {
+            "partnerName": "송광자",
+            "partnerFamily": "송인상가문 (전 재무장관 / 재계 혼맥 허브)",
+            "desc": "송인상 전 재무부 장관 딸 송광자와 혼인 (효성-송인상-태광-신선호 연결점)"
+          },
           "children": [
             {
               "id": "HS_HYUN_JOON",
@@ -1877,7 +1882,18 @@
               "role": "HS효성 부회장 (2024년 신설 지주사 독립)",
               "company": "HS효성",
               "generation": 3,
-              "orderLabel": "3남"
+              "orderLabel": "3남",
+              "spouses": [
+                {
+                  "name": "김유영",
+                  "familyOrigin": "김여송 전 광주일보 사장 장녀 (비올리스트)"
+                }
+              ],
+              "interMarriage": {
+                "partnerName": "김유영",
+                "partnerFamily": "광주일보가 (언론사 오너 일가)",
+                "desc": "김여송 전 광주일보 사장 장녀 김유영과 혼인"
+              }
             }
           ]
         },
@@ -1902,16 +1918,47 @@
               "id": "HS_HYUN_BUM",
               "name": "조현범",
               "birthDeath": "1972 ~ ",
-              "role": "한국앤컴퍼니그룹 회장",
+              "role": "한국앤컴퍼니그룹 회장 (한국타이어 총수)",
               "company": "한국타이어",
               "generation": 3,
               "orderLabel": "2남",
               "spouses": [
                 {
                   "name": "이수연",
-                  "familyOrigin": "이명박 전 대통령 3녀"
+                  "birthDeath": "1975 ~ ",
+                  "familyOrigin": "이명박 제17대 대통령 3녀"
                 }
-              ]
+              ],
+              "interMarriage": {
+                "partnerName": "이수연",
+                "partnerFamily": "이명박대통령가문 (제17대 대통령 3녀)",
+                "desc": "이명박 제17대 대통령 3녀 이수연과 2001년 혼인 (한국타이어-이명박 대통령가 직결 혼맥)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "HS_WOOK_RAE",
+          "name": "조욱래",
+          "birthDeath": "1949 ~ ",
+          "role": "DSDL 회장 (동성개발) / 효성 창업주 3남",
+          "company": "DSDL",
+          "generation": 2,
+          "orderLabel": "3남 (삼남)",
+          "spouses": [
+            {
+              "name": "김은주",
+              "birthDeath": "1954 ~ "
+            }
+          ],
+          "children": [
+            {
+              "id": "HS_HYUN_JIN",
+              "name": "조현진",
+              "birthDeath": "1984 ~ ",
+              "role": "DSDL 전무",
+              "generation": 3,
+              "orderLabel": "장남"
             }
           ]
         }
