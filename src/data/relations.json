@@ -1325,5 +1325,22 @@
     "source_ids": [
       "SRC_NAMU_001"
     ]
+  },
+  {
+    "id": "M_BOKWANG_AMORE",
+    "from_id": "PER_FAM_JOONGANG_HONG_2702",
+    "to_id": "PER_FAM_AMORE_2133",
+    "type": "MARRIAGE",
+    "label": "혼인 (보광 홍정환 - 아모레퍼시픽 서민정)",
+    "start_year": 2020,
+    "end_year": 2021,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_JOONGANG_HONG",
+    "fam_to": "FAM_AMORE",
+    "desc": "홍석준 보광창업투자 회장 장남 홍정환과 서경배 아모레퍼시픽 회장 장녀 서민정의 2020년 혼인 및 2021년 합의 이혼 (보광·중앙일보 - 아모레퍼시픽 통혼)",
+    "source_ids": [
+      "SRC_NAMU_001"
+    ]
   }
 ]

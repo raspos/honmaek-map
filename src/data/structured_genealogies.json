@@ -2348,10 +2348,16 @@
                   "id": "FAM_HANJIN_17",
                   "name": "조승연",
                   "birthDeath": "1974 ~",
-                  "role": "前 칼호텔네트워크 사장/ 前夫 박종주 (1974 ~ ) 성형외과 의사",
+                  "role": "前 칼호텔네트워크 사장",
                   "generation": 4,
                   "orderLabel": "1녀",
-                  "spouses": [],
+                  "spouses": [
+                    {
+                      "name": "박종주",
+                      "birthDeath": "1974 ~ ",
+                      "familyOrigin": "성형외과 의사 (전배우자)"
+                    }
+                  ],
                   "children": [
                     {
                       "id": "FAM_HANJIN_18",
@@ -4774,10 +4780,16 @@
                   "id": "FAM_DB_211",
                   "name": "김주원",
                   "birthDeath": "1973 ~",
-                  "role": "DB그룹 부회장 / 前夫 김주한",
+                  "role": "DB그룹 부회장",
                   "generation": 4,
                   "orderLabel": "1녀",
-                  "spouses": []
+                  "spouses": [
+                    {
+                      "name": "김주한",
+                      "birthDeath": "",
+                      "familyOrigin": "(전배우자)"
+                    }
+                  ]
                 },
                 {
                   "id": "FAM_DB_212",
@@ -4811,10 +4823,16 @@
               "id": "FAM_DB_214",
               "name": "김명희",
               "birthDeath": "1947 ~",
-              "role": "한국여성의전화 창립멤버 / 前夫 김평우 (1945 ~ ) 변호사, 前 대한변호사협회 사무총장",
+              "role": "한국여성의전화 창립멤버",
               "generation": 3,
               "orderLabel": "2녀",
-              "spouses": [],
+              "spouses": [
+                {
+                  "name": "김평우",
+                  "birthDeath": "1945 ~ ",
+                  "familyOrigin": "변호사, 前 대한변호사협회 사무총장 (전배우자)"
+                }
+              ],
               "children": [
                 {
                   "id": "FAM_DB_215",
@@ -6790,10 +6808,21 @@
                   "id": "FAM_AMORE_364",
                   "name": "서민정",
                   "birthDeath": "1991 ~",
-                  "role": "/ 前夫 홍정환 (1985 ~ ) 폴스타파트너스 대표",
+                  "role": "아모레퍼시픽 럭셔리브랜드디비전AP팀 담당",
                   "generation": 4,
                   "orderLabel": "1녀",
-                  "spouses": []
+                  "spouses": [
+                    {
+                      "name": "홍정환",
+                      "birthDeath": "1985 ~",
+                      "familyOrigin": "보광창업투자 투자심사총괄 (전남편)"
+                    }
+                  ],
+                  "interMarriage": {
+                    "partnerName": "홍정환",
+                    "partnerFamily": "중앙일보·보광 홍씨일가 (홍석준 회장 장남)",
+                    "desc": "홍석준 보광창업투자 회장 장남 홍정환과 2020년 혼인 후 2021년 합의 이혼 (보광·중앙일보 - 아모레퍼시픽 통혼)"
+                  }
                 },
                 {
                   "id": "FAM_AMORE_365",
@@ -6917,10 +6946,16 @@
                       "id": "FAM_JOONGANG_HONG_373",
                       "name": "이부진",
                       "birthDeath": "1970 ~",
-                      "role": "호텔신라 대표이사 사장 / 前夫 임우재 (1968 ~ ) 前 삼성전기 고문",
+                      "role": "호텔신라 대표이사 사장",
                       "generation": 5,
                       "orderLabel": "1녀",
-                      "spouses": [],
+                      "spouses": [
+                        {
+                          "name": "임우재",
+                          "birthDeath": "1968 ~ ",
+                          "familyOrigin": "前 삼성전기 고문 (전배우자)"
+                        }
+                      ],
                       "children": [
                         {
                           "id": "FAM_JOONGANG_HONG_374",
@@ -7149,7 +7184,12 @@
                           "birthDeath": "1991 ~",
                           "familyOrigin": "아모레퍼시픽 럭셔리브랜드디비전AP팀 담당"
                         }
-                      ]
+                      ],
+                      "interMarriage": {
+                        "partnerName": "서민정",
+                        "partnerFamily": "아모레퍼시픽가 (서경배 회장 장녀)",
+                        "desc": "서경배 아모레퍼시픽 회장 장녀 서민정과 2020년 혼인 후 2021년 합의 이혼 (보광·중앙일보 - 아모레퍼시픽 통혼)"
+                      }
                     }
                   ]
                 },
@@ -9035,10 +9075,16 @@
                               "id": "FAM_DONGA_ILBO_543",
                               "name": "김주원",
                               "birthDeath": "1974 ~",
-                              "role": "/ 前夫 김주한",
+                              "role": "DONGA_ILBO가 일원",
                               "generation": 7,
                               "orderLabel": "1녀",
-                              "spouses": []
+                              "spouses": [
+                                {
+                                  "name": "김주한",
+                                  "birthDeath": "",
+                                  "familyOrigin": "(전배우자)"
+                                }
+                              ]
                             },
                             {
                               "id": "FAM_DONGA_ILBO_544",
