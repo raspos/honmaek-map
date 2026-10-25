@@ -1,0 +1,509 @@
+[
+  {
+    "id": "GRP_SAMSUNG",
+    "name": "삼성",
+    "family_id": "FAM_SAMSUNG",
+    "founding_year": 1938,
+    "ftc_rank": 1,
+    "assets_trillion": 450.0,
+    "leader": "이재용",
+    "industry": "전자, 반도체, 금융, 바이오, 건설",
+    "key_companies": [
+      "삼성전자", "삼성물산", "삼성생명", "삼성SDI", "삼성SDS", "삼성바이오로직스", "호텔신라", "삼성중공업", "삼성카드", "삼성증권", "삼성화재", "삼성전기", "에스원"
+    ]
+  },
+  {
+    "id": "GRP_HYUNDAI_MOTOR",
+    "name": "현대자동차",
+    "family_id": "FAM_HYUNDAI",
+    "founding_year": 1967,
+    "ftc_rank": 3,
+    "assets_trillion": 280.0,
+    "leader": "정의선",
+    "industry": "자동차, 모빌리티, 철강, 건설, 금융",
+    "key_companies": [
+      "현대자동차", "기아", "현대모비스", "현대글로비스", "현대제철", "현대건설", "현대카드", "현대캐피탈", "현대트랜시스", "현대로템", "현대오토에버"
+    ]
+  },
+  {
+    "id": "GRP_SK",
+    "name": "SK",
+    "family_id": "FAM_SK",
+    "founding_year": 1953,
+    "ftc_rank": 2,
+    "assets_trillion": 330.0,
+    "leader": "최태원",
+    "industry": "에너지, 석유화학, 반도체, 통신, 바이오",
+    "key_companies": [
+      "SK이노베이션", "SK하이닉스", "SK텔레콤", "SK스퀘어", "SK E&S", "SK실트론", "SKC", "SK케미칼", "SK가스", "SK바이오팜", "SK네트웍스"
+    ]
+  },
+  {
+    "id": "GRP_LG",
+    "name": "LG",
+    "family_id": "FAM_LG",
+    "founding_year": 1947,
+    "ftc_rank": 4,
+    "assets_trillion": 170.0,
+    "leader": "구광모",
+    "industry": "전자, 배터리, 화학, 통신, IT서비스",
+    "key_companies": [
+      "LG전자", "LG화학", "LG에너지솔루션", "LG디스플레이", "LG유플러스", "LG생활건강", "LG CNS", "LG이노텍"
+    ]
+  },
+  {
+    "id": "GRP_LOTTE",
+    "name": "롯데",
+    "family_id": "FAM_LOTTE",
+    "founding_year": 1967,
+    "ftc_rank": 6,
+    "assets_trillion": 130.0,
+    "leader": "신동빈",
+    "industry": "유통, 식품, 석유화학, 호텔, 건설",
+    "key_companies": [
+      "롯데쇼핑", "롯데케미칼", "롯데웰푸드", "롯데칠성음료", "호텔롯데", "롯데건설", "롯데렌탈", "롯데정밀화학", "롯데물산"
+    ]
+  },
+  {
+    "id": "GRP_HANWHA",
+    "name": "한화",
+    "family_id": "FAM_HANWHA",
+    "founding_year": 1952,
+    "ftc_rank": 7,
+    "assets_trillion": 85.0,
+    "leader": "김승연",
+    "industry": "방산, 우주항공, 태양광/화학, 조선, 금융, 식음료/레저",
+    "key_companies": [
+      "한화에어로스페이스", "한화솔루션", "한화오션", "한화생명", "한화손해보험", "한화호텔앤드리조트", "한화시스템", "한화갤러리아", "아워홈"
+    ]
+  },
+  {
+    "id": "GRP_GS",
+    "name": "GS",
+    "family_id": "FAM_GS",
+    "founding_year": 2004,
+    "ftc_rank": 8,
+    "assets_trillion": 80.0,
+    "leader": "허태수",
+    "industry": "정유, 에너지, 유통/편의점, 건설",
+    "key_companies": [
+      "GS칼텍스", "GS리테일", "GS건설", "GS에너지", "GS EPS", "GS글로벌", "GS파워"
+    ]
+  },
+  {
+    "id": "GRP_HD_HYUNDAI",
+    "name": "HD현대",
+    "family_id": "FAM_HYUNDAI",
+    "founding_year": 1972,
+    "ftc_rank": 9,
+    "assets_trillion": 75.0,
+    "leader": "정기선",
+    "industry": "조선, 정유, 건설기계, 전력기기, 로봇",
+    "key_companies": [
+      "HD현대중공업", "HD한국조선해양", "HD현대일렉트릭", "HD현대오일뱅크", "HD현대사이트솔루션", "HD현대건설기계", "HD현대인프라코어", "HD현대로보틱스"
+    ]
+  },
+  {
+    "id": "GRP_SHINSEGAE",
+    "name": "신세계",
+    "family_id": "FAM_SHINSEGAE",
+    "founding_year": 1997,
+    "ftc_rank": 11,
+    "assets_trillion": 60.0,
+    "leader": "이명희·정용진",
+    "industry": "대형마트, 백화점, 면세점, 패션/뷰티, 이커머스",
+    "key_companies": [
+      "이마트", "신세계백화점", "신세계인터내셔날", "신세계DF", "SSG닷컴", "스타벅스코리아(SCK컴퍼니)", "신세계건설", "신세계푸드", "신세계센트럴시티"
+    ]
+  },
+  {
+    "id": "GRP_CJ",
+    "name": "CJ",
+    "family_id": "FAM_CJ",
+    "founding_year": 1993,
+    "ftc_rank": 13,
+    "assets_trillion": 40.0,
+    "leader": "이재현",
+    "industry": "식품, 바이오, 엔터테인먼트, 미디어, 뷰티/유통, 물류",
+    "key_companies": [
+      "CJ제일제당", "CJ ENM", "CJ대한통운", "CJ올리브영", "CJ CGV", "CJ프레시웨이", "CJ푸드빌", "CJ바이오사이언스"
+    ]
+  },
+  {
+    "id": "GRP_LS",
+    "name": "LS",
+    "family_id": "FAM_LS",
+    "founding_year": 2003,
+    "ftc_rank": 16,
+    "assets_trillion": 30.0,
+    "leader": "구자은",
+    "industry": "전선, 전력기기, 비철금속, 친환경에너지, 가스",
+    "key_companies": [
+      "LS전선", "LS일렉트릭", "LS MnM", "LS엠트론", "E1", "예스코", "LS에코에너지"
+    ]
+  },
+  {
+    "id": "GRP_DOOSAN",
+    "name": "두산",
+    "family_id": "FAM_DOOSAN",
+    "founding_year": 1896,
+    "ftc_rank": 17,
+    "assets_trillion": 28.0,
+    "leader": "박정원",
+    "industry": "원자력, 친환경에너지, 소형중장비, 수소, 로봇",
+    "key_companies": [
+      "두산에너빌리티", "두산밥캣", "두산퓨얼셀", "두산로보틱스", "두산테스나", "두산건설"
+    ]
+  },
+  {
+    "id": "GRP_HANJIN",
+    "name": "한진",
+    "family_id": "FAM_HANJIN",
+    "founding_year": 1945,
+    "ftc_rank": 14,
+    "assets_trillion": 38.0,
+    "leader": "조원태",
+    "industry": "항공, 물류, 해운, 택배",
+    "key_companies": [
+      "대한항공", "한진", "진에어", "한국공항", "한진칼", "정석기업"
+    ]
+  },
+  {
+    "id": "GRP_DL",
+    "name": "DL",
+    "family_id": "FAM_DL",
+    "founding_year": 1939,
+    "ftc_rank": 19,
+    "assets_trillion": 25.0,
+    "leader": "이해욱",
+    "industry": "건설(e편한세상, 아크로), 석유화학",
+    "key_companies": [
+      "DL이앤씨", "DL케미칼", "DL모터스", "대림"
+    ]
+  },
+  {
+    "id": "GRP_HYOSUNG",
+    "name": "효성",
+    "family_id": "FAM_HYOSUNG",
+    "founding_year": 1966,
+    "ftc_rank": 30,
+    "assets_trillion": 16.0,
+    "leader": "조현준",
+    "industry": "스판덱스, 타이어코드, 중공업/변압기, 석유화학",
+    "key_companies": [
+      "효성티앤씨", "효성중공업", "효성첨단소재", "효성화학", "효성ITX"
+    ]
+  },
+  {
+    "id": "GRP_HS_HYOSUNG",
+    "name": "HS효성",
+    "family_id": "FAM_HYOSUNG",
+    "founding_year": 2024,
+    "ftc_rank": 45,
+    "assets_trillion": 6.0,
+    "leader": "조현상",
+    "industry": "첨단소재, 물류, 정보통신",
+    "key_companies": [
+      "HS효성첨단소재", "HS효성인포메이션", "HS효성더클래스"
+    ]
+  },
+  {
+    "id": "GRP_KUMHO",
+    "name": "금호석유화학",
+    "family_id": "FAM_KUMHO",
+    "founding_year": 1970,
+    "ftc_rank": 33,
+    "assets_trillion": 15.0,
+    "leader": "박찬구",
+    "industry": "합성고무, 석유화학, 정밀화학",
+    "key_companies": [
+      "금호석유화학", "금호피앤비화학", "금호미쓰이화학", "금호폴리켐"
+    ]
+  },
+  {
+    "id": "GRP_KOLON",
+    "name": "코오롱",
+    "family_id": "FAM_KOLON",
+    "founding_year": 1954,
+    "ftc_rank": 40,
+    "assets_trillion": 11.0,
+    "leader": "이웅열·이규호",
+    "industry": "섬유/화학, 수소소재, 바이오, 건설",
+    "key_companies": [
+      "코오롱인더스트리", "코오롱글로벌", "코오롱티슈진", "코오롱생명과학", "코오롱플라스틱"
+    ]
+  },
+  {
+    "id": "GRP_DB",
+    "name": "DB",
+    "family_id": "FAM_DB",
+    "founding_year": 1969,
+    "ftc_rank": 36,
+    "assets_trillion": 12.0,
+    "leader": "김남호",
+    "industry": "손해보험, 파운드리반도체, 금융투자",
+    "key_companies": [
+      "DB손해보험", "DB하이텍", "DB금융투자", "DB생명보험", "DB캐피탈"
+    ]
+  },
+  {
+    "id": "GRP_OCI",
+    "name": "OCI",
+    "family_id": "FAM_OCI",
+    "founding_year": 1959,
+    "ftc_rank": 38,
+    "assets_trillion": 12.5,
+    "leader": "이우현",
+    "industry": "태양광 폴리실리콘, 기초화학, 카본케미칼, 제약",
+    "key_companies": [
+      "OCI홀딩스", "OCI", "유니드", "SGC에너지", "부광약품"
+    ]
+  },
+  {
+    "id": "GRP_AMORE",
+    "name": "아모레퍼시픽",
+    "family_id": "FAM_AMORE",
+    "founding_year": 1945,
+    "ftc_rank": 51,
+    "assets_trillion": 8.5,
+    "leader": "서경배",
+    "industry": "화장품, 뷰티케어, 건강기능식품",
+    "key_companies": [
+      "아모레퍼시픽", "아모레G", "이니스프리", "에뛰드", "오설록", "코스비전"
+    ]
+  },
+  {
+    "id": "GRP_SAMPYO",
+    "name": "삼표",
+    "family_id": "FAM_SAMPYO",
+    "founding_year": 1952,
+    "ftc_rank": 52,
+    "assets_trillion": 4.0,
+    "leader": "정도원·정대현",
+    "industry": "시멘트, 레미콘, 골재, 철도궤도",
+    "key_companies": [
+      "삼표시멘트", "삼표산업", "삼표레일웨이", "삼표피앤씨"
+    ]
+  },
+  {
+    "id": "GRP_DAESANG",
+    "name": "대상",
+    "family_id": "FAM_DAESANG",
+    "founding_year": 1956,
+    "ftc_rank": 48,
+    "assets_trillion": 5.0,
+    "leader": "임창욱·임세령",
+    "industry": "종합식품(청정원, 종가집), 바이오/발효소재",
+    "key_companies": [
+      "대상", "대상홀딩스", "대상웰라이프", "초록마을"
+    ]
+  },
+  {
+    "id": "GRP_NONGSHIM",
+    "name": "농심",
+    "family_id": "FAM_NONGSHIM",
+    "founding_year": 1965,
+    "ftc_rank": 49,
+    "assets_trillion": 5.2,
+    "leader": "신동원",
+    "industry": "라면(신라면), 스낵, 음료, 포장재",
+    "key_companies": [
+      "농심", "농심홀딩스", "율촌화학", "메가마트"
+    ]
+  },
+  {
+    "id": "GRP_YOUNGPOONG",
+    "name": "영풍·고려아연",
+    "family_id": "FAM_YOUNGPOONG",
+    "founding_year": 1949,
+    "ftc_rank": 28,
+    "assets_trillion": 17.0,
+    "leader": "장형진·최윤범",
+    "industry": "아연/연 제련, 비철금속, 2차전지소재, PCB",
+    "key_companies": [
+      "고려아연", "영풍", "코리아써키트", "인터플렉스", "영풍정밀"
+    ]
+  },
+  {
+    "id": "GRP_MERITZ",
+    "name": "메리츠금융",
+    "family_id": "FAM_HANJIN",
+    "founding_year": 2005,
+    "ftc_rank": 25,
+    "assets_trillion": 20.0,
+    "leader": "조정호",
+    "industry": "종합금융, 화재보험, 투자증권",
+    "key_companies": [
+      "메리츠금융지주", "메리츠화재", "메리츠증권", "메리츠캐피탈"
+    ]
+  },
+  {
+    "id": "GRP_KCC",
+    "name": "KCC",
+    "family_id": "FAM_HYUNDAI",
+    "founding_year": 1958,
+    "ftc_rank": 32,
+    "assets_trillion": 15.0,
+    "leader": "정몽진",
+    "industry": "도료, 건자재, 유리, 실리콘",
+    "key_companies": [
+      "KCC", "KCC글라스", "KCC실리콘", "모멘티브"
+    ]
+  },
+  {
+    "id": "GRP_HDC",
+    "name": "HDC",
+    "family_id": "FAM_HYUNDAI",
+    "founding_year": 1999,
+    "ftc_rank": 29,
+    "assets_trillion": 16.5,
+    "leader": "정몽규",
+    "industry": "건설(아이파크), 유통, 복합개발, 유화",
+    "key_companies": [
+      "HDC현대산업개발", "HDC아이파크몰", "HDC현대EP", "HDC영창"
+    ]
+  },
+  {
+    "id": "GRP_HYUNDAI_DEPT",
+    "name": "현대백화점",
+    "family_id": "FAM_HYUNDAI",
+    "founding_year": 1999,
+    "ftc_rank": 22,
+    "assets_trillion": 22.0,
+    "leader": "정지선",
+    "industry": "백화점, 아울렛, 면세점, 가구/건자재(지누스, 현대L&C)",
+    "key_companies": [
+      "현대백화점", "현대홈쇼핑", "현대그린푸드", "한섬", "지누스", "현대리바트"
+    ]
+  },
+  {
+    "id": "GRP_HL",
+    "name": "HL(한라)",
+    "family_id": "FAM_HYUNDAI",
+    "founding_year": 1962,
+    "ftc_rank": 43,
+    "assets_trillion": 9.5,
+    "leader": "정몽원",
+    "industry": "자동차부품(자율주행, 제동), 건설",
+    "key_companies": [
+      "HL만도", "HL디앤아이한라", "HL클레무브"
+    ]
+  },
+  {
+    "id": "GRP_HARIM",
+    "name": "하림",
+    "family_id": "FAM_HARIM",
+    "founding_year": 1978,
+    "ftc_rank": 27,
+    "assets_trillion": 17.5,
+    "leader": "김홍국",
+    "industry": "육가공, 축산/사료, 해운(팬오션), 유통",
+    "key_companies": [
+      "하림", "팬오션", "하림지주", "선진", "팜스코", "엔에스쇼핑"
+    ]
+  },
+  {
+    "id": "GRP_TAEKWANG",
+    "name": "태광",
+    "family_id": "FAM_TAEKWANG",
+    "founding_year": 1950,
+    "ftc_rank": 47,
+    "assets_trillion": 9.0,
+    "leader": "이호진",
+    "industry": "섬유/석유화학, 금융(흥국생명), 미디어(티브로드)",
+    "key_companies": [
+      "태광산업", "대한화섬", "흥국생명", "흥국화재", "흥국증권", "티브로드"
+    ]
+  },
+  {
+    "id": "GRP_SEAH",
+    "name": "세아",
+    "family_id": "FAM_SEAH",
+    "founding_year": 1960,
+    "ftc_rank": 42,
+    "assets_trillion": 10.5,
+    "leader": "이순형·이태성·이주성",
+    "industry": "강관, 특수강, 와이어",
+    "key_companies": [
+      "세아제강", "세아베스틸", "세아창원특수강", "세아제강지주", "세아특수강"
+    ]
+  },
+  {
+    "id": "GRP_AEKYUNG",
+    "name": "애경",
+    "family_id": "FAM_AEKYUNG",
+    "founding_year": 1954,
+    "ftc_rank": 53,
+    "assets_trillion": 5.5,
+    "leader": "채형석",
+    "industry": "생활용품, 항공(제주항공), 화학, 유통",
+    "key_companies": [
+      "애경산업", "제주항공", "애경케미칼", "AK플라자", "AK홀딩스"
+    ]
+  },
+  {
+    "id": "GRP_BINGGRAE",
+    "name": "빙그레",
+    "family_id": "FAM_HANWHA",
+    "founding_year": 1967,
+    "ftc_rank": 60,
+    "assets_trillion": 1.5,
+    "leader": "김호연",
+    "industry": "유가공, 빙과, 스낵, 건강기능식품",
+    "key_companies": [
+      "빙그레", "해태아이스크림"
+    ]
+  },
+  {
+    "id": "GRP_SPC",
+    "name": "SPC",
+    "family_id": "FAM_SPC",
+    "founding_year": 1945,
+    "ftc_rank": 58,
+    "assets_trillion": 4.8,
+    "leader": "허영인",
+    "industry": "제과/제빵, F&B 프랜차이즈",
+    "key_companies": [
+      "SPC삼립", "파리크라상", "비알코리아", "샤니"
+    ]
+  },
+  {
+    "id": "GRP_DONGKUK_STEEL",
+    "name": "동국제강",
+    "family_id": "FAM_DONGKUK",
+    "founding_year": 1954,
+    "ftc_rank": 35,
+    "assets_trillion": 6.8,
+    "leader": "장세주·장세욱",
+    "industry": "철강, 후판, 컬러강판, 물류",
+    "key_companies": [
+      "동국제강", "동국씨엠", "인터지스", "동국홀딩스"
+    ]
+  },
+  {
+    "id": "GRP_POONGSAN",
+    "name": "풍산",
+    "family_id": "FAM_POONGSAN",
+    "founding_year": 1968,
+    "ftc_rank": 72,
+    "assets_trillion": 3.5,
+    "leader": "류진",
+    "industry": "신동, 방산(탄약)",
+    "key_companies": [
+      "풍산", "풍산홀딩스", "풍산특수금속"
+    ]
+  },
+  {
+    "id": "GRP_DONGWON",
+    "name": "동원",
+    "family_id": "FAM_DONGWON",
+    "founding_year": 1969,
+    "ftc_rank": 44,
+    "assets_trillion": 9.2,
+    "leader": "김남구·김남정",
+    "industry": "원양어업, 종합식품, 금융투자, 물류",
+    "key_companies": [
+      "동원산업", "동원F&B", "동원시스템즈", "한국투자금융지주", "한국투자증권"
+    ]
+  }
+]

@@ -1,0 +1,969 @@
+{
+  "template_families_count": 91,
+  "template_families": [
+    {
+      "id": "fam_001",
+      "name": "[편집 요청 도움말]",
+      "slug": "편집 요청",
+      "source_url": "https://namu.wiki/w/%ED%8E%B8%EC%A7%91%20%EC%9A%94%EC%B2%AD"
+    },
+    {
+      "id": "fam_002",
+      "name": "대한민국",
+      "slug": "대한민국",
+      "source_url": "https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD"
+    },
+    {
+      "id": "fam_003",
+      "name": "기업 가문",
+      "slug": "한국의 기업 가문",
+      "source_url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8"
+    },
+    {
+      "id": "fam_004",
+      "name": "범삼성가",
+      "slug": "범삼성가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%EC%82%BC%EC%84%B1%EA%B0%80"
+    },
+    {
+      "id": "fam_005",
+      "name": "삼성",
+      "slug": "삼성",
+      "source_url": "https://namu.wiki/w/%EC%82%BC%EC%84%B1"
+    },
+    {
+      "id": "fam_006",
+      "name": "신세계",
+      "slug": "신세계그룹",
+      "source_url": "https://namu.wiki/w/%EC%8B%A0%EC%84%B8%EA%B3%84%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_007",
+      "name": "CJ",
+      "slug": "CJ",
+      "source_url": "https://namu.wiki/w/CJ"
+    },
+    {
+      "id": "fam_008",
+      "name": "한솔",
+      "slug": "한솔그룹",
+      "source_url": "https://namu.wiki/w/%ED%95%9C%EC%86%94%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_009",
+      "name": "범SK가",
+      "slug": "범SK가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94SK%EA%B0%80"
+    },
+    {
+      "id": "fam_010",
+      "name": "SK",
+      "slug": "SK",
+      "source_url": "https://namu.wiki/w/SK"
+    },
+    {
+      "id": "fam_011",
+      "name": "범현대가",
+      "slug": "범현대가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%ED%98%84%EB%8C%80%EA%B0%80"
+    },
+    {
+      "id": "fam_012",
+      "name": "현대",
+      "slug": "현대그룹",
+      "source_url": "https://namu.wiki/w/%ED%98%84%EB%8C%80%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_013",
+      "name": "현대자동차",
+      "slug": "현대자동차그룹",
+      "source_url": "https://namu.wiki/w/%ED%98%84%EB%8C%80%EC%9E%90%EB%8F%99%EC%B0%A8%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_014",
+      "name": "현대백화점",
+      "slug": "현대백화점그룹",
+      "source_url": "https://namu.wiki/w/%ED%98%84%EB%8C%80%EB%B0%B1%ED%99%94%EC%A0%90%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_015",
+      "name": "HD현대",
+      "slug": "HD현대",
+      "source_url": "https://namu.wiki/w/HD%ED%98%84%EB%8C%80"
+    },
+    {
+      "id": "fam_016",
+      "name": "현대해상",
+      "slug": "현대해상",
+      "source_url": "https://namu.wiki/w/%ED%98%84%EB%8C%80%ED%95%B4%EC%83%81"
+    },
+    {
+      "id": "fam_017",
+      "name": "HL",
+      "slug": "HL그룹",
+      "source_url": "https://namu.wiki/w/HL%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_018",
+      "name": "HDC",
+      "slug": "HDC",
+      "source_url": "https://namu.wiki/w/HDC"
+    },
+    {
+      "id": "fam_019",
+      "name": "KCC",
+      "slug": "KCC그룹",
+      "source_url": "https://namu.wiki/w/KCC%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_020",
+      "name": "현대코퍼레이션",
+      "slug": "현대코퍼레이션",
+      "source_url": "https://namu.wiki/w/%ED%98%84%EB%8C%80%EC%BD%94%ED%8D%BC%EB%A0%88%EC%9D%B4%EC%85%98"
+    },
+    {
+      "id": "fam_021",
+      "name": "후성",
+      "slug": "후성그룹",
+      "source_url": "https://namu.wiki/w/%ED%9B%84%EC%84%B1%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_022",
+      "name": "서한",
+      "slug": "서한그룹",
+      "source_url": "https://namu.wiki/w/%EC%84%9C%ED%95%9C%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_023",
+      "name": "문화일보",
+      "slug": "문화일보",
+      "source_url": "https://namu.wiki/w/%EB%AC%B8%ED%99%94%EC%9D%BC%EB%B3%B4"
+    },
+    {
+      "id": "fam_024",
+      "name": "범LG가",
+      "slug": "범LG가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94LG%EA%B0%80"
+    },
+    {
+      "id": "fam_025",
+      "name": "LG",
+      "slug": "LG",
+      "source_url": "https://namu.wiki/w/LG"
+    },
+    {
+      "id": "fam_026",
+      "name": "LX",
+      "slug": "LX",
+      "source_url": "https://namu.wiki/w/LX"
+    },
+    {
+      "id": "fam_027",
+      "name": "LF",
+      "slug": "LF(기업)",
+      "source_url": "https://namu.wiki/w/LF%28%EA%B8%B0%EC%97%85%29"
+    },
+    {
+      "id": "fam_028",
+      "name": "LIG",
+      "slug": "LIG",
+      "source_url": "https://namu.wiki/w/LIG"
+    },
+    {
+      "id": "fam_029",
+      "name": "LS",
+      "slug": "LS",
+      "source_url": "https://namu.wiki/w/LS"
+    },
+    {
+      "id": "fam_030",
+      "name": "LK",
+      "slug": "LK그룹",
+      "source_url": "https://namu.wiki/w/LK%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_031",
+      "name": "LT",
+      "slug": "LT그룹",
+      "source_url": "https://namu.wiki/w/LT%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_032",
+      "name": "희성",
+      "slug": "희성",
+      "source_url": "https://namu.wiki/w/%ED%9D%AC%EC%84%B1"
+    },
+    {
+      "id": "fam_033",
+      "name": "범롯데가",
+      "slug": "범롯데가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%EB%A1%AF%EB%8D%B0%EA%B0%80"
+    },
+    {
+      "id": "fam_034",
+      "name": "롯데",
+      "slug": "롯데",
+      "source_url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0"
+    },
+    {
+      "id": "fam_035",
+      "name": "농심",
+      "slug": "농심그룹",
+      "source_url": "https://namu.wiki/w/%EB%86%8D%EC%8B%AC%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_036",
+      "name": "푸르밀",
+      "slug": "푸르밀",
+      "source_url": "https://namu.wiki/w/%ED%91%B8%EB%A5%B4%EB%B0%80"
+    },
+    {
+      "id": "fam_037",
+      "name": "롯데관광개발",
+      "slug": "롯데관광개발",
+      "source_url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%EA%B4%80%EA%B4%91%EA%B0%9C%EB%B0%9C"
+    },
+    {
+      "id": "fam_038",
+      "name": "범한화가",
+      "slug": "범한화가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%ED%95%9C%ED%99%94%EA%B0%80"
+    },
+    {
+      "id": "fam_039",
+      "name": "한화",
+      "slug": "한화",
+      "source_url": "https://namu.wiki/w/%ED%95%9C%ED%99%94"
+    },
+    {
+      "id": "fam_040",
+      "name": "빙그레",
+      "slug": "빙그레",
+      "source_url": "https://namu.wiki/w/%EB%B9%99%EA%B7%B8%EB%A0%88"
+    },
+    {
+      "id": "fam_041",
+      "name": "범GS가",
+      "slug": "범GS가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94GS%EA%B0%80"
+    },
+    {
+      "id": "fam_042",
+      "name": "GS",
+      "slug": "GS",
+      "source_url": "https://namu.wiki/w/GS"
+    },
+    {
+      "id": "fam_043",
+      "name": "코스모",
+      "slug": "코스모그룹",
+      "source_url": "https://namu.wiki/w/%EC%BD%94%EC%8A%A4%EB%AA%A8%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_044",
+      "name": "새로닉스",
+      "slug": "새로닉스",
+      "source_url": "https://namu.wiki/w/%EC%83%88%EB%A1%9C%EB%8B%89%EC%8A%A4"
+    },
+    {
+      "id": "fam_045",
+      "name": "범한진가",
+      "slug": "범한진가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%ED%95%9C%EC%A7%84%EA%B0%80"
+    },
+    {
+      "id": "fam_046",
+      "name": "한진",
+      "slug": "한진그룹",
+      "source_url": "https://namu.wiki/w/%ED%95%9C%EC%A7%84%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_047",
+      "name": "메리츠금융",
+      "slug": "메리츠금융지주",
+      "source_url": "https://namu.wiki/w/%EB%A9%94%EB%A6%AC%EC%B8%A0%EA%B8%88%EC%9C%B5%EC%A7%80%EC%A3%BC"
+    },
+    {
+      "id": "fam_048",
+      "name": "범두산가",
+      "slug": "범두산가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%EB%91%90%EC%82%B0%EA%B0%80"
+    },
+    {
+      "id": "fam_049",
+      "name": "두산",
+      "slug": "두산",
+      "source_url": "https://namu.wiki/w/%EB%91%90%EC%82%B0"
+    },
+    {
+      "id": "fam_050",
+      "name": "중앙대학교",
+      "slug": "학교법인 중앙대학교",
+      "source_url": "https://namu.wiki/w/%ED%95%99%EA%B5%90%EB%B2%95%EC%9D%B8%20%EC%A4%91%EC%95%99%EB%8C%80%ED%95%99%EA%B5%90"
+    },
+    {
+      "id": "fam_051",
+      "name": "범DL가",
+      "slug": "범DL가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94DL%EA%B0%80"
+    },
+    {
+      "id": "fam_052",
+      "name": "DL",
+      "slug": "DL그룹",
+      "source_url": "https://namu.wiki/w/DL%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_053",
+      "name": "대림바스",
+      "slug": "대림바스(기업)",
+      "source_url": "https://namu.wiki/w/%EB%8C%80%EB%A6%BC%EB%B0%94%EC%8A%A4%28%EA%B8%B0%EC%97%85%29"
+    },
+    {
+      "id": "fam_054",
+      "name": "범효성가",
+      "slug": "범효성가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%ED%9A%A8%EC%84%B1%EA%B0%80"
+    },
+    {
+      "id": "fam_055",
+      "name": "효성",
+      "slug": "효성그룹",
+      "source_url": "https://namu.wiki/w/%ED%9A%A8%EC%84%B1%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_056",
+      "name": "한국앤컴퍼니",
+      "slug": "한국앤컴퍼니",
+      "source_url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%95%A4%EC%BB%B4%ED%8D%BC%EB%8B%88"
+    },
+    {
+      "id": "fam_057",
+      "name": "동양학원",
+      "slug": "동양학원",
+      "source_url": "https://namu.wiki/w/%EB%8F%99%EC%96%91%ED%95%99%EC%9B%90"
+    },
+    {
+      "id": "fam_058",
+      "name": "범코오롱가",
+      "slug": "범코오롱가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%EC%BD%94%EC%98%A4%EB%A1%B1%EA%B0%80"
+    },
+    {
+      "id": "fam_059",
+      "name": "코오롱",
+      "slug": "코오롱",
+      "source_url": "https://namu.wiki/w/%EC%BD%94%EC%98%A4%EB%A1%B1"
+    },
+    {
+      "id": "fam_060",
+      "name": "범DB가",
+      "slug": "범DB가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94DB%EA%B0%80"
+    },
+    {
+      "id": "fam_061",
+      "name": "DB",
+      "slug": "DB그룹",
+      "source_url": "https://namu.wiki/w/DB%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_062",
+      "name": "범OCI가",
+      "slug": "범OCI가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94OCI%EA%B0%80"
+    },
+    {
+      "id": "fam_063",
+      "name": "OCI",
+      "slug": "OCI그룹",
+      "source_url": "https://namu.wiki/w/OCI%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_064",
+      "name": "범금호가",
+      "slug": "범금호가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%EA%B8%88%ED%98%B8%EA%B0%80"
+    },
+    {
+      "id": "fam_065",
+      "name": "금호석유화학",
+      "slug": "금호석유화학그룹",
+      "source_url": "https://namu.wiki/w/%EA%B8%88%ED%98%B8%EC%84%9D%EC%9C%A0%ED%99%94%ED%95%99%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_066",
+      "name": "금호아시아나",
+      "slug": "금호아시아나",
+      "source_url": "https://namu.wiki/w/%EA%B8%88%ED%98%B8%EC%95%84%EC%8B%9C%EC%95%84%EB%82%98"
+    },
+    {
+      "id": "fam_067",
+      "name": "삼화고속",
+      "slug": "삼화고속",
+      "source_url": "https://namu.wiki/w/%EC%82%BC%ED%99%94%EA%B3%A0%EC%86%8D"
+    },
+    {
+      "id": "fam_068",
+      "name": "범동원가",
+      "slug": "범동원가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%EB%8F%99%EC%9B%90%EA%B0%80"
+    },
+    {
+      "id": "fam_069",
+      "name": "동원",
+      "slug": "동원그룹",
+      "source_url": "https://namu.wiki/w/%EB%8F%99%EC%9B%90%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_070",
+      "name": "한국투자금융",
+      "slug": "한국투자금융지주",
+      "source_url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%ED%88%AC%EC%9E%90%EA%B8%88%EC%9C%B5%EC%A7%80%EC%A3%BC"
+    },
+    {
+      "id": "fam_071",
+      "name": "범아모레퍼시픽가",
+      "slug": "범아모레퍼시픽가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%EC%95%84%EB%AA%A8%EB%A0%88%ED%8D%BC%EC%8B%9C%ED%94%BD%EA%B0%80"
+    },
+    {
+      "id": "fam_072",
+      "name": "아모레퍼시픽",
+      "slug": "아모레퍼시픽",
+      "source_url": "https://namu.wiki/w/%EC%95%84%EB%AA%A8%EB%A0%88%ED%8D%BC%EC%8B%9C%ED%94%BD"
+    },
+    {
+      "id": "fam_073",
+      "name": "태평양개발",
+      "slug": "태평양개발",
+      "source_url": "https://namu.wiki/w/%ED%83%9C%ED%8F%89%EC%96%91%EA%B0%9C%EB%B0%9C"
+    },
+    {
+      "id": "fam_074",
+      "name": "범동국제강가",
+      "slug": "범동국제강가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%EB%8F%99%EA%B5%AD%EC%A0%9C%EA%B0%95%EA%B0%80"
+    },
+    {
+      "id": "fam_075",
+      "name": "동국제강",
+      "slug": "동국제강그룹",
+      "source_url": "https://namu.wiki/w/%EB%8F%99%EA%B5%AD%EC%A0%9C%EA%B0%95%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_076",
+      "name": "조선선재",
+      "slug": "조선선재",
+      "source_url": "https://namu.wiki/w/%EC%A1%B0%EC%84%A0%EC%84%A0%EC%9E%AC"
+    },
+    {
+      "id": "fam_077",
+      "name": "조선일가",
+      "slug": "조선일보/오너 일가",
+      "source_url": "https://namu.wiki/w/%EC%A1%B0%EC%84%A0%EC%9D%BC%EB%B3%B4/%EC%98%A4%EB%84%88%20%EC%9D%BC%EA%B0%80"
+    },
+    {
+      "id": "fam_078",
+      "name": "조선미디어",
+      "slug": "조선미디어그룹",
+      "source_url": "https://namu.wiki/w/%EC%A1%B0%EC%84%A0%EB%AF%B8%EB%94%94%EC%96%B4%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_079",
+      "name": "중앙일가",
+      "slug": "중앙일보/오너 일가",
+      "source_url": "https://namu.wiki/w/%EC%A4%91%EC%95%99%EC%9D%BC%EB%B3%B4/%EC%98%A4%EB%84%88%20%EC%9D%BC%EA%B0%80"
+    },
+    {
+      "id": "fam_080",
+      "name": "중앙",
+      "slug": "중앙그룹",
+      "source_url": "https://namu.wiki/w/%EC%A4%91%EC%95%99%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_081",
+      "name": "BGF",
+      "slug": "BGF그룹",
+      "source_url": "https://namu.wiki/w/BGF%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_082",
+      "name": "동아일가",
+      "slug": "동아일보/오너 일가",
+      "source_url": "https://namu.wiki/w/%EB%8F%99%EC%95%84%EC%9D%BC%EB%B3%B4/%EC%98%A4%EB%84%88%20%EC%9D%BC%EA%B0%80"
+    },
+    {
+      "id": "fam_083",
+      "name": "동아미디어",
+      "slug": "동아미디어그룹",
+      "source_url": "https://namu.wiki/w/%EB%8F%99%EC%95%84%EB%AF%B8%EB%94%94%EC%96%B4%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_084",
+      "name": "경방",
+      "slug": "경방",
+      "source_url": "https://namu.wiki/w/%EA%B2%BD%EB%B0%A9"
+    },
+    {
+      "id": "fam_085",
+      "name": "삼양사",
+      "slug": "삼양사",
+      "source_url": "https://namu.wiki/w/%EC%82%BC%EC%96%91%EC%82%AC"
+    },
+    {
+      "id": "fam_086",
+      "name": "JB금융",
+      "slug": "JB금융그룹",
+      "source_url": "https://namu.wiki/w/JB%EA%B8%88%EC%9C%B5%EA%B7%B8%EB%A3%B9"
+    },
+    {
+      "id": "fam_087",
+      "name": "고려중앙학원",
+      "slug": "고려중앙학원",
+      "source_url": "https://namu.wiki/w/%EA%B3%A0%EB%A0%A4%EC%A4%91%EC%95%99%ED%95%99%EC%9B%90"
+    },
+    {
+      "id": "fam_088",
+      "name": "舊 범대우가",
+      "slug": "범대우가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%EB%8C%80%EC%9A%B0%EA%B0%80"
+    },
+    {
+      "id": "fam_089",
+      "name": "舊 범쌍용가",
+      "slug": "범쌍용가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%EC%8C%8D%EC%9A%A9%EA%B0%80"
+    },
+    {
+      "id": "fam_090",
+      "name": "舊 범기아가",
+      "slug": "범기아가",
+      "source_url": "https://namu.wiki/w/%EB%B2%94%EA%B8%B0%EC%95%84%EA%B0%80"
+    },
+    {
+      "id": "fam_091",
+      "name": "기타 기업 가문",
+      "slug": "한국의 기업 가문",
+      "source_url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8"
+    }
+  ],
+  "article_sections_count": 83,
+  "article_sections": [
+    {
+      "section": "2.1",
+      "name": "별도 문서가 있는 재벌가",
+      "content": ""
+    },
+    {
+      "section": "2.2",
+      "name": "NICE그룹",
+      "content": ""
+    },
+    {
+      "section": "2.3",
+      "name": "세아그룹",
+      "content": ""
+    },
+    {
+      "section": "2.4",
+      "name": "하림그룹",
+      "content": ""
+    },
+    {
+      "section": "2.5",
+      "name": "태영그룹",
+      "content": ""
+    },
+    {
+      "section": "2.6",
+      "name": "SPC그룹",
+      "content": ""
+    },
+    {
+      "section": "2.7",
+      "name": "일진그룹",
+      "content": ""
+    },
+    {
+      "section": "2.8",
+      "name": "대상그룹",
+      "content": ""
+    },
+    {
+      "section": "2.9",
+      "name": "이랜드그룹",
+      "content": ""
+    },
+    {
+      "section": "2.10",
+      "name": "중흥그룹",
+      "content": ""
+    },
+    {
+      "section": "2.11",
+      "name": "글로벌세아그룹",
+      "content": ""
+    },
+    {
+      "section": "2.12",
+      "name": "유진그룹",
+      "content": ""
+    },
+    {
+      "section": "2.13",
+      "name": "SM그룹",
+      "content": ""
+    },
+    {
+      "section": "2.14",
+      "name": "애경그룹",
+      "content": ""
+    },
+    {
+      "section": "2.15",
+      "name": "삼천리그룹",
+      "content": ""
+    },
+    {
+      "section": "2.16",
+      "name": "벽산그룹",
+      "content": ""
+    },
+    {
+      "section": "2.17",
+      "name": "동양그룹, 오리온그룹",
+      "content": ""
+    },
+    {
+      "section": "2.18",
+      "name": "태광그룹",
+      "content": ""
+    },
+    {
+      "section": "2.19",
+      "name": "사조그룹",
+      "content": ""
+    },
+    {
+      "section": "2.20",
+      "name": "크라운해태그룹",
+      "content": ""
+    },
+    {
+      "section": "2.21",
+      "name": "영풍그룹, 고려아연",
+      "content": ""
+    },
+    {
+      "section": "2.22",
+      "name": "교보생명그룹",
+      "content": ""
+    },
+    {
+      "section": "2.23",
+      "name": "삼표그룹",
+      "content": ""
+    },
+    {
+      "section": "2.24",
+      "name": "대교그룹",
+      "content": ""
+    },
+    {
+      "section": "2.25",
+      "name": "하이트진로그룹",
+      "content": ""
+    },
+    {
+      "section": "2.26",
+      "name": "대성그룹",
+      "content": ""
+    },
+    {
+      "section": "2.27",
+      "name": "파라다이스 그룹",
+      "content": ""
+    },
+    {
+      "section": "2.28",
+      "name": "DN그룹",
+      "content": ""
+    },
+    {
+      "section": "2.29",
+      "name": "신영그룹",
+      "content": ""
+    },
+    {
+      "section": "2.30",
+      "name": "풍산그룹",
+      "content": ""
+    },
+    {
+      "section": "2.31",
+      "name": "이수그룹",
+      "content": ""
+    },
+    {
+      "section": "2.32",
+      "name": "봉명그룹, 아세아그룹",
+      "content": ""
+    },
+    {
+      "section": "2.33",
+      "name": "매경미디어그룹",
+      "content": ""
+    },
+    {
+      "section": "2.34",
+      "name": "차병원그룹",
+      "content": ""
+    },
+    {
+      "section": "2.35",
+      "name": "호반그룹",
+      "content": ""
+    },
+    {
+      "section": "2.36",
+      "name": "오뚜기그룹",
+      "content": ""
+    },
+    {
+      "section": "2.37",
+      "name": "한일시멘트그룹",
+      "content": ""
+    },
+    {
+      "section": "2.38",
+      "name": "다우키움그룹",
+      "content": ""
+    },
+    {
+      "section": "2.39",
+      "name": "아주그룹",
+      "content": ""
+    },
+    {
+      "section": "2.40",
+      "name": "엠디엠그룹",
+      "content": ""
+    },
+    {
+      "section": "2.41",
+      "name": "KG그룹",
+      "content": ""
+    },
+    {
+      "section": "2.42",
+      "name": "장금상선그룹",
+      "content": ""
+    },
+    {
+      "section": "2.43",
+      "name": "웅진그룹",
+      "content": ""
+    },
+    {
+      "section": "2.44",
+      "name": "대신파이낸셜그룹",
+      "content": ""
+    },
+    {
+      "section": "2.45",
+      "name": "대한제강",
+      "content": ""
+    },
+    {
+      "section": "2.46",
+      "name": "한미반도체",
+      "content": ""
+    },
+    {
+      "section": "2.47",
+      "name": "대유위니아그룹",
+      "content": ""
+    },
+    {
+      "section": "2.48",
+      "name": "한미약품",
+      "content": ""
+    },
+    {
+      "section": "2.49",
+      "name": "대방건설",
+      "content": ""
+    },
+    {
+      "section": "2.50",
+      "name": "반도건설, 아이에스동서",
+      "content": ""
+    },
+    {
+      "section": "2.51",
+      "name": "고려해운",
+      "content": ""
+    },
+    {
+      "section": "2.52",
+      "name": "HS화성",
+      "content": ""
+    },
+    {
+      "section": "2.53",
+      "name": "에치와이",
+      "content": ""
+    },
+    {
+      "section": "2.54",
+      "name": "KD 운송그룹",
+      "content": ""
+    },
+    {
+      "section": "2.55",
+      "name": "경남여객",
+      "content": ""
+    },
+    {
+      "section": "2.56",
+      "name": "소노트리니티그룹",
+      "content": ""
+    },
+    {
+      "section": "2.57",
+      "name": "동서그룹",
+      "content": ""
+    },
+    {
+      "section": "2.58",
+      "name": "영원무역",
+      "content": ""
+    },
+    {
+      "section": "2.59",
+      "name": "매일유업",
+      "content": ""
+    },
+    {
+      "section": "2.60",
+      "name": "대한제분",
+      "content": ""
+    },
+    {
+      "section": "2.61",
+      "name": "부영그룹",
+      "content": ""
+    },
+    {
+      "section": "2.62",
+      "name": "삼양식품",
+      "content": ""
+    },
+    {
+      "section": "2.63",
+      "name": "유유제약",
+      "content": ""
+    },
+    {
+      "section": "2.64",
+      "name": "원익그룹",
+      "content": ""
+    },
+    {
+      "section": "2.65",
+      "name": "남화토건",
+      "content": ""
+    },
+    {
+      "section": "2.66",
+      "name": "고려제강",
+      "content": ""
+    },
+    {
+      "section": "2.67",
+      "name": "미래엔",
+      "content": ""
+    },
+    {
+      "section": "2.68",
+      "name": "동화그룹",
+      "content": ""
+    },
+    {
+      "section": "2.69",
+      "name": "삼성출판사",
+      "content": ""
+    },
+    {
+      "section": "2.70",
+      "name": "정식품",
+      "content": ""
+    },
+    {
+      "section": "2.71",
+      "name": "대동",
+      "content": ""
+    },
+    {
+      "section": "2.72",
+      "name": "서울경제",
+      "content": ""
+    },
+    {
+      "section": "2.73",
+      "name": "일진글로벌",
+      "content": ""
+    },
+    {
+      "section": "3.1",
+      "name": "남양유업 일가",
+      "content": ""
+    },
+    {
+      "section": "3.2",
+      "name": "삼풍건설산업",
+      "content": ""
+    },
+    {
+      "section": "3.3",
+      "name": "한보그룹",
+      "content": ""
+    },
+    {
+      "section": "3.4",
+      "name": "해태그룹",
+      "content": ""
+    },
+    {
+      "section": "3.5",
+      "name": "한일그룹",
+      "content": ""
+    },
+    {
+      "section": "3.6",
+      "name": "한신공영, 뉴코아그룹",
+      "content": ""
+    },
+    {
+      "section": "3.7",
+      "name": "태창그룹",
+      "content": ""
+    },
+    {
+      "section": "3.8",
+      "name": "아남그룹",
+      "content": ""
+    },
+    {
+      "section": "3.9",
+      "name": "대한전선그룹",
+      "content": ""
+    },
+    {
+      "section": "3.10",
+      "name": "조양상선그룹",
+      "content": ""
+    }
+  ]
+}

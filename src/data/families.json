@@ -1,0 +1,2131 @@
+[
+  {
+    "id": "FAM_SAMSUNG",
+    "name": "범삼성가",
+    "founder": "이병철",
+    "origin_region": "경상남도 의령군",
+    "founding_year": 1938,
+    "verification_status": "VERIFIED",
+    "history_summary": "이병철 창업주 이래 한국 최고 기업집단. 직계 혈족으로 삼성, CJ, 신세계, 한솔을 형성함.",
+    "related_groups": [
+      "삼성",
+      "CJ",
+      "신세계",
+      "한솔"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이병철"
+    ],
+    "source_ids": [
+      "SRC_NAMU_SAMSUNG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_HYUNDAI",
+    "name": "범현대가",
+    "founder": "정주영",
+    "origin_region": "강원도 통천군",
+    "founding_year": 1946,
+    "verification_status": "VERIFIED",
+    "history_summary": "정주영 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(현대자동차, HD현대, 현대백화점, 현대그룹, KCC, HL)을 형성함.",
+    "related_groups": [
+      "현대자동차",
+      "HD현대",
+      "현대백화점",
+      "현대그룹",
+      "KCC",
+      "HL"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "정주영"
+    ],
+    "source_ids": [
+      "SRC_NAMU_HYUNDAI",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_LG",
+    "name": "범LG가",
+    "founder": "구인회",
+    "origin_region": "경상남도 진주시",
+    "founding_year": 1947,
+    "verification_status": "VERIFIED",
+    "history_summary": "구인회 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(LG, LX, 희성, LT, LF, 아워홈)을 형성함.",
+    "related_groups": [
+      "LG",
+      "LX",
+      "희성",
+      "LT",
+      "LF",
+      "아워홈"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "구인회"
+    ],
+    "source_ids": [
+      "SRC_NAMU_LG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_GS",
+    "name": "범GS가",
+    "founder": "허만정",
+    "origin_region": "경상남도 진주시",
+    "founding_year": 2004,
+    "verification_status": "VERIFIED",
+    "history_summary": "허만정 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(GS, 삼양통상, 삼양인터내셔날, 승산, 코스모)을 형성함.",
+    "related_groups": [
+      "GS",
+      "삼양통상",
+      "삼양인터내셔날",
+      "승산",
+      "코스모"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "허만정"
+    ],
+    "source_ids": [
+      "SRC_NAMU_GS",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_SK",
+    "name": "범SK가",
+    "founder": "최종건",
+    "origin_region": "경기도 수원시",
+    "founding_year": 1953,
+    "verification_status": "VERIFIED",
+    "history_summary": "최종건 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(SK, SK네트웍스, SK디스커버리)을 형성함.",
+    "related_groups": [
+      "SK",
+      "SK네트웍스",
+      "SK디스커버리"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "최종건"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_LOTTE",
+    "name": "범롯데가",
+    "founder": "신격호",
+    "origin_region": "경상남도 울산시",
+    "founding_year": 1948,
+    "verification_status": "VERIFIED",
+    "history_summary": "신격호 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(롯데, 농심, 푸르밀, 롯데관광개발, 산사스)을 형성함.",
+    "related_groups": [
+      "롯데",
+      "농심",
+      "푸르밀",
+      "롯데관광개발",
+      "산사스"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "신격호"
+    ],
+    "source_ids": [
+      "SRC_NAMU_LOTTE",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_HANWHA",
+    "name": "범한화·빙그레가",
+    "founder": "김종희",
+    "origin_region": "충청남도 천안시",
+    "founding_year": 1952,
+    "verification_status": "VERIFIED",
+    "history_summary": "김종희 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(한화, 빙그레, 한익스프레스)을 형성함.",
+    "related_groups": [
+      "한화",
+      "빙그레",
+      "한익스프레스"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김종희"
+    ],
+    "source_ids": [
+      "SRC_NAMU_HANWHA",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_HANJIN",
+    "name": "범한진가",
+    "founder": "조중훈",
+    "origin_region": "인천광역시",
+    "founding_year": 1945,
+    "verification_status": "VERIFIED",
+    "history_summary": "조중훈 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(한진, 대한항공, 메리츠금융)을 형성함.",
+    "related_groups": [
+      "한진",
+      "대한항공",
+      "메리츠금융"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "조중훈"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_DOOSAN",
+    "name": "범두산가",
+    "founder": "박승직",
+    "origin_region": "경기도 광주시",
+    "founding_year": 1896,
+    "verification_status": "VERIFIED",
+    "history_summary": "박승직 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(두산, 두산에너빌리티, 두산밥캣, 오리콤, 이생)을 형성함.",
+    "related_groups": [
+      "두산",
+      "두산에너빌리티",
+      "두산밥캣",
+      "오리콤",
+      "이생"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "박승직"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_DL",
+    "name": "범DL가",
+    "founder": "이재준",
+    "origin_region": "경기도 시흥시",
+    "founding_year": 1939,
+    "verification_status": "VERIFIED",
+    "history_summary": "이재준 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(DL, DL이앤씨, DL케미칼)을 형성함.",
+    "related_groups": [
+      "DL",
+      "DL이앤씨",
+      "DL케미칼"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이재준"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_HYOSUNG",
+    "name": "범효성가",
+    "founder": "조홍제",
+    "origin_region": "경상남도 함안군",
+    "founding_year": 1966,
+    "verification_status": "VERIFIED",
+    "history_summary": "조홍제 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(효성, HS효성, 한국앤컴퍼니)을 형성함.",
+    "related_groups": [
+      "효성",
+      "HS효성",
+      "한국앤컴퍼니"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "조홍제"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_SAMPYO",
+    "name": "삼표가",
+    "founder": "정인욱",
+    "origin_region": "강원도 고성군",
+    "founding_year": 1952,
+    "verification_status": "VERIFIED",
+    "history_summary": "정인욱 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(삼표, 삼표시멘트, 삼표산업)을 형성함.",
+    "related_groups": [
+      "삼표",
+      "삼표시멘트",
+      "삼표산업"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "정인욱"
+    ],
+    "source_ids": [
+      "SRC_NAMU_FN_66",
+      "SRC_NAMU_FN_69",
+      "SRC_NAMU_FN_60",
+      "SRC_NAMU_FN_68",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_DAESANG",
+    "name": "대상가",
+    "founder": "임대홍",
+    "origin_region": "전라북도 정읍시",
+    "founding_year": 1956,
+    "verification_status": "VERIFIED",
+    "history_summary": "임대홍 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(대상, 대상홀딩스)을 형성함.",
+    "related_groups": [
+      "대상",
+      "대상홀딩스"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "임대홍"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_JOONGANG_HONG",
+    "name": "중앙일보·홍씨일가",
+    "founder": "홍진기",
+    "origin_region": "서울특별시",
+    "founding_year": 1965,
+    "verification_status": "VERIFIED",
+    "history_summary": "홍진기 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(중앙홀딩스, JTBC, BGF)을 형성함.",
+    "related_groups": [
+      "중앙홀딩스",
+      "JTBC",
+      "BGF"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "홍진기"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_POONGSAN",
+    "name": "풍산가",
+    "founder": "류찬우",
+    "origin_region": "경상북도 안동시",
+    "founding_year": 1968,
+    "verification_status": "VERIFIED",
+    "history_summary": "류찬우 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(풍산, 풍산홀딩스)을 형성함.",
+    "related_groups": [
+      "풍산",
+      "풍산홀딩스"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "류찬우"
+    ],
+    "source_ids": [
+      "SRC_NAMU_FN_79",
+      "SRC_NAMU_FN_80",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_KUMHO",
+    "name": "범금호가",
+    "founder": "박인천",
+    "origin_region": "전라남도 나주시",
+    "founding_year": 1946,
+    "verification_status": "VERIFIED",
+    "history_summary": "박인천 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(금호석유화학, 금호건설, 금호고속)을 형성함.",
+    "related_groups": [
+      "금호석유화학",
+      "금호건설",
+      "금호고속"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "박인천"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_DONGKUK",
+    "name": "동국제강가",
+    "founder": "장경호",
+    "origin_region": "부산광역시",
+    "founding_year": 1954,
+    "verification_status": "VERIFIED",
+    "history_summary": "한국 민간 철강 산업의 효시. 장경호 창업주 이후 장상태, 장세주-장세욱 형제로 계열승계. 동국제강, 동국씨엠, 인터지스 등을 영위.",
+    "related_groups": [
+      "동국제강그룹"
+    ],
+    "major_spinoffs": [
+      "한국철강 (장상돈)",
+      "동국산업 (장상건)"
+    ],
+    "key_figures": [
+      "장경호",
+      "장상태",
+      "장세주",
+      "장세욱"
+    ],
+    "source_ids": [
+      "SRC_FTC_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_DB",
+    "name": "범DB가",
+    "founder": "김준기",
+    "origin_region": "강원도 동해시",
+    "founding_year": 1969,
+    "verification_status": "VERIFIED",
+    "history_summary": "김준기 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(DB손해보험, DB하이텍)을 형성함.",
+    "related_groups": [
+      "DB손해보험",
+      "DB하이텍"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김준기"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_OCI",
+    "name": "범OCI가",
+    "founder": "이회림",
+    "origin_region": "경기도 개성시",
+    "founding_year": 1959,
+    "verification_status": "VERIFIED",
+    "history_summary": "이회림 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(OCI, SGC, 유니드)을 형성함.",
+    "related_groups": [
+      "OCI",
+      "SGC",
+      "유니드"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이회림"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_KOLON",
+    "name": "범코오롱가",
+    "founder": "이원만",
+    "origin_region": "경상북도 청도군",
+    "founding_year": 1954,
+    "verification_status": "VERIFIED",
+    "history_summary": "이원만 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(코오롱, 코오롱인더스트리)을 형성함.",
+    "related_groups": [
+      "코오롱",
+      "코오롱인더스트리"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이원만"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_AMORE",
+    "name": "아모레퍼시픽가",
+    "founder": "서성환",
+    "origin_region": "황해도 평산군",
+    "founding_year": 1945,
+    "verification_status": "VERIFIED",
+    "history_summary": "서성환 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(아모레퍼시픽)을 형성함.",
+    "related_groups": [
+      "아모레퍼시픽"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "서성환"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_SAMYANG",
+    "name": "삼양가",
+    "founder": "김연수",
+    "origin_region": "전북특별자치도 고창군",
+    "founding_year": 1924,
+    "verification_status": "VERIFIED",
+    "history_summary": "수당 김연수가 1924년 삼수사로 설립, 설탕(삼양사), 화학, 바이오로 발전. 동아일보 창업주 인촌 김성수의 동생 집안으로 유서 깊은 호남 명문 기업 가문.",
+    "related_groups": [
+      "삼양그룹",
+      "삼양사"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김연수",
+      "김상홍",
+      "김상하",
+      "김윤"
+    ],
+    "source_ids": [
+      "SRC_FTC_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_YOUNGPOONG",
+    "name": "영풍·고려아연가",
+    "founder": "장병희",
+    "origin_region": "황해도 봉산군",
+    "founding_year": 1949,
+    "verification_status": "VERIFIED",
+    "history_summary": "장병희 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(영풍, 고려아연, 코리아써키트)을 형성함.",
+    "related_groups": [
+      "영풍",
+      "고려아연",
+      "코리아써키트"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "장병희"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_TAEKWANG",
+    "name": "태광가",
+    "founder": "이임용",
+    "origin_region": "경상북도 영일군",
+    "founding_year": 1950,
+    "verification_status": "VERIFIED",
+    "history_summary": "이임용 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(태광산업, 대한화섬, 흥국생명)을 형성함.",
+    "related_groups": [
+      "태광산업",
+      "대한화섬",
+      "흥국생명"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이임용"
+    ],
+    "source_ids": [
+      "SRC_NAMU_FN_50",
+      "SRC_NAMU_FN_47",
+      "SRC_NAMU_FN_46",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_SEAH",
+    "name": "세아가",
+    "founder": "이종덕",
+    "origin_region": "경상북도 영덕군",
+    "founding_year": 1960,
+    "verification_status": "VERIFIED",
+    "history_summary": "이종덕 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(세아홀딩스, 세아제강지주)을 형성함.",
+    "related_groups": [
+      "세아홀딩스",
+      "세아제강지주"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이종덕"
+    ],
+    "source_ids": [
+      "SRC_NAMU_FN_4",
+      "SRC_NAMU_FN_31",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_HARIM",
+    "name": "하림가",
+    "founder": "김홍국",
+    "origin_region": "전북특별자치도 익산시",
+    "founding_year": 1986,
+    "verification_status": "VERIFIED",
+    "history_summary": "병아리 10마리로 시작해 팬오션(해운), NS홈쇼핑, 하림닭고기 등을 보유한 재계 27위 대기업집단으로 자수성가한 대표 가문.",
+    "related_groups": [
+      "하림그룹",
+      "팬오션"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김홍국",
+      "김준영"
+    ],
+    "source_ids": [
+      "SRC_FTC_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_TAEYOUNG",
+    "name": "태영가",
+    "founder": "윤세영",
+    "origin_region": "강원도 철원군",
+    "founding_year": 1973,
+    "verification_status": "VERIFIED",
+    "history_summary": "태영건설과 민영방송 SBS를 설립해 방송·미디어 및 건설 대기업으로 성장. 워크아웃 국면에서 티와이홀딩스 중심 자구책 진행.",
+    "related_groups": [
+      "태영그룹",
+      "TY홀딩스",
+      "SBS"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "윤세영",
+      "윤석민"
+    ],
+    "source_ids": [
+      "SRC_FTC_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_SPC",
+    "name": "SPC가",
+    "founder": "허창성",
+    "origin_region": "황해도 옹진군",
+    "founding_year": 1945,
+    "verification_status": "VERIFIED",
+    "history_summary": "허창성 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(SPC삼립, 파리크라상)을 형성함.",
+    "related_groups": [
+      "SPC삼립",
+      "파리크라상"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "허창성"
+    ],
+    "source_ids": [
+      "SRC_NAMU_FN_9",
+      "SRC_NAMU_FN_10",
+      "SRC_NAMU_FN_11",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_HITEJINRO",
+    "name": "하이트진로가",
+    "founder": "박경복",
+    "origin_region": "강원도 홍천군",
+    "founding_year": 1933,
+    "verification_status": "VERIFIED",
+    "history_summary": "조선맥주(하이트맥주) 창업주 박경복 회장이 진로그룹을 인수 합병하여 한국 1위 주류 기업 하이트진로그룹 구축.",
+    "related_groups": [
+      "하이트진로그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "박경복",
+      "박문덕",
+      "박태영"
+    ],
+    "source_ids": [
+      "SRC_FTC_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_ORION_TONGYANG",
+    "name": "오리온·동양가",
+    "founder": "이양구",
+    "origin_region": "함경남도 함주군",
+    "founding_year": 1956,
+    "verification_status": "VERIFIED",
+    "history_summary": "이양구 회장이 동양제과와 동양시멘트를 설립. 두 딸에게 동양그룹(장녀 이혜경-현재현)과 오리온그룹(차녀 이화경-담철곤)으로 분할 상속. 오리온은 초코파이 글로벌 신화로 급성장.",
+    "related_groups": [
+      "오리온그룹",
+      "과거 동양그룹"
+    ],
+    "major_spinoffs": [
+      "오리온그룹 (2001년 동양에서 분리)"
+    ],
+    "key_figures": [
+      "이양구",
+      "담철곤",
+      "이화경",
+      "현재현",
+      "이혜경"
+    ],
+    "source_ids": [
+      "SRC_FTC_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_NONGSHIM",
+    "name": "농심가",
+    "founder": "신춘호",
+    "origin_region": "경상남도 울산시",
+    "founding_year": 1965,
+    "verification_status": "VERIFIED",
+    "history_summary": "신춘호 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(농심, 율촌화학, 메가마트)을 형성함.",
+    "related_groups": [
+      "농심",
+      "율촌화학",
+      "메가마트"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "신춘호"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_CHOSUN_ILBO",
+    "name": "조선일보일가",
+    "founder": "방응모",
+    "origin_region": "평안북도 정주시",
+    "founding_year": 1932,
+    "verification_status": "VERIFIED",
+    "history_summary": "방응모 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(조선일보, TV조선, 코리아나호텔)을 형성함.",
+    "related_groups": [
+      "조선일보",
+      "TV조선",
+      "코리아나호텔"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "방응모"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_DONGA_ILBO",
+    "name": "동아일보·삼양·경방가",
+    "founder": "김성수",
+    "origin_region": "전라북도 고창군",
+    "founding_year": 1920,
+    "verification_status": "VERIFIED",
+    "history_summary": "김성수 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(동아일보, 채널A, 삼양그룹, 경방)을 형성함.",
+    "related_groups": [
+      "동아일보",
+      "채널A",
+      "삼양그룹",
+      "경방"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김성수"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_KYOWON_DAEKYO",
+    "name": "대교가",
+    "founder": "강영중",
+    "origin_region": "경상남도 진주시",
+    "founding_year": 1976,
+    "verification_status": "REVIEW",
+    "history_summary": "눈높이 교육 브랜드로 성장한 교육 전문 가문.",
+    "related_groups": [
+      "대교그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "강영중",
+      "강호준"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_SM",
+    "name": "SM가",
+    "founder": "우오현",
+    "origin_region": "전라남도 고흥군",
+    "founding_year": 1988,
+    "verification_status": "REVIEW",
+    "history_summary": "삼라마이다스건설로 시작해 대한해운, SM상선 등 부실기업 M&A로 급성장한 신흥 대기업 가문.",
+    "related_groups": [
+      "SM그룹",
+      "대한해운",
+      "SM상선"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "우오현",
+      "우기원"
+    ],
+    "source_ids": [
+      "SRC_FTC_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_HOBAN",
+    "name": "호반가",
+    "founder": "김상열",
+    "origin_region": "전라남도 보성군",
+    "founding_year": 1989,
+    "verification_status": "REVIEW",
+    "history_summary": "호반건설로 시작해 대한전선, 서울신문, 전자신문 등을 인수하며 자산 10조 이상 대기업집단으로 성장.",
+    "related_groups": [
+      "호반그룹",
+      "호반건설",
+      "대한전선"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김상열",
+      "김대헌"
+    ],
+    "source_ids": [
+      "SRC_FTC_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_EUGENE",
+    "name": "유진가",
+    "founder": "유재필",
+    "origin_region": "충청남도 서산시",
+    "founding_year": 1969,
+    "verification_status": "REVIEW",
+    "history_summary": "유진종합개발 레미콘으로 성장, 동양 시멘트 부문과 유진투자증권, YTN을 인수하여 사업 영역 확장.",
+    "related_groups": [
+      "유진그룹",
+      "유진기업",
+      "유진투자증권",
+      "YTN"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "유재필",
+      "유경선"
+    ],
+    "source_ids": [
+      "SRC_FTC_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_OTTOGI",
+    "name": "오뚜기가",
+    "founder": "함태호",
+    "origin_region": "함경남도 원산시",
+    "founding_year": 1969,
+    "verification_status": "REVIEW",
+    "history_summary": "카레, 케첩, 마요네즈를 국산화한 국민 식품기업 가문. 함영준 회장 승계.",
+    "related_groups": [
+      "오뚜기그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "함태호",
+      "함영준",
+      "함연지"
+    ],
+    "source_ids": [
+      "SRC_FTC_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_BOOYOUNG",
+    "name": "부영가",
+    "founder": "이중근",
+    "origin_region": "전라남도 순천시",
+    "founding_year": 1983,
+    "verification_status": "REVIEW",
+    "history_summary": "임대주택 사업을 통해 재계 20위권 대기업으로 도약한 주택 건설 전문 가문.",
+    "related_groups": [
+      "부영그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이중근",
+      "이성훈"
+    ],
+    "source_ids": [
+      "SRC_FTC_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_NAMYANG",
+    "name": "남양유업가(과거)",
+    "founder": "홍두영",
+    "origin_region": "평안북도 정주시",
+    "founding_year": 1964,
+    "verification_status": "REVIEW",
+    "history_summary": "분유 및 유제품 가문. 대림 창업주 부인의 남동생 가문. 경영권 분쟁 끝에 사모펀드 한앤컴퍼니에 경영권 매각 완료.",
+    "related_groups": [
+      "남양유업(과거)"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "홍두영",
+      "홍원식"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_NICE",
+    "name": "NICE가",
+    "founder": "김광수",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "김광수 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 NICE그룹 등임.",
+    "related_groups": [
+      "NICE그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김광수"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_ILJIN",
+    "name": "일진가",
+    "founder": "허진규",
+    "origin_region": "전라북도 부안군",
+    "founding_year": 1968,
+    "verification_status": "VERIFIED",
+    "history_summary": "허진규 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(일진전기, 일진하이솔루스)을 형성함.",
+    "related_groups": [
+      "일진전기",
+      "일진하이솔루스"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "허진규"
+    ],
+    "source_ids": [
+      "SRC_NAMU_FN_14",
+      "SRC_NAMU_FN_55",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_ELAND",
+    "name": "이랜드가",
+    "founder": "박성수",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "박성수 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 이랜드그룹 등임.",
+    "related_groups": [
+      "이랜드그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "박성수"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_JUNGHEUNG",
+    "name": "중흥가",
+    "founder": "정창선",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "정창선 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 중흥그룹, 대우건설 등임.",
+    "related_groups": [
+      "중흥그룹",
+      "대우건설"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "정창선"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_SEAH_GLOBAL",
+    "name": "글로벌세아가",
+    "founder": "김웅기",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "김웅기 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 글로벌세아, 쌍용건설 등임.",
+    "related_groups": [
+      "글로벌세아",
+      "쌍용건설"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김웅기"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_AEKYUNG",
+    "name": "애경가",
+    "founder": "채몽인",
+    "origin_region": "제주특별자치도",
+    "founding_year": 1954,
+    "verification_status": "VERIFIED",
+    "history_summary": "채몽인 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(애경산업, 제주항공, AK플라자)을 형성함.",
+    "related_groups": [
+      "애경산업",
+      "제주항공",
+      "AK플라자"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "채몽인"
+    ],
+    "source_ids": [
+      "SRC_NAMU_FN_31",
+      "SRC_NAMU_FN_32",
+      "SRC_NAMU_FN_11",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_SAMCHULLY",
+    "name": "삼천리가",
+    "founder": "이장균",
+    "origin_region": "함경남도 함흥시",
+    "founding_year": 1955,
+    "verification_status": "VERIFIED",
+    "history_summary": "이장균 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(삼천리, 삼천리도시가스)을 형성함.",
+    "related_groups": [
+      "삼천리",
+      "삼천리도시가스"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이장균"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_BYUKSAN",
+    "name": "벽산가",
+    "founder": "김인득",
+    "origin_region": "경상남도 마산시",
+    "founding_year": 1951,
+    "verification_status": "VERIFIED",
+    "history_summary": "김인득 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(벽산, TYM)을 형성함.",
+    "related_groups": [
+      "벽산",
+      "TYM"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김인득"
+    ],
+    "source_ids": [
+      "SRC_NAMU_FN_39",
+      "SRC_NAMU_FN_42",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_SAJO",
+    "name": "사조가",
+    "founder": "주진우",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "주진우 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 사조그룹 등임.",
+    "related_groups": [
+      "사조그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "주진우"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_CROWN_HAETAI",
+    "name": "크라운해태가",
+    "founder": "윤태현",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "윤태현 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 크라운해태홀딩스 등임.",
+    "related_groups": [
+      "크라운해태홀딩스"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "윤태현"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_KYOBO",
+    "name": "교보생명가",
+    "founder": "신용호",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "신용호 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 교보생명그룹 등임.",
+    "related_groups": [
+      "교보생명그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "신용호"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_DAESUNG",
+    "name": "대성가",
+    "founder": "김수근",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "김수근 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 대성그룹 등임.",
+    "related_groups": [
+      "대성그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김수근"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_PARADISE",
+    "name": "파라다이스가",
+    "founder": "전필립",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "전필립 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 파라다이스 등임.",
+    "related_groups": [
+      "파라다이스"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "전필립"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_DN",
+    "name": "DN가",
+    "founder": "김상헌",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "김상헌 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 DN그룹 등임.",
+    "related_groups": [
+      "DN그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김상헌"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_SHINYOUNG",
+    "name": "신영가",
+    "founder": "정춘보",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "정춘보 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 신영그룹 등임.",
+    "related_groups": [
+      "신영그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "정춘보"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_ISU",
+    "name": "이수가",
+    "founder": "김준성",
+    "origin_region": "대구광역시",
+    "founding_year": 1969,
+    "verification_status": "VERIFIED",
+    "history_summary": "김준성 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(이수화학, 이수페타시스)을 형성함.",
+    "related_groups": [
+      "이수화학",
+      "이수페타시스"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김준성"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_BONGMYUNG_ASEA",
+    "name": "봉명·아세아가",
+    "founder": "이동녕",
+    "origin_region": "충청북도 청원군",
+    "founding_year": 1947,
+    "verification_status": "VERIFIED",
+    "history_summary": "이동녕 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(아세아, 아세아시멘트, 아세아제지)을 형성함.",
+    "related_groups": [
+      "아세아",
+      "아세아시멘트",
+      "아세아제지"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이동녕"
+    ],
+    "source_ids": [
+      "SRC_NAMU_FN_84",
+      "SRC_NAMU_FN_83",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_MAEKYUNG",
+    "name": "매경미디어가",
+    "founder": "장대환",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "장대환 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 매경미디어그룹 등임.",
+    "related_groups": [
+      "매경미디어그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "장대환"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_CHAHOSPITAL",
+    "name": "차병원가",
+    "founder": "차광렬",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "차광렬 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 차병원바이오그룹 등임.",
+    "related_groups": [
+      "차병원바이오그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "차광렬"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_HANIL_CEMENT",
+    "name": "한일시멘트가",
+    "founder": "허채경",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "허채경 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 한일시멘트그룹 등임.",
+    "related_groups": [
+      "한일시멘트그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "허채경"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_DAWOO_KIWOOM",
+    "name": "다우키움가",
+    "founder": "김익래",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "김익래 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 다우키움그룹 등임.",
+    "related_groups": [
+      "다우키움그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김익래"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_AJU",
+    "name": "아주가",
+    "founder": "문태식",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "문태식 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 아주그룹 등임.",
+    "related_groups": [
+      "아주그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "문태식"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_KG",
+    "name": "KG가",
+    "founder": "곽재선",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "곽재선 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 KG그룹, KGMobility 등임.",
+    "related_groups": [
+      "KG그룹",
+      "KGMobility"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "곽재선"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_SAMYANG_FOODS",
+    "name": "삼양식품가",
+    "founder": "전중윤",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "전중윤 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 삼양식품 등임.",
+    "related_groups": [
+      "삼양식품"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "전중윤"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_YUYU",
+    "name": "유유제약가",
+    "founder": "유특한",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "유특한 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 유유제약 등임.",
+    "related_groups": [
+      "유유제약"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "유특한"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_WONIK",
+    "name": "원익가",
+    "founder": "이용한",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "이용한 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 원익그룹 등임.",
+    "related_groups": [
+      "원익그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이용한"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_KISWIRE",
+    "name": "고려제강가",
+    "founder": "홍종열",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "홍종열 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 고려제강 등임.",
+    "related_groups": [
+      "고려제강"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "홍종열"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_HANMI",
+    "name": "한미약품가",
+    "founder": "임성기",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "임성기 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 한미약품그룹 등임.",
+    "related_groups": [
+      "한미약품그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "임성기"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_HANMI_SEMI",
+    "name": "한미반도체가",
+    "founder": "곽노권",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "곽노권 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 한미반도체 등임.",
+    "related_groups": [
+      "한미반도체"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "곽노권"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_HY",
+    "name": "에치와이가",
+    "founder": "윤덕병",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "윤덕병 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 hy(한국야쿠르트) 등임.",
+    "related_groups": [
+      "hy(한국야쿠르트)"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "윤덕병"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_MAEIL",
+    "name": "매일유업가",
+    "founder": "김복용",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "김복용 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 매일유업 등임.",
+    "related_groups": [
+      "매일유업"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김복용"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_DAEHAN_FLOUR",
+    "name": "대한제분가",
+    "founder": "이한원",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "이한원 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 대한제분 등임.",
+    "related_groups": [
+      "대한제분"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이한원"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_HANBO_PAST",
+    "name": "한보가(해체)",
+    "founder": "정태수",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "정태수 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 과거 한보그룹 등임.",
+    "related_groups": [
+      "과거 한보그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "정태수"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_HAETAI_PAST",
+    "name": "해태가(해체)",
+    "founder": "박병규",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "박병규 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 과거 해태그룹 등임.",
+    "related_groups": [
+      "과거 해태그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "박병규"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_DAEWOO_PAST",
+    "name": "대우가(해체)",
+    "founder": "김우중",
+    "origin_region": "대한민국",
+    "founding_year": 1970,
+    "verification_status": "SEED",
+    "history_summary": "김우중 창업주가 설립한 기업 가문으로 주요 관련 기업집단은 과거 대우그룹 등임.",
+    "related_groups": [
+      "과거 대우그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김우중"
+    ],
+    "source_ids": [
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_LHO_SHINYONG",
+    "name": "노신영가문(정·관계 허브)",
+    "founder": "노신영",
+    "origin_region": "평안남도 강서군",
+    "founding_year": 1980,
+    "verification_status": "VERIFIED",
+    "history_summary": "노신영 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(삼성-현대-풍산 혼맥 결절점)을 형성함.",
+    "related_groups": [
+      "삼성-현대-풍산 혼맥 결절점"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "노신영"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_KIM_DONGJO",
+    "name": "김동조가문(외교·정계 허브)",
+    "founder": "김동조",
+    "origin_region": "부산광역시",
+    "founding_year": 1967,
+    "verification_status": "VERIFIED",
+    "history_summary": "김동조 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(현대-GS-조선일보 혼맥 결절점)을 형성함.",
+    "related_groups": [
+      "현대-GS-조선일보 혼맥 결절점"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김동조"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_SONG_INSANG",
+    "name": "송인상가문(재무·경제계 허브)",
+    "founder": "송인상",
+    "origin_region": "강원도 회양군",
+    "founding_year": 1957,
+    "verification_status": "VERIFIED",
+    "history_summary": "송인상 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(효성-두산-노태우 혼맥 결절점)을 형성함.",
+    "related_groups": [
+      "효성-두산-노태우 혼맥 결절점"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "송인상"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_PRESIDENT_NOH",
+    "name": "노태우대통령가문",
+    "founder": "노태우",
+    "origin_region": "대구광역시",
+    "founding_year": 1988,
+    "verification_status": "VERIFIED",
+    "history_summary": "노태우 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(SK-신동방-효성 혼맥 결절점)을 형성함.",
+    "related_groups": [
+      "SK-신동방-효성 혼맥 결절점"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "노태우"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_KYUNGBANG",
+    "name": "경방가",
+    "founder": "김용완",
+    "origin_region": "서울특별시",
+    "founding_year": 1919,
+    "verification_status": "VERIFIED",
+    "history_summary": "1919년 경성방직으로 출범한 한국 최고(最古)의 근대 방직·유통 기업집단. 초대 회장 김용완(인촌 김성수 매제)과 김각중 전 전경련 회장, 김준 회장·김담 타임스퀘어 사장으로 이어짐. 동아일보·삼양그룹과 한 뿌리 혼맥을 공유하는 핵심 가문.",
+    "related_groups": [
+      "경방",
+      "타임스퀘어"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김용완",
+      "김각중",
+      "김준",
+      "김담"
+    ],
+    "source_ids": [
+      "SRC_FTC_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_ILSHIN",
+    "name": "일신방직가",
+    "founder": "김형남",
+    "origin_region": "평안남도 강서군",
+    "founding_year": 1951,
+    "verification_status": "VERIFIED",
+    "history_summary": "김형남 창업주가 전남방직을 불하받아 설립한 전통 섬유 기업집단. 장남 김창호 명예회장이 조선일보 방응모 창업주의 손녀(방재윤 2녀, 방일영·방우영 여동생) 방선영과 혼인하여 조선일보와 혈연 사돈을 맺음.",
+    "related_groups": [
+      "일신방직"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김형남",
+      "김창호",
+      "김영호"
+    ],
+    "source_ids": [
+      "SRC_FTC_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_SEJUNG",
+    "name": "세중가문",
+    "founder": "천신일",
+    "origin_region": "경상남도 포항",
+    "founding_year": 1982,
+    "verification_status": "VERIFIED",
+    "history_summary": "천신일 회장이 창업한 여행·정보기술 기업집단. 차남 천호전 세중정보기술 부사장이 방용훈 코리아나호텔 회장 2녀 방지윤과 혼인하여 조선일보 방씨 일가와 사돈을 형성함.",
+    "related_groups": [
+      "세중",
+      "세중정보기술"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "천신일",
+      "천호전"
+    ],
+    "source_ids": [
+      "SRC_NEWS_001",
+      "SRC_SEED_NAMU"
+    ]
+  },
+  {
+    "id": "FAM_LEE_HU_RAK",
+    "name": "이후락가문(정·재계 허브)",
+    "founder": "이후락",
+    "origin_region": "울산광역시",
+    "founding_year": 1963,
+    "verification_status": "VERIFIED",
+    "history_summary": "이후락 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(한화-SK-CJ-삼성 혼맥 결절점)을 형성함.",
+    "related_groups": [
+      "한화-SK-CJ-삼성 혼맥 결절점"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이후락"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_SON_MIRYANG",
+    "name": "밀양손씨(손영기·손경식)가문",
+    "founder": "손영기",
+    "origin_region": "경기도 안성시",
+    "founding_year": 1950,
+    "verification_status": "VERIFIED",
+    "history_summary": "손영기 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(CJ-삼성-한화-이후락 혼맥 결절점)을 형성함.",
+    "related_groups": [
+      "CJ-삼성-한화-이후락 혼맥 결절점"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "손영기"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_KIM_GU",
+    "name": "백범김구가문",
+    "founder": "김구",
+    "origin_region": "황해도 해주",
+    "founding_year": 1919,
+    "verification_status": "VERIFIED",
+    "history_summary": "김구 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(빙그레-한화 혼맥 결절점)을 형성함.",
+    "related_groups": [
+      "빙그레-한화 혼맥 결절점"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김구"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_SUH_JUNG_HWA",
+    "name": "서정화가문",
+    "founder": "서정화",
+    "origin_region": "경상남도 통영시",
+    "founding_year": 1970,
+    "verification_status": "VERIFIED",
+    "history_summary": "서정화 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(한화그룹 3세 외가)을 형성함.",
+    "related_groups": [
+      "한화그룹 3세 외가"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "서정화"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_KIM_BONG_HWAN",
+    "name": "김봉환가문",
+    "founder": "김봉환",
+    "origin_region": "경상북도 군위군",
+    "founding_year": 1963,
+    "verification_status": "VERIFIED",
+    "history_summary": "김봉환 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(CJ 손경식 회장 처가)을 형성함.",
+    "related_groups": [
+      "CJ 손경식 회장 처가"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김봉환"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_LS",
+    "name": "범LS가",
+    "founder": "구태회",
+    "origin_region": "경상남도 진주시",
+    "founding_year": 2003,
+    "verification_status": "VERIFIED",
+    "history_summary": "구태회 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(LS, E1, 예스코)을 형성함.",
+    "related_groups": [
+      "LS",
+      "E1",
+      "예스코"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "구태회"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_CJ",
+    "name": "범CJ가",
+    "founder": "이맹희",
+    "origin_region": "경상남도 의령군",
+    "founding_year": 1993,
+    "verification_status": "VERIFIED",
+    "history_summary": "이맹희 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(CJ, CJ제일제당, CJ ENM)을 형성함.",
+    "related_groups": [
+      "CJ",
+      "CJ제일제당",
+      "CJ ENM"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이맹희"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_SHINSEGAE",
+    "name": "범신세계가",
+    "founder": "이명희",
+    "origin_region": "경상북도 대구시",
+    "founding_year": 1997,
+    "verification_status": "VERIFIED",
+    "history_summary": "이명희 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(신세계, 이마트)을 형성함.",
+    "related_groups": [
+      "신세계",
+      "이마트"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이명희"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_DAEWOO",
+    "name": "범대우가",
+    "founder": "김우중",
+    "origin_region": "대구광역시",
+    "founding_year": 1967,
+    "verification_status": "VERIFIED",
+    "history_summary": "김우중 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(대우, 아도니스CC)을 형성함.",
+    "related_groups": [
+      "대우",
+      "아도니스CC"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김우중"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_DONGAWON",
+    "name": "동아원가",
+    "founder": "이용구",
+    "origin_region": "서울특별시",
+    "founding_year": 1956,
+    "verification_status": "VERIFIED",
+    "history_summary": "이용구 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(동아원, 한국제분)을 형성함.",
+    "related_groups": [
+      "동아원",
+      "한국제분"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "이용구"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_DONGKUK_STEEL",
+    "name": "동국제강·한국철강가",
+    "founder": "장경호",
+    "origin_region": "부산광역시",
+    "founding_year": 1954,
+    "verification_status": "VERIFIED",
+    "history_summary": "장경호 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(동국제강, 한국철강, KISCO홀딩스)을 형성함.",
+    "related_groups": [
+      "동국제강",
+      "한국철강",
+      "KISCO홀딩스"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "장경호"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_CHABIO",
+    "name": "차병원그룹가",
+    "founder": "차광렬",
+    "origin_region": "서울특별시",
+    "founding_year": 1960,
+    "verification_status": "VERIFIED",
+    "history_summary": "차광렬 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(차바이오텍, 차병원)을 형성함.",
+    "related_groups": [
+      "차바이오텍",
+      "차병원"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "차광렬"
+    ],
+    "source_ids": [
+      "SRC_NAMU_FN_87",
+      "SRC_NAMU_FN_89",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_CHONBANG",
+    "name": "전방·용문학원가",
+    "founder": "김용주",
+    "origin_region": "경상남도 함양군",
+    "founding_year": 1935,
+    "verification_status": "VERIFIED",
+    "history_summary": "김용주 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(전방, 용문학원, 현대그룹)을 형성함.",
+    "related_groups": [
+      "전방",
+      "용문학원",
+      "현대그룹"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "김용주"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_PRESIDENT_CHUN",
+    "name": "전두환대통령가문",
+    "founder": "전두환",
+    "origin_region": "경상남도 합천군",
+    "founding_year": 1980,
+    "verification_status": "VERIFIED",
+    "history_summary": "전두환 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(동아원-효성 혼맥 결절점)을 형성함.",
+    "related_groups": [
+      "동아원-효성 혼맥 결절점"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "전두환"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_PRESIDENT_PARK",
+    "name": "박정희대통령·김종필가문",
+    "founder": "박정희",
+    "origin_region": "경상북도 구미시",
+    "founding_year": 1961,
+    "verification_status": "VERIFIED",
+    "history_summary": "박정희 창업주 가문으로 한국 재계의 중심적 혼맥과 기업집단(벽산-풍산 혼맥 결절점)을 형성함.",
+    "related_groups": [
+      "벽산-풍산 혼맥 결절점"
+    ],
+    "major_spinoffs": [],
+    "key_figures": [
+      "박정희"
+    ],
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "FAM_SSANGYONG",
+    "name": "범쌍용가",
+    "founder": "김성곤",
+    "origin_region": "대구/달성",
+    "founding_year": 1939,
+    "verification_status": "VERIFIED",
+    "history_summary": "김성곤 창업주가 삼공유지를 모태로 설립한 쌍용양회, 쌍용자동차, 쌍용건설 등 과거 6대 재벌.",
+    "related_groups": [
+      "쌍용양회",
+      "쌍용C&E",
+      "쌍용건설"
+    ],
+    "major_spinoffs": [
+      "쌍용그룹 해체"
+    ],
+    "key_figures": [
+      "김성곤",
+      "김석원",
+      "김석준",
+      "김석동"
+    ],
+    "source_ids": [
+      "SRC_NAMU_001"
+    ]
+  },
+  {
+    "id": "FAM_DONGWON",
+    "name": "범동원가",
+    "founder": "김재철",
+    "origin_region": "전남 강진",
+    "founding_year": 1969,
+    "verification_status": "VERIFIED",
+    "history_summary": "김재철 명예회장이 설립한 동원산업을 모태로 참치 원양어업, 동원F&B, 한국투자금융(한투)으로 분가한 수산·금융 재벌.",
+    "related_groups": [
+      "동원그룹",
+      "한국투자금융그룹"
+    ],
+    "major_spinoffs": [
+      "동원F&B",
+      "한국투자금융(김남구)"
+    ],
+    "key_figures": [
+      "김재철",
+      "김남구",
+      "김남정"
+    ],
+    "source_ids": [
+      "SRC_NAMU_001"
+    ]
+  },
+  {
+    "id": "FAM_KIA",
+    "name": "범기아가(과거)",
+    "founder": "김철호",
+    "origin_region": "경북 칠곡",
+    "founding_year": 1944,
+    "verification_status": "VERIFIED",
+    "history_summary": "김철호 창업주가 설립한 경성정공을 모태로 한국 최초의 자전거(삼천리)와 3륜 트럭, 기아자동차를 설립한 가문. 이후 현대차그룹에 인수.",
+    "related_groups": [
+      "기아",
+      "삼천리자전거"
+    ],
+    "major_spinoffs": [
+      "삼천리자전거",
+      "현대차그룹 편입"
+    ],
+    "key_figures": [
+      "김철호",
+      "김상문"
+    ],
+    "source_ids": [
+      "SRC_NAMU_001"
+    ]
+  }
+]

@@ -1,0 +1,170 @@
+{
+  "families_total_count": 100,
+  "families_verified_count": 100,
+  "persons_total_count": 2440,
+  "corporate_groups_count": 40,
+  "verified_marriages_count": 58,
+  "inter_family_marriages_count": 58,
+  "spinoff_count": 11,
+  "business_relations_count": 0,
+  "verification_rate_percent": 100.0,
+  "last_updated": "2026-10-25",
+  "centrality_rankings": {
+    "by_degree": [
+      {
+        "family_id": "FAM_GS",
+        "score": 0.0833,
+        "name": "범GS가"
+      },
+      {
+        "family_id": "FAM_HYUNDAI",
+        "score": 0.0625,
+        "name": "범현대가"
+      },
+      {
+        "family_id": "FAM_SAMSUNG",
+        "score": 0.0521,
+        "name": "범삼성가"
+      },
+      {
+        "family_id": "FAM_SAMPYO",
+        "score": 0.0417,
+        "name": "삼표가"
+      },
+      {
+        "family_id": "FAM_KUMHO",
+        "score": 0.0417,
+        "name": "범금호가"
+      },
+      {
+        "family_id": "FAM_LG",
+        "score": 0.0312,
+        "name": "범LG가"
+      },
+      {
+        "family_id": "FAM_HANWHA",
+        "score": 0.0312,
+        "name": "범한화·빙그레가"
+      },
+      {
+        "family_id": "FAM_DOOSAN",
+        "score": 0.0312,
+        "name": "범두산가"
+      },
+      {
+        "family_id": "FAM_JOONGANG_HONG",
+        "score": 0.0312,
+        "name": "중앙일보·홍씨일가"
+      },
+      {
+        "family_id": "FAM_POONGSAN",
+        "score": 0.0312,
+        "name": "풍산가"
+      }
+    ],
+    "by_betweenness": [
+      {
+        "family_id": "FAM_SAMSUNG",
+        "score": 0.1149,
+        "name": "범삼성가"
+      },
+      {
+        "family_id": "FAM_GS",
+        "score": 0.1065,
+        "name": "범GS가"
+      },
+      {
+        "family_id": "FAM_JOONGANG_HONG",
+        "score": 0.0884,
+        "name": "중앙일보·홍씨일가"
+      },
+      {
+        "family_id": "FAM_SON_MIRYANG",
+        "score": 0.0627,
+        "name": "밀양손씨(손영기·손경식)가문"
+      },
+      {
+        "family_id": "FAM_SAMPYO",
+        "score": 0.0502,
+        "name": "삼표가"
+      },
+      {
+        "family_id": "FAM_LEE_HU_RAK",
+        "score": 0.0474,
+        "name": "이후락가문(정·재계 허브)"
+      },
+      {
+        "family_id": "FAM_LS",
+        "score": 0.0404,
+        "name": "범LS가"
+      },
+      {
+        "family_id": "FAM_DOOSAN",
+        "score": 0.0395,
+        "name": "범두산가"
+      },
+      {
+        "family_id": "FAM_LG",
+        "score": 0.0377,
+        "name": "범LG가"
+      },
+      {
+        "family_id": "FAM_HYUNDAI",
+        "score": 0.0371,
+        "name": "범현대가"
+      }
+    ],
+    "by_closeness": [
+      {
+        "family_id": "FAM_GS",
+        "score": 0.1524,
+        "name": "범GS가"
+      },
+      {
+        "family_id": "FAM_JOONGANG_HONG",
+        "score": 0.1466,
+        "name": "중앙일보·홍씨일가"
+      },
+      {
+        "family_id": "FAM_SAMSUNG",
+        "score": 0.1386,
+        "name": "범삼성가"
+      },
+      {
+        "family_id": "FAM_SAMPYO",
+        "score": 0.137,
+        "name": "삼표가"
+      },
+      {
+        "family_id": "FAM_HYUNDAI",
+        "score": 0.1322,
+        "name": "범현대가"
+      },
+      {
+        "family_id": "FAM_LHO_SHINYONG",
+        "score": 0.1315,
+        "name": "노신영가문(정·관계 허브)"
+      },
+      {
+        "family_id": "FAM_SEAH",
+        "score": 0.1264,
+        "name": "세아가"
+      },
+      {
+        "family_id": "FAM_KIM_DONGJO",
+        "score": 0.1251,
+        "name": "김동조가문(외교·정계 허브)"
+      },
+      {
+        "family_id": "FAM_TAEKWANG",
+        "score": 0.1244,
+        "name": "태광가"
+      },
+      {
+        "family_id": "FAM_KUMHO",
+        "score": 0.1237,
+        "name": "범금호가"
+      }
+    ]
+  }
+}

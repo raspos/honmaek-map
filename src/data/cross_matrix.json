@@ -1,0 +1,1360 @@
+{
+  "GRP_SAMSUNG": {
+    "GRP_SAMSUNG": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범삼성가 → 중앙일보·홍씨일가 → 노신영가문(정·관계 허브) → 범현대가"
+    },
+    "GRP_LG": {
+      "category": "DIRECT_MARRIAGE",
+      "has_marriage": true,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "오너 일가 간 직접 통혼 관계 (혼인 (LG 구인회 3남 구자학 - 삼성 이병철 차녀 이숙희))"
+    },
+    "GRP_SK": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범SK가"
+    },
+    "GRP_GS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범삼성가 → 중앙일보·홍씨일가 → 범GS가"
+    },
+    "GRP_LOTTE": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 태광가 → 범롯데가"
+    },
+    "GRP_HANWHA": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범한화·빙그레가"
+    },
+    "GRP_DOOSAN": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가 → 범LS가 → 범두산가"
+    },
+    "GRP_CJ": {
+      "category": "SPINOFF_OR_ANCESTOR",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": true,
+      "description": "한 뿌리 모태 가문 또는 계열분리 독자경영 (CJ그룹 계열분리 (제일제당 독자분리))"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "SPINOFF_OR_ANCESTOR",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": true,
+      "description": "한 뿌리 모태 가문 또는 계열분리 독자경영 (신세계그룹 계열분리 (신세계백화점 독자분리))"
+    },
+    "GRP_SAMPYO": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가"
+    },
+    "GRP_DAESANG": {
+      "category": "DIRECT_MARRIAGE",
+      "has_marriage": true,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "오너 일가 간 직접 통혼 관계 (과거 혼인 (삼성 이재용 회장 - 대상 임창욱 장녀 임세령))"
+    },
+    "GRP_LS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가 → 범LS가"
+    },
+    "GRP_NONGSHIM": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범삼성가 → 범LG가 → 차병원그룹가 → 범DB가 → 농심가"
+    }
+  },
+  "GRP_HYUNDAI_MOTOR": {
+    "GRP_SAMSUNG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범현대가 → 노신영가문(정·관계 허브) → 중앙일보·홍씨일가 → 범삼성가"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    },
+    "GRP_LG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범현대가 → 노신영가문(정·관계 허브) → 중앙일보·홍씨일가 → 범삼성가 → 범LG가"
+    },
+    "GRP_SK": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범현대가 → 노신영가문(정·관계 허브) → 중앙일보·홍씨일가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범SK가"
+    },
+    "GRP_GS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범현대가 → 삼표가 → 범GS가"
+    },
+    "GRP_LOTTE": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범현대가 → 삼표가 → 범GS가 → 태광가 → 범롯데가"
+    },
+    "GRP_HANWHA": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범현대가 → 노신영가문(정·관계 허브) → 중앙일보·홍씨일가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범한화·빙그레가"
+    },
+    "GRP_DOOSAN": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범현대가 → 삼표가 → 범LS가 → 범두산가"
+    },
+    "GRP_CJ": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SAMPYO": {
+      "category": "DIRECT_MARRIAGE",
+      "has_marriage": true,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "오너 일가 간 직접 통혼 관계 (혼인 (현대차 정의선 회장 - 삼표 정도원 장녀 정지선))"
+    },
+    "GRP_DAESANG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범현대가 → 범대우가 → 범금호가 → 대상가"
+    },
+    "GRP_LS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범현대가 → 삼표가 → 범LS가"
+    },
+    "GRP_NONGSHIM": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범현대가 → 노신영가문(정·관계 허브) → 중앙일보·홍씨일가 → 범삼성가 → 범LG가 → 차병원그룹가 → 범DB가 → 농심가"
+    }
+  },
+  "GRP_LG": {
+    "GRP_SAMSUNG": {
+      "category": "DIRECT_MARRIAGE",
+      "has_marriage": true,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "오너 일가 간 직접 통혼 관계 (혼인 (LG 구인회 3남 구자학 - 삼성 이병철 차녀 이숙희))"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LG가 → 범삼성가 → 중앙일보·홍씨일가 → 노신영가문(정·관계 허브) → 범현대가"
+    },
+    "GRP_LG": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    },
+    "GRP_SK": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LG가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범SK가"
+    },
+    "GRP_GS": {
+      "category": "SPINOFF_OR_ANCESTOR",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": true,
+      "description": "한 뿌리 모태 가문 또는 계열분리 독자경영 (GS그룹 계열분리 (LG-GS 57년 동업 청산))"
+    },
+    "GRP_LOTTE": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LG가 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 태광가 → 범롯데가"
+    },
+    "GRP_HANWHA": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LG가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범한화·빙그레가"
+    },
+    "GRP_DOOSAN": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LG가 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가 → 범LS가 → 범두산가"
+    },
+    "GRP_CJ": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SAMPYO": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LG가 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가"
+    },
+    "GRP_DAESANG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LG가 → 범삼성가 → 대상가"
+    },
+    "GRP_LS": {
+      "category": "SPINOFF_OR_ANCESTOR",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": true,
+      "description": "한 뿌리 모태 가문 또는 계열분리 독자경영 (LS그룹 계열분리 (전선·금속 분리 독자경영))"
+    },
+    "GRP_NONGSHIM": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LG가 → 차병원그룹가 → 범DB가 → 농심가"
+    }
+  },
+  "GRP_SK": {
+    "GRP_SAMSUNG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범SK가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범SK가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 중앙일보·홍씨일가 → 노신영가문(정·관계 허브) → 범현대가"
+    },
+    "GRP_LG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범SK가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 범LG가"
+    },
+    "GRP_SK": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    },
+    "GRP_GS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범SK가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가"
+    },
+    "GRP_LOTTE": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범SK가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 태광가 → 범롯데가"
+    },
+    "GRP_HANWHA": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범SK가 → 이후락가문(정·재계 허브) → 범한화·빙그레가"
+    },
+    "GRP_DOOSAN": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범SK가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가 → 범LS가 → 범두산가"
+    },
+    "GRP_CJ": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SAMPYO": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범SK가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가"
+    },
+    "GRP_DAESANG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범SK가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 대상가"
+    },
+    "GRP_LS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범SK가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가 → 범LS가"
+    },
+    "GRP_NONGSHIM": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범SK가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 범LG가 → 차병원그룹가 → 범DB가 → 농심가"
+    }
+  },
+  "GRP_GS": {
+    "GRP_SAMSUNG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범GS가 → 중앙일보·홍씨일가 → 범삼성가"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범GS가 → 삼표가 → 범현대가"
+    },
+    "GRP_LG": {
+      "category": "SPINOFF_OR_ANCESTOR",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": true,
+      "description": "한 뿌리 모태 가문 또는 계열분리 독자경영 (GS그룹 계열분리 (LG-GS 57년 동업 청산))"
+    },
+    "GRP_SK": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범SK가"
+    },
+    "GRP_GS": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    },
+    "GRP_LOTTE": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범GS가 → 태광가 → 범롯데가"
+    },
+    "GRP_HANWHA": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범한화·빙그레가"
+    },
+    "GRP_DOOSAN": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범GS가 → 삼표가 → 범LS가 → 범두산가"
+    },
+    "GRP_CJ": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SAMPYO": {
+      "category": "DIRECT_MARRIAGE",
+      "has_marriage": true,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "오너 일가 간 직접 통혼 관계 (혼인 (삼표 정대호 - GS 허남각 삼양통상 회장 장녀 허정윤))"
+    },
+    "GRP_DAESANG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 대상가"
+    },
+    "GRP_LS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범GS가 → 삼표가 → 범LS가"
+    },
+    "GRP_NONGSHIM": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 범LG가 → 차병원그룹가 → 범DB가 → 농심가"
+    }
+  },
+  "GRP_LOTTE": {
+    "GRP_SAMSUNG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범롯데가 → 태광가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범롯데가 → 태광가 → 범GS가 → 삼표가 → 범현대가"
+    },
+    "GRP_LG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범롯데가 → 태광가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 범LG가"
+    },
+    "GRP_SK": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범롯데가 → 태광가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범SK가"
+    },
+    "GRP_GS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범롯데가 → 태광가 → 범GS가"
+    },
+    "GRP_LOTTE": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    },
+    "GRP_HANWHA": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범롯데가 → 태광가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범한화·빙그레가"
+    },
+    "GRP_DOOSAN": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범롯데가 → 태광가 → 범GS가 → 삼표가 → 범LS가 → 범두산가"
+    },
+    "GRP_CJ": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SAMPYO": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범롯데가 → 태광가 → 범GS가 → 삼표가"
+    },
+    "GRP_DAESANG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범롯데가 → 태광가 → 동국제강·한국철강가 → 범금호가 → 대상가"
+    },
+    "GRP_LS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범롯데가 → 태광가 → 범GS가 → 삼표가 → 범LS가"
+    },
+    "GRP_NONGSHIM": {
+      "category": "SPINOFF_OR_ANCESTOR",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": true,
+      "description": "한 뿌리 모태 가문 또는 계열분리 독자경영 (농심 계열분리 (롯데공업 독립))"
+    }
+  },
+  "GRP_HANWHA": {
+    "GRP_SAMSUNG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범한화·빙그레가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범한화·빙그레가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 중앙일보·홍씨일가 → 노신영가문(정·관계 허브) → 범현대가"
+    },
+    "GRP_LG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범한화·빙그레가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 범LG가"
+    },
+    "GRP_SK": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범한화·빙그레가 → 이후락가문(정·재계 허브) → 범SK가"
+    },
+    "GRP_GS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범한화·빙그레가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가"
+    },
+    "GRP_LOTTE": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범한화·빙그레가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 태광가 → 범롯데가"
+    },
+    "GRP_HANWHA": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    },
+    "GRP_DOOSAN": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범한화·빙그레가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가 → 범LS가 → 범두산가"
+    },
+    "GRP_CJ": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SAMPYO": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범한화·빙그레가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가"
+    },
+    "GRP_DAESANG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범한화·빙그레가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 대상가"
+    },
+    "GRP_LS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범한화·빙그레가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가 → 범LS가"
+    },
+    "GRP_NONGSHIM": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범한화·빙그레가 → 이후락가문(정·재계 허브) → 밀양손씨(손영기·손경식)가문 → 범삼성가 → 범LG가 → 차병원그룹가 → 범DB가 → 농심가"
+    }
+  },
+  "GRP_DOOSAN": {
+    "GRP_SAMSUNG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범두산가 → 범LS가 → 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범두산가 → 범LS가 → 삼표가 → 범현대가"
+    },
+    "GRP_LG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범두산가 → 범LS가 → 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 범LG가"
+    },
+    "GRP_SK": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범두산가 → 범LS가 → 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범SK가"
+    },
+    "GRP_GS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범두산가 → 범LS가 → 삼표가 → 범GS가"
+    },
+    "GRP_LOTTE": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범두산가 → 범LS가 → 삼표가 → 범GS가 → 태광가 → 범롯데가"
+    },
+    "GRP_HANWHA": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범두산가 → 범LS가 → 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범한화·빙그레가"
+    },
+    "GRP_DOOSAN": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    },
+    "GRP_CJ": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SAMPYO": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범두산가 → 범LS가 → 삼표가"
+    },
+    "GRP_DAESANG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범두산가 → 범LS가 → 삼표가 → 범현대가 → 범대우가 → 범금호가 → 대상가"
+    },
+    "GRP_LS": {
+      "category": "DIRECT_MARRIAGE",
+      "has_marriage": true,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "오너 일가 간 직접 통혼 관계 (혼인 (LS 구자열 장남 구동휘 - 두산 박지원 장녀 박상민))"
+    },
+    "GRP_NONGSHIM": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범두산가 → 범LS가 → 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 범LG가 → 차병원그룹가 → 범DB가 → 농심가"
+    }
+  },
+  "GRP_CJ": {
+    "GRP_SAMSUNG": {
+      "category": "SPINOFF_OR_ANCESTOR",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": true,
+      "description": "한 뿌리 모태 가문 또는 계열분리 독자경영 (CJ그룹 계열분리 (제일제당 독자분리))"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_LG": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SK": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_GS": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_LOTTE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_HANWHA": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_DOOSAN": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_CJ": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SAMPYO": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_DAESANG": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_LS": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_NONGSHIM": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    }
+  },
+  "GRP_SHINSEGAE": {
+    "GRP_SAMSUNG": {
+      "category": "SPINOFF_OR_ANCESTOR",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": true,
+      "description": "한 뿌리 모태 가문 또는 계열분리 독자경영 (신세계그룹 계열분리 (신세계백화점 독자분리))"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_LG": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SK": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_GS": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_LOTTE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_HANWHA": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_DOOSAN": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_CJ": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    },
+    "GRP_SAMPYO": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_DAESANG": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_LS": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_NONGSHIM": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    }
+  },
+  "GRP_SAMPYO": {
+    "GRP_SAMSUNG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "DIRECT_MARRIAGE",
+      "has_marriage": true,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "오너 일가 간 직접 통혼 관계 (혼인 (현대차 정의선 회장 - 삼표 정도원 장녀 정지선))"
+    },
+    "GRP_LG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 범LG가"
+    },
+    "GRP_SK": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범SK가"
+    },
+    "GRP_GS": {
+      "category": "DIRECT_MARRIAGE",
+      "has_marriage": true,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "오너 일가 간 직접 통혼 관계 (혼인 (삼표 정대호 - GS 허남각 삼양통상 회장 장녀 허정윤))"
+    },
+    "GRP_LOTTE": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 삼표가 → 범GS가 → 태광가 → 범롯데가"
+    },
+    "GRP_HANWHA": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범한화·빙그레가"
+    },
+    "GRP_DOOSAN": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 삼표가 → 범LS가 → 범두산가"
+    },
+    "GRP_CJ": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SAMPYO": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    },
+    "GRP_DAESANG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 삼표가 → 범현대가 → 범대우가 → 범금호가 → 대상가"
+    },
+    "GRP_LS": {
+      "category": "DIRECT_MARRIAGE",
+      "has_marriage": true,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "오너 일가 간 직접 통혼 관계 (혼인 (삼표 정대현 부회장 - LS 구자명 장녀 구연승))"
+    },
+    "GRP_NONGSHIM": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 범LG가 → 차병원그룹가 → 범DB가 → 농심가"
+    }
+  },
+  "GRP_DAESANG": {
+    "GRP_SAMSUNG": {
+      "category": "DIRECT_MARRIAGE",
+      "has_marriage": true,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "오너 일가 간 직접 통혼 관계 (과거 혼인 (삼성 이재용 회장 - 대상 임창욱 장녀 임세령))"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 대상가 → 범금호가 → 범대우가 → 범현대가"
+    },
+    "GRP_LG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 대상가 → 범삼성가 → 범LG가"
+    },
+    "GRP_SK": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 대상가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범SK가"
+    },
+    "GRP_GS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 대상가 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가"
+    },
+    "GRP_LOTTE": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 대상가 → 범금호가 → 동국제강·한국철강가 → 태광가 → 범롯데가"
+    },
+    "GRP_HANWHA": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 대상가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범한화·빙그레가"
+    },
+    "GRP_DOOSAN": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 대상가 → 범금호가 → 범대우가 → 범현대가 → 삼표가 → 범LS가 → 범두산가"
+    },
+    "GRP_CJ": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SAMPYO": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 대상가 → 범금호가 → 범대우가 → 범현대가 → 삼표가"
+    },
+    "GRP_DAESANG": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    },
+    "GRP_LS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 대상가 → 범금호가 → 범대우가 → 범현대가 → 삼표가 → 범LS가"
+    },
+    "GRP_NONGSHIM": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 대상가 → 범삼성가 → 범LG가 → 차병원그룹가 → 범DB가 → 농심가"
+    }
+  },
+  "GRP_LS": {
+    "GRP_SAMSUNG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LS가 → 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LS가 → 삼표가 → 범현대가"
+    },
+    "GRP_LG": {
+      "category": "SPINOFF_OR_ANCESTOR",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": true,
+      "description": "한 뿌리 모태 가문 또는 계열분리 독자경영 (LS그룹 계열분리 (전선·금속 분리 독자경영))"
+    },
+    "GRP_SK": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LS가 → 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범SK가"
+    },
+    "GRP_GS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LS가 → 삼표가 → 범GS가"
+    },
+    "GRP_LOTTE": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LS가 → 삼표가 → 범GS가 → 태광가 → 범롯데가"
+    },
+    "GRP_HANWHA": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LS가 → 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범한화·빙그레가"
+    },
+    "GRP_DOOSAN": {
+      "category": "DIRECT_MARRIAGE",
+      "has_marriage": true,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "오너 일가 간 직접 통혼 관계 (혼인 (LS 구자열 장남 구동휘 - 두산 박지원 장녀 박상민))"
+    },
+    "GRP_CJ": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SAMPYO": {
+      "category": "DIRECT_MARRIAGE",
+      "has_marriage": true,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "오너 일가 간 직접 통혼 관계 (혼인 (삼표 정대현 부회장 - LS 구자명 장녀 구연승))"
+    },
+    "GRP_DAESANG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LS가 → 삼표가 → 범현대가 → 범대우가 → 범금호가 → 대상가"
+    },
+    "GRP_LS": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    },
+    "GRP_NONGSHIM": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 범LS가 → 삼표가 → 범GS가 → 중앙일보·홍씨일가 → 범삼성가 → 범LG가 → 차병원그룹가 → 범DB가 → 농심가"
+    }
+  },
+  "GRP_NONGSHIM": {
+    "GRP_SAMSUNG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 농심가 → 범DB가 → 차병원그룹가 → 범LG가 → 범삼성가"
+    },
+    "GRP_HYUNDAI_MOTOR": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 농심가 → 범DB가 → 차병원그룹가 → 범LG가 → 범삼성가 → 중앙일보·홍씨일가 → 노신영가문(정·관계 허브) → 범현대가"
+    },
+    "GRP_LG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 농심가 → 범DB가 → 차병원그룹가 → 범LG가"
+    },
+    "GRP_SK": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 농심가 → 범DB가 → 차병원그룹가 → 범LG가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범SK가"
+    },
+    "GRP_GS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 농심가 → 범DB가 → 차병원그룹가 → 범LG가 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가"
+    },
+    "GRP_LOTTE": {
+      "category": "SPINOFF_OR_ANCESTOR",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": true,
+      "description": "한 뿌리 모태 가문 또는 계열분리 독자경영 (농심 계열분리 (롯데공업 독립))"
+    },
+    "GRP_HANWHA": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 농심가 → 범DB가 → 차병원그룹가 → 범LG가 → 범삼성가 → 밀양손씨(손영기·손경식)가문 → 이후락가문(정·재계 허브) → 범한화·빙그레가"
+    },
+    "GRP_DOOSAN": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 농심가 → 범DB가 → 차병원그룹가 → 범LG가 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가 → 범LS가 → 범두산가"
+    },
+    "GRP_CJ": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SHINSEGAE": {
+      "category": "NONE_VERIFIED",
+      "has_marriage": false,
+      "has_indirect": false,
+      "is_spinoff": false,
+      "description": "확인된 직·간접 혼인 관계 없음"
+    },
+    "GRP_SAMPYO": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 농심가 → 범DB가 → 차병원그룹가 → 범LG가 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가"
+    },
+    "GRP_DAESANG": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 농심가 → 범DB가 → 차병원그룹가 → 범LG가 → 범삼성가 → 대상가"
+    },
+    "GRP_LS": {
+      "category": "INDIRECT_MARRIAGE",
+      "has_marriage": false,
+      "has_indirect": true,
+      "is_spinoff": false,
+      "description": "정·재계 혼맥 허브 경유 간접 연결: 농심가 → 범DB가 → 차병원그룹가 → 범LG가 → 범삼성가 → 중앙일보·홍씨일가 → 범GS가 → 삼표가 → 범LS가"
+    },
+    "GRP_NONGSHIM": {
+      "category": "SELF",
+      "description": "동일 기업집단"
+    }
+  }
+}

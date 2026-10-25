@@ -1,0 +1,338 @@
+[
+  {
+    "id": "SRC_DART",
+    "type": "DART",
+    "publisher": "금융감독원 전자공시시스템(DART)",
+    "title": "사업보고서 및 최대주주등소유주식변동신고서",
+    "date": "2024-05-31",
+    "url": "https://dart.fss.or.kr"
+  },
+  {
+    "id": "SRC_FTC",
+    "type": "FTC",
+    "publisher": "공정거래위원회",
+    "title": "공시대상기업집단 지정결과 및 계열분리 현황",
+    "date": "2024-05-01",
+    "url": "https://www.ftc.go.kr"
+  },
+  {
+    "id": "SRC_NAMU_MASTER",
+    "type": "SEED_NAMU",
+    "publisher": "재계 가문 계보 및 언론 보도 아카이브",
+    "title": "한국의 기업 가문 및 하위 기업 가문 참조(1~134번) 전수 조사",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8"
+  },
+  {
+    "id": "SRC_NAMU_FN_84",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 84)",
+    "title": "아세아제지 이인범 ↔ GS 허동수 명예회장 딸 고 허지영 혼인 (범GS가 ↔ 아세아그룹 직결)",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-84"
+  },
+  {
+    "id": "SRC_NAMU_FN_83",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 83)",
+    "title": "아세아그룹 이병무 명예회장 ↔ OCI 이회림 창업주 3녀 이정자 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-83"
+  },
+  {
+    "id": "SRC_NAMU_FN_87",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 87)",
+    "title": "DB그룹 김남호 회장 ↔ 차병원 차광렬 차병원그룹 회장 장녀 차원영 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-87"
+  },
+  {
+    "id": "SRC_NAMU_FN_89",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 89)",
+    "title": "차병원 차원태 사장 ↔ 범LG가(아워홈) 구본성 전 부회장 장녀 구조앤 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-89"
+  },
+  {
+    "id": "SRC_NAMU_FN_66",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 66)",
+    "title": "현대자동차 정의선 회장 ↔ 삼표그룹 정도원 회장 장녀 정지선 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-66"
+  },
+  {
+    "id": "SRC_NAMU_FN_69",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 69)",
+    "title": "삼표그룹 정대현 사장 ↔ 범LS가 구자명 회장 장녀 구연승 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-69"
+  },
+  {
+    "id": "SRC_NAMU_FN_60",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 60)",
+    "title": "삼표그룹 정대호 부사장 ↔ GS 허남각 삼양통상 회장 장녀 허정윤 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-60"
+  },
+  {
+    "id": "SRC_NAMU_FN_68",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 68)",
+    "title": "삼표그룹 정도원 차녀 정지윤 ↔ 포스코 박태준 명예회장 장남 박성빈 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-68"
+  },
+  {
+    "id": "SRC_NAMU_FN_67",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 67)",
+    "title": "현대자동차 정의선 장녀 정진희 ↔ 대우그룹 김우중 조카손자 김지호 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-67"
+  },
+  {
+    "id": "SRC_NAMU_FN_50",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 50)",
+    "title": "태광그룹 이호진 전 회장 ↔ 롯데 신선호 산사스 회장 장녀 신유나 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-50"
+  },
+  {
+    "id": "SRC_NAMU_FN_47",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 47)",
+    "title": "GS그룹 허만정 8남 허승조 부회장 ↔ 태광그룹 이임용 창업주 장녀 이식형 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-47"
+  },
+  {
+    "id": "SRC_NAMU_FN_46",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 46)",
+    "title": "태광그룹 이임용 차남 이영진 ↔ 동국제강 장상준 딸 장옥빈 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-46"
+  },
+  {
+    "id": "SRC_NAMU_FN_39",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 39)",
+    "title": "벽산그룹 김희철 회장 ↔ GS 허정구 삼양통상 회장 장녀 허영자 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-39"
+  },
+  {
+    "id": "SRC_NAMU_FN_42",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 42)",
+    "title": "벽산/TYM 김희용 회장 ↔ 박설자 (박정희 대통령 조카 / 김종필 총리 처제) 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-42"
+  },
+  {
+    "id": "SRC_NAMU_FN_36",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 36)",
+    "title": "삼천리그룹 이만득 3녀 이은희 ↔ 롯데관광개발 김기병 차남 김한준 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-36"
+  },
+  {
+    "id": "SRC_NAMU_FN_31",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 31)",
+    "title": "세아그룹 이태성 부사장 ↔ 애경그룹 채형석 총괄부회장 장녀 채문선 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-31"
+  },
+  {
+    "id": "SRC_NAMU_FN_32",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 32)",
+    "title": "애경그룹 채형석 차녀 채수연 ↔ 현대자동차 정몽구 외손자 선동욱 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-32"
+  },
+  {
+    "id": "SRC_NAMU_FN_9",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 9)",
+    "title": "SPC 허영인 회장 ↔ 범코오롱가 이원만 창업주 4녀 이미향 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-9"
+  },
+  {
+    "id": "SRC_NAMU_FN_10",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 10)",
+    "title": "SPC 허진수 사장 ↔ 범두산가 박용욱 이생그룹 회장 장녀 박효원 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-10"
+  },
+  {
+    "id": "SRC_NAMU_FN_11",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 11)",
+    "title": "SPC 허희수 부사장 ↔ 애경그룹 안용찬 전 부회장 장녀 안리나 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-11"
+  },
+  {
+    "id": "SRC_NAMU_FN_14",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 14)",
+    "title": "일진머티리얼즈 허재명 대표 ↔ 범금호가 박정구 회장 3녀 박은혜 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-14"
+  },
+  {
+    "id": "SRC_NAMU_FN_15",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 15)",
+    "title": "대상그룹 임창욱 명예회장 ↔ 범금호가 박인천 창업주 3녀 박현주 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-15"
+  },
+  {
+    "id": "SRC_NAMU_FN_16",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 16)",
+    "title": "삼성 이재용 회장 ↔ 대상 임세령 부회장 혼인 (2009년 이혼)",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-16"
+  },
+  {
+    "id": "SRC_NAMU_FN_4",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 4)",
+    "title": "세아그룹 이은성 ↔ 범GS가 허윤수 (허승효 알토그룹 회장 차남) 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-4"
+  },
+  {
+    "id": "SRC_NAMU_FN_55",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 55)",
+    "title": "영풍그룹 장철진 전 회장 딸 장세경 ↔ 일진그룹 허진규 회장 장남 허정석 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-55"
+  },
+  {
+    "id": "SRC_NAMU_FN_58",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 58)",
+    "title": "조선일보 방우영 회장 장남 방성훈 ↔ 영풍/코리아써키트 최창걸 2녀 최강민 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-58"
+  },
+  {
+    "id": "SRC_NAMU_FN_79",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 79)",
+    "title": "풍산그룹 류찬우 창업주 장남 류청 ↔ 박정희 전 대통령 차녀 박근령 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-79"
+  },
+  {
+    "id": "SRC_NAMU_FN_80",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 80)",
+    "title": "풍산그룹 류진 회장 ↔ 노신영 전 국무총리 장녀 노혜경 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-80"
+  },
+  {
+    "id": "SRC_NAMU_FN_82",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 82)",
+    "title": "이수그룹 김상범 회장 ↔ 대우그룹 김우중 회장 장녀 김선정 관장 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%9D%98%20%EA%B8%B0%EC%97%85%20%EA%B0%80%EB%AC%B8#rfn-82"
+  },
+  {
+    "id": "SRC_NAMU_HANWHA",
+    "type": "SEED_NAMU",
+    "publisher": "재계 가문 계보 및 언론 보도 아카이브",
+    "title": "범한화가 가계도 (김종희 창업주 일가, 이후락·손경식·서정화·백범 김구 혼맥)",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%EB%B2%94%ED%95%9C%ED%99%94%EA%B0%80#s-2"
+  },
+  {
+    "id": "SRC_NAMU_LOTTE",
+    "type": "SEED_NAMU",
+    "publisher": "재계 가문 계보 및 언론 보도 아카이브",
+    "title": "범롯데가 가계도 (신격호 창업주 일가, 신춘호 농심·신준호 푸르밀·삼천리 혼맥)",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%EB%B2%94%EB%A1%AF%EB%8D%B0%EA%B0%80#s-2"
+  },
+  {
+    "id": "SRC_NAMU_SAMSUNG",
+    "type": "SEED_NAMU",
+    "publisher": "재계 가문 계보 및 언론 보도 아카이브",
+    "title": "범삼성가 가계도 (이병철 창업주 일가, 홍진기 중앙일보·LG 구씨·동아일보 혼맥)",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%EB%B2%94%EC%82%BC%EC%84%B1%EA%B0%80#s-2"
+  },
+  {
+    "id": "SRC_NAMU_HYUNDAI",
+    "type": "SEED_NAMU",
+    "publisher": "재계 가문 계보 및 언론 보도 아카이브",
+    "title": "범현대가 가계도 (정주영 명예회장 일가, 삼표·전방 현정은·대우 김덕중 혼맥)",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%EB%B2%94%ED%98%84%EB%8C%80%EA%B0%80#s-2"
+  },
+  {
+    "id": "SRC_NAMU_LG",
+    "type": "SEED_NAMU",
+    "publisher": "재계 가문 계보 및 언론 보도 아카이브",
+    "title": "범LG가 가계도 (구인회 창업주 일가, 삼성·동아일보·두산 혼맥)",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%EB%B2%94LG%EA%B0%80#s-2"
+  },
+  {
+    "id": "SRC_NAMU_GS",
+    "type": "SEED_NAMU",
+    "publisher": "재계 가문 계보 및 언론 보도 아카이브",
+    "title": "범GS가 가계도 (허만정 공동창업주 일가, 벽산·태광·세아·아세아·조선일보 혼맥)",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%EB%B2%94GS%EA%B0%80#s-2"
+  },
+  {
+    "id": "SRC_NAMU_SAM_FN_58",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 58)",
+    "title": "메리츠금융 조정호 회장(한진 조중훈 4남) ↔ 구명진(구자학·이숙희 차녀, 삼성·LG 직계) 혼인 (삼성-LG-한진 연결고리)",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%EB%B2%94%EC%82%BC%EC%84%B1%EA%B0%80#rfn-58"
+  },
+  {
+    "id": "SRC_NAMU_HYU_FN_97",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 97)",
+    "title": "현대비앤지스틸 정일선 사장(현대 정몽우 차남) ↔ 동아일보 인촌 김성수 손녀 김선희 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%EB%B2%94%ED%98%84%EB%8C%80%EA%B0%80#rfn-97"
+  },
+  {
+    "id": "SRC_NAMU_HYU_FN_95",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 95)",
+    "title": "한솔그룹 조동길 회장 장남 조해성 ↔ 현대종합금속 정몽석 회장 장녀 혼인 (삼성-한솔 ↔ 현대)",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%EB%B2%94%ED%98%84%EB%8C%80%EA%B0%80#rfn-95"
+  },
+  {
+    "id": "SRC_NAMU_HYU_FN_49",
+    "type": "SEED_NAMU",
+    "publisher": "언론사 기획보도·공시 교차검증 (각주 49)",
+    "title": "현대차 정몽구 외손녀(정성이 딸) 선유미 ↔ 쌍용그룹 김석원 회장 차남 김지수 혼인",
+    "date": "2026-10-25",
+    "url": "https://namu.wiki/w/%EB%B2%94%ED%98%84%EB%8C%80%EA%B0%80#rfn-49"
+  }
+]

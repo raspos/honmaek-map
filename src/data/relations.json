@@ -1,0 +1,1296 @@
+[
+  {
+    "id": "M_ASEA_GS",
+    "from_id": "P_LEE_IN_BUM",
+    "to_id": "P_HUH_JI_YOUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (아세아제지 이인범 - GS 허동수 장녀 허지영)",
+    "start_year": 2006,
+    "end_year": 2020,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_BONGMYUNG_ASEA",
+    "fam_to": "FAM_GS",
+    "desc": "아세아그룹 이병무 명예회장의 차남 이인범 아세아제지 회장과 허동수 GS칼텍스 명예회장의 딸 고 허지영의 혼인. [각주 84]",
+    "source_ids": [
+      "SRC_NAMU_FN_84",
+      "SRC_NAMU_GS",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_OCI_ASEA",
+    "from_id": "P_LEE_BYUNG_MOO",
+    "to_id": "P_LEE_JUNG_JA",
+    "type": "MARRIAGE",
+    "label": "혼인 (아세아 이병무 - OCI 이회림 3녀 이정자)",
+    "start_year": 1968,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_BONGMYUNG_ASEA",
+    "fam_to": "FAM_OCI",
+    "desc": "이회림 OCI 창업주의 3녀 이정자와 아세아그룹 이병무 명예회장의 혼인. OCI와 아세아 가문 직결. [각주 83]",
+    "source_ids": [
+      "SRC_NAMU_FN_83",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_HW_LHR",
+    "from_id": "P_LEE_DONG_HOON",
+    "to_id": "P_KIM_YOUNG_HYE",
+    "type": "MARRIAGE",
+    "label": "혼인 (이후락 차남 이동훈 - 한화 김종희 장녀 김영혜)",
+    "start_year": 1971,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_LEE_HU_RAK",
+    "fam_to": "FAM_HANWHA",
+    "desc": "이후락 전 중앙정보부장 차남 이동훈 전 제일화재 회장과 김종희 한화 창업주 장녀 김영혜의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_HANWHA",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SK_LHR",
+    "from_id": "P_LEE_DONG_WOOK",
+    "to_id": "P_CHOI_JI_WON_SK",
+    "type": "MARRIAGE",
+    "label": "혼인 (이후락 5남 이동욱 - SK 최종건 4녀 최지원)",
+    "start_year": 1980,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_LEE_HU_RAK",
+    "fam_to": "FAM_SK",
+    "desc": "이후락 전 부장 5남 이동욱과 SK 최종건 창업주 4녀 최지원의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_NAMU_HANWHA",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_LHR_SON",
+    "from_id": "P_LEE_JAE_HWAN_HW",
+    "to_id": "P_SON_HEE_YOUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (이후락 손자/한화 외손자 이재환 - CJ 손경식 장녀 손희영)",
+    "start_year": 1998,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_LEE_HU_RAK",
+    "fam_to": "FAM_SON_MIRYANG",
+    "desc": "이동훈·김영혜 장남(이후락 친손자, 김종희 한화 창업주 외손자) 이재환과 손경식 CJ그룹 회장 장녀 손희영 동덕여대 교수의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_HANWHA",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SAM_SON",
+    "from_id": "P_LEE_MAENG_HEE",
+    "to_id": "P_SON_BOK_NAM",
+    "type": "MARRIAGE",
+    "label": "혼인 (삼성 이맹희 - 밀양손씨 손영기 장녀 손복남)",
+    "start_year": 1956,
+    "end_year": 2015,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_SAMSUNG",
+    "fam_to": "FAM_SON_MIRYANG",
+    "desc": "이병철 삼성 창업주 장남 이맹희 CJ 명예회장과 손영기 전 경기도지사 장녀 손복남의 혼인 (CJ 오너가의 모태).",
+    "source_ids": [
+      "SRC_NAMU_SAMSUNG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SON_KBH",
+    "from_id": "P_SON_KYUNG_SHIK",
+    "to_id": "P_KIM_KYO_SOOK",
+    "type": "MARRIAGE",
+    "label": "혼인 (CJ 손경식 회장 - 김봉환 전 4선 의원 딸 김교숙)",
+    "start_year": 1970,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_SON_MIRYANG",
+    "fam_to": "FAM_KIM_BONG_HWAN",
+    "desc": "손경식 CJ그룹 회장과 김봉환 전 국회 보건사회위원장 딸 김교숙의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_SAMSUNG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_HW_SJH",
+    "from_id": "P_KIM_SEUNG_YOUN",
+    "to_id": "P_SUH_YOUNG_MIN",
+    "type": "MARRIAGE",
+    "label": "혼인 (한화 김승연 회장 - 서정화 전 내무장관 장녀 서영민)",
+    "start_year": 1982,
+    "end_year": 2022,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_HANWHA",
+    "fam_to": "FAM_SUH_JUNG_HWA",
+    "desc": "김승연 한화그룹 회장과 서정화 전 내무부장관 장녀 서영민의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_HANWHA",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_HW_KG",
+    "from_id": "P_KIM_HO_YEON",
+    "to_id": "P_KIM_MI",
+    "type": "MARRIAGE",
+    "label": "혼인 (빙그레 김호연 회장 - 백범 김구 손녀 김미)",
+    "start_year": 1983,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_HANWHA",
+    "fam_to": "FAM_KIM_GU",
+    "desc": "김종희 창업주 차남 김호연 빙그레 회장과 백범 김구 손녀(김신 전 장관 딸) 김미의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_HANWHA",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SP_HYUNDAI",
+    "from_id": "P_CHUNG_EUI_SUN",
+    "to_id": "P_CHUNG_JI_SUN_SP",
+    "type": "MARRIAGE",
+    "label": "혼인 (현대차 정의선 회장 - 삼표 정도원 장녀 정지선)",
+    "start_year": 1995,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_HYUNDAI",
+    "fam_to": "FAM_SAMPYO",
+    "desc": "정의선 현대차그룹 회장과 정도원 삼표그룹 회장 장녀 정지선의 혼인. [각주 66]",
+    "source_ids": [
+      "SRC_NAMU_FN_66",
+      "SRC_NAMU_HYUNDAI",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SP_LS",
+    "from_id": "P_CHUNG_DAE_HYUN_SP",
+    "to_id": "P_KOO_YEON_SEUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (삼표 정대현 부회장 - LS 구자명 장녀 구연승)",
+    "start_year": 2011,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_SAMPYO",
+    "fam_to": "FAM_LS",
+    "desc": "정도원 삼표그룹 회장 장남 정대현 삼표 부회장과 구자명 전 LS MnM 회장 장녀 구연승의 혼인. [각주 69]",
+    "source_ids": [
+      "SRC_NAMU_FN_69",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SP_GS",
+    "from_id": "P_CHUNG_DAE_HO_SP",
+    "to_id": "P_HUH_JUNG_YOON",
+    "type": "MARRIAGE",
+    "label": "혼인 (삼표 정대호 - GS 허남각 삼양통상 회장 장녀 허정윤)",
+    "start_year": 1996,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_SAMPYO",
+    "fam_to": "FAM_GS",
+    "desc": "삼표 정인욱 창업주 손자 정대호와 허남각 삼양통상 회장 장녀 허정윤의 혼인. [각주 60]",
+    "source_ids": [
+      "SRC_NAMU_FN_60",
+      "SRC_NAMU_GS",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SP_POSCO",
+    "from_id": "P_CHUNG_JI_YOON_SP",
+    "to_id": "P_PARK_SUNG_BIN",
+    "type": "MARRIAGE",
+    "label": "혼인 (삼표 정도원 차녀 정지윤 - 포스코 박태준 장남 박성빈)",
+    "start_year": 2002,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_SAMPYO",
+    "fam_to": "FAM_POONGSAN",
+    "desc": "정도원 삼표 회장 차녀 정지윤과 박태준 포스코 명예회장 장남 박성빈의 혼인. [각주 68]",
+    "source_ids": [
+      "SRC_NAMU_FN_68",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_HYUNDAI_DW",
+    "from_id": "P_CHUNG_JIN_HEE",
+    "to_id": "P_KIM_JI_HO_DW",
+    "type": "MARRIAGE",
+    "label": "혼인 (현대차 정의선 장녀 정진희 - 대우 김우중 조카손자 김지호)",
+    "start_year": 2022,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_HYUNDAI",
+    "fam_to": "FAM_DAEWOO",
+    "desc": "정의선 현대차 회장 장녀 정진희와 김덕중 전 교육부총리 손자(김우중 조카손자) 김지호의 혼인. [각주 67]",
+    "source_ids": [
+      "SRC_NAMU_FN_67",
+      "SRC_NAMU_HYUNDAI",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_HYUNDAI_CB",
+    "from_id": "P_CHUNG_MONG_HUN",
+    "to_id": "P_HYUN_JEONG_EUN",
+    "type": "MARRIAGE",
+    "label": "혼인 (현대 정몽헌 회장 - 전방 현정은 회장)",
+    "start_year": 1976,
+    "end_year": 2003,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_HYUNDAI",
+    "fam_to": "FAM_CHONBANG",
+    "desc": "정주영 현대 5남 정몽헌 회장과 김용주 전방 창업주 외손녀(현영원·김문희 차녀, 김무성 외조카) 현정은 현대그룹 회장의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_HYUNDAI",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_HYUNDAI_KDJ",
+    "from_id": "P_CHUNG_MONG_JOON",
+    "to_id": "P_KIM_YOUNG_MYUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (현대 정몽준 - 김동조 외무장관 4녀 김영명)",
+    "start_year": 1979,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_HYUNDAI",
+    "fam_to": "FAM_KIM_DONGJO",
+    "desc": "정주영 6남 정몽준 HD현대 최대주주와 김동조 전 외무장관 4녀 김영명의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_HYUNDAI",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_HYUNDAI_LHO",
+    "from_id": "P_LHO_KYUNG_SOO",
+    "to_id": "P_CHUNG_SOOK_YOUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (노신영 장남 노경수 - 현대 정순영 성우그룹 장녀 정숙영)",
+    "start_year": 1978,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_LHO_SHINYONG",
+    "fam_to": "FAM_HYUNDAI",
+    "desc": "노신영 전 국무총리 장남 노경수 서울대 교수와 정주영 조카(정순영 성우그룹 창업주 장녀) 정숙영의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_HYUNDAI",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SAM_LG",
+    "from_id": "P_KOO_CHA_HAK",
+    "to_id": "P_LEE_SOOK_HEE",
+    "type": "MARRIAGE",
+    "label": "혼인 (LG 구인회 3남 구자학 - 삼성 이병철 차녀 이숙희)",
+    "start_year": 1957,
+    "end_year": 2022,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_LG",
+    "fam_to": "FAM_SAMSUNG",
+    "desc": "이병철 삼성 창업주 차녀 이숙희와 구인회 LG 창업주 3남 구자학 아워홈 회장의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_SAMSUNG",
+      "SRC_NAMU_LG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SAM_HONG",
+    "from_id": "P_LEE_KUN_HEE",
+    "to_id": "P_HONG_RA_HEE",
+    "type": "MARRIAGE",
+    "label": "혼인 (삼성 이건희 선대회장 - 중앙일보 홍진기 장녀 홍라희)",
+    "start_year": 1967,
+    "end_year": 2020,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_SAMSUNG",
+    "fam_to": "FAM_JOONGANG_HONG",
+    "desc": "이건희 회장과 홍진기 전 법무장관 장녀 홍라희 전 리움미술관장의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_SAMSUNG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SAM_DS",
+    "from_id": "P_LEE_JAE_YONG",
+    "to_id": "P_LIM_SE_RYUNG",
+    "type": "MARRIAGE",
+    "label": "과거 혼인 (삼성 이재용 회장 - 대상 임창욱 장녀 임세령)",
+    "start_year": 1998,
+    "end_year": 2009,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_SAMSUNG",
+    "fam_to": "FAM_DAESANG",
+    "desc": "이재용 삼성전자 회장과 임창욱 대상그룹 명예회장 장녀 임세령 부회장의 혼인 (2009년 합의이혼). [각주 16]",
+    "source_ids": [
+      "SRC_NAMU_FN_16",
+      "SRC_NAMU_SAMSUNG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SAM_DONGA",
+    "from_id": "P_KIM_JAE_YEOL",
+    "to_id": "P_LEE_SEO_HYUN",
+    "type": "MARRIAGE",
+    "label": "혼인 (동아일보 김병관 차남 김재열 - 삼성 이건희 차녀 이서현)",
+    "start_year": 2000,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_DONGA_ILBO",
+    "fam_to": "FAM_SAMSUNG",
+    "desc": "김병관 동아일보 전 명예회장 차남 김재열 삼성글로벌리서치 사장과 이건희 차녀 이서현 삼성물산 사장의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_SAMSUNG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SAM_LHO",
+    "from_id": "P_LHO_CHUL_SOO",
+    "to_id": "P_HONG_RA_YOUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (노신영 차남 노철수 - 중앙일보 홍진기 차녀 홍라영)",
+    "start_year": 1982,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_LHO_SHINYONG",
+    "fam_to": "FAM_JOONGANG_HONG",
+    "desc": "노신영 전 국무총리 차남 노철수와 홍진기 전 장관 차녀 홍라영의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_SAMSUNG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_LG_DONGA",
+    "from_id": "P_KOO_BON_MOO",
+    "to_id": "P_KIM_YOUNG_SHIK",
+    "type": "MARRIAGE",
+    "label": "혼인 (LG 구본무 3대 회장 - 동아일보·삼양통상 김영식)",
+    "start_year": 1972,
+    "end_year": 2018,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_LG",
+    "fam_to": "FAM_DONGA_ILBO",
+    "desc": "구본무 LG 회장과 김태동 전 장관 장녀(동아일보·삼양통상 일가) 김영식 여사의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_LG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_LS_DOOSAN",
+    "from_id": "P_KOO_DONG_HWI",
+    "to_id": "P_PARK_SANG_MIN",
+    "type": "MARRIAGE",
+    "label": "혼인 (LS 구자열 장남 구동휘 - 두산 박지원 장녀 박상민)",
+    "start_year": 2017,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_LS",
+    "fam_to": "FAM_DOOSAN",
+    "desc": "구자열 LS그룹 의장 장남 구동휘 LS MnM 부사장과 박지원 두산에너빌리티 회장 장녀 박상민의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_LG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_LS_OCI",
+    "from_id": "P_LEE_WOO_SUNG",
+    "to_id": "P_KOO_EUN_AH",
+    "type": "MARRIAGE",
+    "label": "혼인 (OCI 이복영 장남 이우성 - LS 구자열 장녀 구은아)",
+    "start_year": 2008,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_OCI",
+    "fam_to": "FAM_LS",
+    "desc": "이복영 SGC 회장 장남 이우성 SGC 대표와 구자열 LS그룹 의장 장녀 구은아의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_FN_83",
+      "SRC_NAMU_LG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_GS_KDJ",
+    "from_id": "P_HUH_KWANG_SOO",
+    "to_id": "P_KIM_YOUNG_JA_KDJ",
+    "type": "MARRIAGE",
+    "label": "혼인 (GS 허정구 3남 허광수 - 김동조 외무장관 3녀 김영자)",
+    "start_year": 1972,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_GS",
+    "fam_to": "FAM_KIM_DONGJO",
+    "desc": "허광수 삼양인터내셔날 회장과 김동조 전 외무장관 3녀 김영자의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_GS",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_GS_CHOSUN",
+    "from_id": "P_BANG_JUN_OH",
+    "to_id": "P_HUH_YOO_JUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (조선일보 방상훈 장남 방준오 - GS 허광수 장녀 허유정)",
+    "start_year": 2003,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_CHOSUN_ILBO",
+    "fam_to": "FAM_GS",
+    "desc": "방상훈 조선일보 회장 장남 방준오 사장과 허광수 삼양인터내셔날 회장 장녀 허유정의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_GS",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_GS_HONG",
+    "from_id": "P_HUH_SEO_HONG",
+    "to_id": "P_HONG_JUNG_HYUN",
+    "type": "MARRIAGE",
+    "label": "혼인 (GS 허광수 장남 허서홍 - 중앙일보 홍석현 장녀 홍정현)",
+    "start_year": 2006,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_GS",
+    "fam_to": "FAM_JOONGANG_HONG",
+    "desc": "허광수 삼양인터내셔날 회장 장남 허서홍 GS리테일 사장과 홍석현 중앙홀딩스 회장 장녀 홍정현의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_GS",
+      "SRC_NAMU_SAMSUNG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_GS_BS",
+    "from_id": "P_KIM_HEE_CHUL",
+    "to_id": "P_HUH_YOUNG_JA",
+    "type": "MARRIAGE",
+    "label": "혼인 (벽산 김인득 장남 김희철 - GS 허정구 장녀 허영자)",
+    "start_year": 1964,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_BYUKSAN",
+    "fam_to": "FAM_GS",
+    "desc": "김희철 벽산그룹 회장과 허정구 삼양통상 창업주 장녀 허영자의 혼인. [각주 39]",
+    "source_ids": [
+      "SRC_NAMU_FN_39",
+      "SRC_NAMU_GS",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_GS_TK",
+    "from_id": "P_HUH_SEUNG_JO",
+    "to_id": "P_LEE_SIK_HYUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (GS 허만정 8남 허승조 - 태광 이임용 장녀 이식형)",
+    "start_year": 1974,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_GS",
+    "fam_to": "FAM_TAEKWANG",
+    "desc": "허승조 전 GS리테일 부회장과 이임용 태광그룹 창업주 장녀 이식형의 혼인. [각주 47]",
+    "source_ids": [
+      "SRC_NAMU_FN_47",
+      "SRC_NAMU_GS",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_GS_SEAH",
+    "from_id": "P_HUH_YOON_SOO",
+    "to_id": "P_LEE_EUN_SUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (GS 허승효 차남 허윤수 - 세아 이운형 장녀 이은성)",
+    "start_year": 1999,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_GS",
+    "fam_to": "FAM_SEAH",
+    "desc": "허승효 알토그룹 회장 차남 허윤수와 이운형 세아그룹 선대회장 장녀 이은성의 혼인. [각주 4]",
+    "source_ids": [
+      "SRC_NAMU_FN_4",
+      "SRC_NAMU_GS",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_TK_LOTTE",
+    "from_id": "P_LEE_HO_JIN",
+    "to_id": "P_SHIN_YOO_NA",
+    "type": "MARRIAGE",
+    "label": "혼인 (태광 이임용 3남 이호진 - 롯데 신선호 장녀 신유나)",
+    "start_year": 1989,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_TAEKWANG",
+    "fam_to": "FAM_LOTTE",
+    "desc": "이호진 전 태광그룹 회장과 신선호 산사스식품 창업주 장녀 신유나의 혼인. [각주 50]",
+    "source_ids": [
+      "SRC_NAMU_FN_50",
+      "SRC_NAMU_LOTTE",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_TK_DK",
+    "from_id": "P_LEE_YOUNG_JIN_TK",
+    "to_id": "P_CHANG_OK_BIN",
+    "type": "MARRIAGE",
+    "label": "혼인 (태광 이임용 차남 이영진 - 동국제강 장상준 딸 장옥빈)",
+    "start_year": 1976,
+    "end_year": 1994,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_TAEKWANG",
+    "fam_to": "FAM_DONGKUK_STEEL",
+    "desc": "이임용 태광 창업주 차남 고 이영진과 장상준 전 동국제강 회장 딸 장옥빈의 혼인. [각주 46]",
+    "source_ids": [
+      "SRC_NAMU_FN_46",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_LOTTE_SCL",
+    "from_id": "P_KIM_HAN_JUN",
+    "to_id": "P_LEE_EUN_HEE_SCL",
+    "type": "MARRIAGE",
+    "label": "혼인 (롯데 신정희 차남 김한준 - 삼천리 이만득 딸 이은희)",
+    "start_year": 2003,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_LOTTE",
+    "fam_to": "FAM_SAMCHULLY",
+    "desc": "신정희·김기병 롯데관광개발 차남 김한준과 이만득 삼천리그룹 명예회장 딸 이은희의 혼인. [각주 36]",
+    "source_ids": [
+      "SRC_NAMU_FN_36",
+      "SRC_NAMU_LOTTE",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_LOTTE_DB",
+    "from_id": "P_SHIN_DONG_YOON",
+    "to_id": "P_KIM_HEE_SUN",
+    "type": "MARRIAGE",
+    "label": "혼인 (농심 신춘호 차남 신동윤 - DB 김준기 여동생 김희선)",
+    "start_year": 1986,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_NONGSHIM",
+    "fam_to": "FAM_DB",
+    "desc": "신동윤 율촌화학 회장과 김진만 전 국회부의장 딸(김준기 DB 창업주 여동생) 김희선의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_LOTTE",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_LOTTE_AMORE",
+    "from_id": "P_SUH_KYUNG_BAE",
+    "to_id": "P_SHIN_YOON_KYUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (아모레 서경배 회장 - 농심 신춘호 막내딸 신윤경)",
+    "start_year": 1990,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_AMORE",
+    "fam_to": "FAM_NONGSHIM",
+    "desc": "서경배 아모레퍼시픽 회장과 신춘호 농심 창업주 막내딸 신윤경의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_LOTTE",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_KH_DS",
+    "from_id": "P_LIM_CHANG_WOOK",
+    "to_id": "P_PARK_HYUN_JOO",
+    "type": "MARRIAGE",
+    "label": "혼인 (대상 임창욱 명예회장 - 금호 박인천 3녀 박현주)",
+    "start_year": 1976,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_DAESANG",
+    "fam_to": "FAM_KUMHO",
+    "desc": "임창욱 대상그룹 명예회장과 박인천 금호 창업주 3녀 박현주 대상홀딩스 부회장의 혼인. [각주 15]",
+    "source_ids": [
+      "SRC_NAMU_FN_15",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_KH_DW",
+    "from_id": "P_KIM_SUN_HYUP",
+    "to_id": "P_PARK_EUN_HYUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (대우 김우중 차남 김선협 - 금호 박정구 장녀 박은형)",
+    "start_year": 1997,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_DAEWOO",
+    "fam_to": "FAM_KUMHO",
+    "desc": "김우중 대우 창업주 차남 김선협 아시아나CC 대표와 박정구 전 금호 회장 장녀 박은형의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_KH_DK",
+    "from_id": "P_CHANG_SE_HONG",
+    "to_id": "P_PARK_EUN_KYUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (한국철강 장세홍 사장 - 금호 박정구 차녀 박은경)",
+    "start_year": 1999,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_DONGKUK_STEEL",
+    "fam_to": "FAM_KUMHO",
+    "desc": "장상돈 한국철강 회장 장남 장세홍 사장과 박정구 금호 회장 차녀 박은경의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_KH_IJ",
+    "from_id": "P_HUH_JAE_MYUNG",
+    "to_id": "P_PARK_EUN_HYE_KH",
+    "type": "MARRIAGE",
+    "label": "혼인 (일진 허진규 차남 허재명 - 금호 박정구 3녀 박은혜)",
+    "start_year": 2003,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_ILJIN",
+    "fam_to": "FAM_KUMHO",
+    "desc": "허진규 일진그룹 회장 차남 허재명 전 대표와 박정구 금호 회장 3녀 박은혜의 혼인. [각주 14]",
+    "source_ids": [
+      "SRC_NAMU_FN_14",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_DW_ISU",
+    "from_id": "P_KIM_SANG_BUM",
+    "to_id": "P_KIM_SUN_JUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (이수 김상범 회장 - 대우 김우중 장녀 김선정)",
+    "start_year": 1989,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_ISU",
+    "fam_to": "FAM_DAEWOO",
+    "desc": "김상범 이수그룹 회장과 김우중 대우 창업주 장녀 김선정 아트선재센터 관장의 혼인. [각주 82]",
+    "source_ids": [
+      "SRC_NAMU_FN_82",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SEAH_AK",
+    "from_id": "P_LEE_TAE_SUNG",
+    "to_id": "P_CHAE_MOON_SUN",
+    "type": "MARRIAGE",
+    "label": "혼인 (세아 이운형 장남 이태성 - 애경 채형석 장녀 채문선)",
+    "start_year": 2013,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_SEAH",
+    "fam_to": "FAM_AEKYUNG",
+    "desc": "이태성 세아홀딩스 사장과 채형석 애경 총괄부회장 장녀 채문선 탈리다쿰 대표의 혼인. [각주 5, 31]",
+    "source_ids": [
+      "SRC_NAMU_FN_31",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_AK_HYUNDAI",
+    "from_id": "P_SUN_DONG_WOOK",
+    "to_id": "P_CHAE_SOO_YEON",
+    "type": "MARRIAGE",
+    "label": "혼인 (현대 정몽구 외손자 선동욱 - 애경 채형석 차녀 채수연)",
+    "start_year": 2017,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_HYUNDAI",
+    "fam_to": "FAM_AEKYUNG",
+    "desc": "정몽구 현대차 명예회장 외손자 선동욱과 채형석 애경 총괄부회장 차녀 채수연의 혼인. [각주 32]",
+    "source_ids": [
+      "SRC_NAMU_FN_32",
+      "SRC_NAMU_HYUNDAI",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SPC_KOLON",
+    "from_id": "P_HUR_YOUNG_IN",
+    "to_id": "P_LEE_MI_HYANG",
+    "type": "MARRIAGE",
+    "label": "혼인 (SPC 허영인 회장 - 코오롱 이원만 4녀 이미향)",
+    "start_year": 1976,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_SPC",
+    "fam_to": "FAM_KOLON",
+    "desc": "허영인 SPC그룹 회장과 이원만 코오롱 창업주 4녀 이미향의 혼인. [각주 9]",
+    "source_ids": [
+      "SRC_NAMU_FN_9",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SPC_DS",
+    "from_id": "P_HUR_JIN_SOO_SPC",
+    "to_id": "P_PARK_HYO_WON",
+    "type": "MARRIAGE",
+    "label": "혼인 (SPC 허영인 장남 허진수 - 두산 박용욱 장녀 박효원)",
+    "start_year": 2008,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_SPC",
+    "fam_to": "FAM_DOOSAN",
+    "desc": "허진수 SPC 사장과 박용욱 이생그룹(두산가) 회장 장녀 박효원의 혼인. [각주 10]",
+    "source_ids": [
+      "SRC_NAMU_FN_10",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SPC_AK",
+    "from_id": "P_HUR_HEE_SOO_SPC",
+    "to_id": "P_AHN_RI_NA",
+    "type": "MARRIAGE",
+    "label": "혼인 (SPC 허영인 차남 허희수 - 애경 장영신 외손녀 안리나)",
+    "start_year": 2010,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_SPC",
+    "fam_to": "FAM_AEKYUNG",
+    "desc": "허희수 SPC 부사장과 안용찬 전 제주항공 부회장·채은정 딸 안리나의 혼인. [각주 11]",
+    "source_ids": [
+      "SRC_NAMU_FN_11",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_HYOSUNG_SIS",
+    "from_id": "P_CHO_SUCK_RAE",
+    "to_id": "P_SONG_KWANG_JA",
+    "type": "MARRIAGE",
+    "label": "혼인 (효성 조홍제 장남 조석래 - 송인상 재무장관 3녀 송광자)",
+    "start_year": 1966,
+    "end_year": 2024,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_HYOSUNG",
+    "fam_to": "FAM_SONG_INSANG",
+    "desc": "조석래 효성 명예회장과 송인상 전 재무장관 3녀 송광자의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_HYOSUNG_DAW",
+    "from_id": "P_CHO_HYUN_JOON",
+    "to_id": "P_LEE_MI_KYUNG_DAW",
+    "type": "MARRIAGE",
+    "label": "혼인 (효성 조석래 장남 조현준 - 동아원 이희상 3녀 이미경)",
+    "start_year": 2001,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_HYOSUNG",
+    "fam_to": "FAM_DONGAWON",
+    "desc": "조현준 효성그룹 회장과 이희상 전 동아원 회장 3녀 이미경의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_DAW_CHUN",
+    "from_id": "P_CHUN_JAE_MAN",
+    "to_id": "P_LEE_YOON_HYE",
+    "type": "MARRIAGE",
+    "label": "혼인 (전두환 대통령 3남 전재만 - 동아원 이희상 장녀 이윤혜)",
+    "start_year": 1995,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_PRESIDENT_CHUN",
+    "fam_to": "FAM_DONGAWON",
+    "desc": "전두환 전 대통령 3남 전재만과 이희상 동아원 회장 장녀 이윤혜의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_DS_SIS",
+    "from_id": "P_PARK_JI_WON",
+    "to_id": "P_LEE_HYE_WON_DS",
+    "type": "MARRIAGE",
+    "label": "혼인 (두산 박지원 회장 - 송인상 재무장관 외손녀 이혜원)",
+    "start_year": 1990,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_DOOSAN",
+    "fam_to": "FAM_SONG_INSANG",
+    "desc": "박지원 두산에너빌리티 회장과 이봉서 전 상공장관 딸(송인상 외손녀) 이혜원의 혼인.",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_SK_NOH",
+    "from_id": "P_CHOI_TAE_WON",
+    "to_id": "P_NOH_SOH_YEONG",
+    "type": "MARRIAGE",
+    "label": "과거 혼인 (SK 최태원 회장 - 노태우 대통령 장녀 노소영)",
+    "start_year": 1988,
+    "end_year": 2024,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_SK",
+    "fam_to": "FAM_PRESIDENT_NOH",
+    "desc": "최태원 SK 회장과 노태우 전 대통령 장녀 노소영의 1988년 청와대 혼인.",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_POONGSAN_LHO",
+    "from_id": "P_RYU_JIN",
+    "to_id": "P_LHO_HYE_KYUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (풍산 류진 회장 - 노신영 총리 딸 노혜경)",
+    "start_year": 1992,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_POONGSAN",
+    "fam_to": "FAM_LHO_SHINYONG",
+    "desc": "류진 풍산그룹 회장(한경협 회장)과 노신영 전 국무총리 장녀 노혜경의 혼인. [각주 80]",
+    "source_ids": [
+      "SRC_NAMU_FN_80",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_POONGSAN_PARK",
+    "from_id": "P_RYU_CHUNG",
+    "to_id": "P_PARK_GEUN_RYEONG",
+    "type": "MARRIAGE",
+    "label": "과거 혼인 (풍산 류찬우 장남 류청 - 박정희 대통령 딸 박근령)",
+    "start_year": 1982,
+    "end_year": 1988,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_POONGSAN",
+    "fam_to": "FAM_PRESIDENT_PARK",
+    "desc": "류찬우 풍산 창업주 장남 류청과 박정희 전 대통령 차녀 박근령의 혼인 (1988년 이혼). [각주 79]",
+    "source_ids": [
+      "SRC_NAMU_FN_79",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_BS_PARK",
+    "from_id": "P_KIM_HEE_YONG",
+    "to_id": "P_PARK_SUL_JA",
+    "type": "MARRIAGE",
+    "label": "혼인 (벽산 김희용 TYM 회장 - 박정희 조카 / 김종필 처제 박설자)",
+    "start_year": 1972,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_BYUKSAN",
+    "fam_to": "FAM_PRESIDENT_PARK",
+    "desc": "김희용 TYM 회장과 박정희 조카이자 김종필 총리 처제 박설자의 혼인. [각주 42]",
+    "source_ids": [
+      "SRC_NAMU_FN_42",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_YP_IJ",
+    "from_id": "P_HUH_JUNG_SUK",
+    "to_id": "P_CHANG_SE_KYUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (일진 허진규 장남 허정석 - 영풍 장철진 딸 장세경)",
+    "start_year": 1998,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_ILJIN",
+    "fam_to": "FAM_YOUNGPOONG",
+    "desc": "허정석 일진그룹 부회장과 장철진 전 영풍산업 회장 딸 장세경의 혼인. [각주 55]",
+    "source_ids": [
+      "SRC_NAMU_FN_55",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_YP_CHOSUN",
+    "from_id": "P_BANG_SUNG_HOON",
+    "to_id": "P_CHOI_KANG_MIN",
+    "type": "MARRIAGE",
+    "label": "혼인 (조선일보 방우영 장남 방성훈 - 영풍/고려아연 최창근 2녀 최강민)",
+    "start_year": 2005,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_CHOSUN_ILBO",
+    "fam_to": "FAM_YOUNGPOONG",
+    "desc": "방성훈 스포츠조선 사장과 최창근 고려아연 명예회장 차녀 최강민의 혼인. [각주 58]",
+    "source_ids": [
+      "SRC_NAMU_FN_58",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_DB_CHA",
+    "from_id": "P_KIM_NAM_HO",
+    "to_id": "P_CHA_WON_YOUNG",
+    "type": "MARRIAGE",
+    "label": "혼인 (DB 김준기 장남 김남호 - 차병원 차광렬 장녀 차원영)",
+    "start_year": 2005,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_DB",
+    "fam_to": "FAM_CHABIO",
+    "desc": "김남호 DB그룹 회장과 차광렬 차병원그룹 회장 장녀 차원영의 혼인. [각주 87]",
+    "source_ids": [
+      "SRC_NAMU_FN_87",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_CHA_LG",
+    "from_id": "P_CHA_WON_TAE",
+    "to_id": "P_KOO_JOANNE",
+    "type": "MARRIAGE",
+    "label": "혼인 (차병원 차광렬 장남 차원태 - LG 구자학 손녀 구조앤)",
+    "start_year": 2006,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_CHABIO",
+    "fam_to": "FAM_LG",
+    "desc": "차원태 차병원 부회장과 구본성 전 아워홈 부회장 딸(구인회 친손녀이자 이병철 외손녀) 구조앤의 혼인. [각주 89]",
+    "source_ids": [
+      "SRC_NAMU_FN_89",
+      "SRC_NAMU_LG",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "REL_SP_001",
+    "from_id": "GRP_SAMSUNG",
+    "to_id": "GRP_CJ",
+    "type": "SPINOFF",
+    "label": "CJ그룹 계열분리 (제일제당 독자분리)",
+    "start_year": 1993,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": false,
+    "fam_from": null,
+    "fam_to": null,
+    "desc": "CJ그룹 계열분리 (제일제당 독자분리)",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "REL_SP_002",
+    "from_id": "GRP_SAMSUNG",
+    "to_id": "GRP_SHINSEGAE",
+    "type": "SPINOFF",
+    "label": "신세계그룹 계열분리 (신세계백화점 독자분리)",
+    "start_year": 1997,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": false,
+    "fam_from": null,
+    "fam_to": null,
+    "desc": "신세계그룹 계열분리 (신세계백화점 독자분리)",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "REL_SP_003",
+    "from_id": "GRP_LG",
+    "to_id": "GRP_GS",
+    "type": "SPINOFF",
+    "label": "GS그룹 계열분리 (LG-GS 57년 동업 청산)",
+    "start_year": 2004,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": false,
+    "fam_from": null,
+    "fam_to": null,
+    "desc": "GS그룹 계열분리 (LG-GS 57년 동업 청산)",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "REL_SP_004",
+    "from_id": "GRP_LG",
+    "to_id": "GRP_LS",
+    "type": "SPINOFF",
+    "label": "LS그룹 계열분리 (전선·금속 분리 독자경영)",
+    "start_year": 2003,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": false,
+    "fam_from": null,
+    "fam_to": null,
+    "desc": "LS그룹 계열분리 (전선·금속 분리 독자경영)",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "REL_SP_005",
+    "from_id": "GRP_HYUNDAI",
+    "to_id": "GRP_HYUNDAI_MOTOR",
+    "type": "SPINOFF",
+    "label": "현대자동차그룹 계열분리",
+    "start_year": 2000,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": false,
+    "fam_from": null,
+    "fam_to": null,
+    "desc": "현대자동차그룹 계열분리",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "REL_SP_006",
+    "from_id": "GRP_HYUNDAI",
+    "to_id": "GRP_HD_HYUNDAI",
+    "type": "SPINOFF",
+    "label": "HD현대 계열분리 (현대중공업 독립)",
+    "start_year": 2002,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": false,
+    "fam_from": null,
+    "fam_to": null,
+    "desc": "HD현대 계열분리 (현대중공업 독립)",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "REL_SP_007",
+    "from_id": "GRP_HANWHA",
+    "to_id": "GRP_BINGGRAE",
+    "type": "SPINOFF",
+    "label": "빙그레 계열분리 (김호연 회장 독자경영)",
+    "start_year": 1998,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": false,
+    "fam_from": null,
+    "fam_to": null,
+    "desc": "빙그레 계열분리 (김호연 회장 독자경영)",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "REL_SP_008",
+    "from_id": "GRP_HYOSUNG",
+    "to_id": "GRP_HS_HYOSUNG",
+    "type": "SPINOFF",
+    "label": "HS효성 계열분리 (조현상 부회장 신설 분할)",
+    "start_year": 2024,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": false,
+    "fam_from": null,
+    "fam_to": null,
+    "desc": "HS효성 계열분리 (조현상 부회장 신설 분할)",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "REL_SP_009",
+    "from_id": "GRP_LOTTE",
+    "to_id": "GRP_NONGSHIM",
+    "type": "SPINOFF",
+    "label": "농심 계열분리 (롯데공업 독립)",
+    "start_year": 1978,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": false,
+    "fam_from": null,
+    "fam_to": null,
+    "desc": "농심 계열분리 (롯데공업 독립)",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "REL_SP_010",
+    "from_id": "GRP_KUMHO",
+    "to_id": "GRP_KUMHO",
+    "type": "SPINOFF",
+    "label": "금호석유화학 계열분리 (독립경영)",
+    "start_year": 2011,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": false,
+    "fam_from": null,
+    "fam_to": null,
+    "desc": "금호석유화학 계열분리 (독립경영)",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "REL_SP_011",
+    "from_id": "GRP_DONGKUK_STEEL",
+    "to_id": "GRP_DONGKUK_STEEL",
+    "type": "SPINOFF",
+    "label": "한국철강 계열분리",
+    "start_year": 2001,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": false,
+    "fam_from": null,
+    "fam_to": null,
+    "desc": "한국철강 계열분리",
+    "source_ids": [
+      "SRC_NAMU_MASTER",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_HANJIN_LG_SAM",
+    "from_id": "P_CHO_JUNG_HO",
+    "to_id": "P_KOO_MYUNG_JIN",
+    "type": "MARRIAGE",
+    "label": "혼인 (메리츠 조정호 - 아워홈 구명진)",
+    "start_year": 1987,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_HANJIN",
+    "fam_to": "FAM_LG",
+    "desc": "조중훈 한진 창업주 4남 조정호 메리츠금융 회장과 구자학 아워홈 회장·이숙희(이병철 삼성 창업주 딸)의 차녀 구명진의 혼인. 한진-LG-삼성 3대 재벌이 하나로 만나는 핵심 결절점. [범삼성가 각주 58]",
+    "source_ids": [
+      "SRC_NAMU_SAM_FN_58",
+      "SRC_DART"
+    ]
+  },
+  {
+    "id": "M_HYUNDAI_DONGA_ILBO",
+    "from_id": "P_JUNG_IL_SUN",
+    "to_id": "P_KIM_SUN_HEE_DONGA",
+    "type": "MARRIAGE",
+    "label": "혼인 (현대비앤지스틸 정일선 - 동아일보 김선희)",
+    "start_year": 1996,
+    "end_year": null,
+    "status": "VERIFIED",
+    "is_inter_family": true,
+    "fam_from": "FAM_HYUNDAI",
+    "fam_to": "FAM_DONGA_ILBO",
+    "desc": "정몽우 현대알루미늄 회장 장남 정일선 현대비앤지스틸 사장과 인촌 김성수 손녀 김선희의 혼인. [범현대가 각주 97]",
+    "source_ids": [
+      "SRC_NAMU_HYU_FN_97",
+      "SRC_DART"
+    ]
+  }
+]
