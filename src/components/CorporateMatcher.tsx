@@ -208,6 +208,7 @@ export const CorporateMatcher: React.FC<CorporateMatcherProps> = ({
             { id: "GRP_HYUNDAI_MOTOR", name: "현대자동차" },
             { id: "GRP_SK", name: "SK하이닉스" },
             { id: "GRP_LG", name: "LG화학" },
+            { id: "GRP_LS", name: "LS(LS전선·E1)" },
             { id: "GRP_HANWHA", name: "한화(아워홈)" },
             { id: "GRP_CJ", name: "CJ" },
             { id: "GRP_SHINSEGAE", name: "신세계(이마트)" },
@@ -263,6 +264,26 @@ export const CorporateMatcher: React.FC<CorporateMatcherProps> = ({
                   </div>
                 )}
               </div>
+
+              {/* Pan-Chaebol (범가문) Affiliation Banner */}
+              {selectedGroup.pan_family && (
+                <div className="bg-indigo-50/80 border border-indigo-200 p-3 rounded-xl text-xs space-y-1">
+                  <div className="flex items-center justify-between">
+                    <span className="font-black text-indigo-950 flex items-center gap-1.5">
+                      <span className="w-2 h-2 rounded-full bg-indigo-600"></span>
+                      모태 범가문: {selectedGroup.pan_family}
+                    </span>
+                    {selectedGroup.branch_origin && (
+                      <span className="text-[10px] bg-indigo-200/80 text-indigo-950 font-bold px-2 py-0.5 rounded-full">
+                        {selectedGroup.branch_origin}
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-[11px] text-indigo-900/80 leading-relaxed pt-0.5">
+                    <strong>{selectedGroup.name}그룹</strong>은 <strong>{selectedGroup.pan_family}</strong>의 핵심 직계 그룹으로서, 구인회 LG 창업주의 동생들인 구태회·구평회·구두회 3형제가 2003년 전선·금속·에너지 부문을 분리하여 출범한 범LG가 직계 대기업 집단입니다.
+                  </p>
+                </div>
+              )}
 
               {/* Group Attributes */}
               <div className="space-y-2 text-xs bg-slate-50 p-3.5 rounded-xl border border-slate-200">

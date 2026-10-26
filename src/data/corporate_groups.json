@@ -215,7 +215,7 @@
   {
     "id": "GRP_LS",
     "name": "LS",
-    "family_id": "FAM_LS",
+    "family_id": "FAM_LG",
     "founding_year": 2003,
     "ftc_rank": 16,
     "assets_trillion": 30.0,
@@ -229,7 +229,10 @@
       "E1",
       "예스코",
       "LS에코에너지"
-    ]
+    ],
+    "pan_family": "범LG가",
+    "parent_group_id": "GRP_LG",
+    "branch_origin": "범LG가 직계 (구태회·구평회·구두회 3형제 계열)"
   },
   {
     "id": "GRP_DOOSAN",

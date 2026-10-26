@@ -31,6 +31,9 @@ export interface CorporateGroup {
   key_companies: string[];
   leader?: string;
   industry?: string;
+  pan_family?: string;
+  branch_origin?: string;
+  parent_group_id?: string;
 }
 
 export interface Person {
